@@ -30,7 +30,9 @@ public class SceneController : MonoBehaviour
     }
 
     private void moveToMap()
-    {
+    {   
         SceneManager.LoadScene(1);
     }
+
+    
 }
