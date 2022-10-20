@@ -356,10 +356,12 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/F51DController.cs"
+"Assets/Scripts/ProjectManager.cs"
 "Assets/Scripts/ScaleButton1Script.cs"
 "Assets/Scripts/ScaleButton2Script.cs"
 "Assets/Scripts/ScaleButton3Script.cs"
 "Assets/Scripts/ScaleButton4Script.cs"
+"Assets/Scripts/ScaleButtonScript.cs"
 "Assets/Scripts/SceneController.cs"
 "Assets/Scripts/ScrollviewInitScript.cs"
 -langversion:9.0

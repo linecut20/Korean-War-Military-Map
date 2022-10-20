@@ -18,7 +18,7 @@ public class ScaleButton4Script : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Vector3.Distance(f51d.transform.position, button.transform.position) < 5)
+        if (Vector3.Distance(f51d.transform.position, button.transform.position) < 10)
         {
             //button(Unity Ui Button)의 색상을 화이트로 변경
             button.GetComponent<UnityEngine.UI.Image>().color = new Color(0, 96, 186);

@@ -6,14 +6,17 @@ using UnityEngine.SceneManagement;
 public class F51DController : MonoBehaviour
 {
     public GameObject f51d;
+    
     public GameObject scaleButton1;
     public GameObject scaleButton2;
     public GameObject scaleButton3;
     public GameObject scaleButton4;
 
+    public ProjectManager projectManager;
     // Start is called before the first frame update
     void Start()
     {
+        projectManager = GameObject.Find("ProjectManager").GetComponent<ProjectManager>();
         f51d = GameObject.Find("F-51D");
         scaleButton1 = GameObject.Find("ScaleButton1");
         scaleButton2 = GameObject.Find("ScaleButton2");
@@ -23,20 +26,26 @@ public class F51DController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonUp(0) && Vector3.Distance(f51d.transform.position, scaleButton1.transform.position) < 5) {
+        if (Input.GetMouseButtonUp(0) && Vector3.Distance(f51d.transform.position, scaleButton1.transform.position) < 10) {
+            projectManager.scale = 0;
             SceneManager.LoadScene(1);
         }
-        if (Input.GetMouseButtonUp(0) && Vector3.Distance(f51d.transform.position, scaleButton2.transform.position) < 5) {
+        if (Input.GetMouseButtonUp(0) && Vector3.Distance(f51d.transform.position, scaleButton2.transform.position) < 10) {
+            projectManager.scale = 1;
             SceneManager.LoadScene(1);
         }
-        if (Input.GetMouseButtonUp(0) && Vector3.Distance(f51d.transform.position, scaleButton3.transform.position) < 5) {
+        if (Input.GetMouseButtonUp(0) && Vector3.Distance(f51d.transform.position, scaleButton3.transform.position) < 10) {
+            projectManager.scale = 2;
             SceneManager.LoadScene(1);
         }
-        if (Input.GetMouseButtonUp(0) && Vector3.Distance(f51d.transform.position, scaleButton4.transform.position) < 5) {
+        if (Input.GetMouseButtonUp(0) && Vector3.Distance(f51d.transform.position, scaleButton4.transform.position) < 10) {
+            projectManager.scale = 3;
             SceneManager.LoadScene(1);
         }
 
-        f51d.transform.position = Vector3.Lerp(f51d.transform.position, new Vector3(0, 0, 0), Time.deltaTime * 2f);
+        if(Input.GetMouseButton(0)==false) {
+            f51d.transform.position = Vector3.Lerp(f51d.transform.position, new Vector3(0, 0, 0), Time.deltaTime * 2f);
+        }
     }
 
     void OnMouseDrag()

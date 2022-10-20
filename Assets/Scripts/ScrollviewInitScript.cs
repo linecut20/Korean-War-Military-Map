@@ -5,63 +5,41 @@ using System.IO;
 using Newtonsoft.Json;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ScrollviewInitScript : MonoBehaviour
 {
     public List<Dictionary<string, dynamic>> mapData = new List<Dictionary<string, dynamic>>();
-    
     public GameObject content;
-    public GameObject prefabs;
+    public GameObject resultItem;
+    public GameObject time;
+    public GameObject source;
+    public GameObject present;
+    public GameObject number;
+    public GameObject amount;
+    public GameObject connection;
+    public GameObject summary;
 
     
     void Start()
-    {
-        // var data1 = new Dictionary<string, dynamic>() {
-        //     {"year", 1945},
-        //     {"sheet",  "L751-6127 IV"},
-        //     {"name", "Paengnyong-Do"}
-        // };
-        // var data2 = new Dictionary<string, dynamic>() {
-        //     {"year", 1945},
-        //     {"sheet",  "L751-6128 I"},
-        //     {"name", "Monggumpo"}
-        // };
-        // var data3 = new Dictionary<string, dynamic>() {
-        //     {"year", 1945},
-        //     {"sheet",  "L751-6127 II"},
-        //     {"name", "Tok-Tong"}
-        // };
-        // var data4 = new Dictionary<string, dynamic>() {
-        //     {"year", 1947},
-        //     {"sheet",  "L751-6129 II"},
-        //     {"name", "Chingangpo"}
-        // };
-        // var data5 = new Dictionary<string, dynamic>() {
-        //     {"year", 1947},
-        //     {"sheet",  "L751-6130 II"},
-        //     {"name", "Tok-To"}
-        // };
-        
-        // mapData.Add(data1);
-        // mapData.Add(data2);
-        // mapData.Add(data3);
-        // mapData.Add(data4);
-        // mapData.Add(data5);
-
+    {   
         LoadJson();
 
-
-
-        
-
-        
         for (int i = 0; i < mapData.Count ; i++) {
-            GameObject newPrefabs = Instantiate(prefabs, content.transform);
+            GameObject newPrefabs = Instantiate(resultItem, content.transform);
         
             newPrefabs.transform.Find("year").GetComponent<TextMeshProUGUI>().text = mapData[i]["year"].ToString();
             newPrefabs.transform.Find("sheet").GetComponent<TextMeshProUGUI>().text = mapData[i]["sheet"];
             newPrefabs.transform.Find("name").GetComponent<TextMeshProUGUI>().text = mapData[i]["name"];
+
+            int idx = i;
+            //newPrefabs에 대한 터치 이벤트 구현
+            newPrefabs.GetComponent<Button>().onClick.AddListener(() => {
+                OnItemTouched(idx);
+            });
         }
+
+        OnItemTouched(0);
     }
 
     // Update is called once per frame
@@ -70,11 +48,24 @@ public class ScrollviewInitScript : MonoBehaviour
         
     }
 
+
+    //json 데이터 호출
     public void LoadJson() {
         using (StreamReader r = new StreamReader("Assets/data/sample_data.json"))
         {
             string json = r.ReadToEnd();
             mapData = JsonConvert.DeserializeObject<List<Dictionary<string, dynamic>>>(json);
         }
+    }
+
+    //스테이터스 창의 내용을 변경
+    public void OnItemTouched(int idx) {
+        time.GetComponent<TextMeshProUGUI>().text = mapData[idx]["time"];
+        source.GetComponent<TextMeshProUGUI>().text = mapData[idx]["source"];
+        present.GetComponent<TextMeshProUGUI>().text = mapData[idx]["present"];
+        number.GetComponent<TextMeshProUGUI>().text = mapData[idx]["number"].ToString();
+        amount.GetComponent<TextMeshProUGUI>().text = mapData[idx]["amount"] + "면";
+        connection.GetComponent<TextMeshProUGUI>().text = mapData[idx]["connection"];
+        summary.GetComponent<TextMeshProUGUI>().text = mapData[idx]["summary"];
     }
 }
