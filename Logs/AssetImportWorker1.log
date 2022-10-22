@@ -4084,3 +4084,3521 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002059 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.322 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2324ms)
+		BeginReloadAssembly (260ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (39ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1833ms)
+			LoadAssemblies (113ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (339ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1162ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (88ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (837ms)
+				ProcessInitializeOnLoadMethodAttributes (121ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.5 KB). Loaded Objects now: 4125.
+Memory consumption went from 284.2 MB to 284.1 MB.
+Total: 3.568458 ms (FindLiveObjects: 0.336708 ms CreateObjectMapping: 0.091125 ms MarkObjects: 3.026583 ms  DeleteObjects: 0.113000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002602 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.360 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2362ms)
+		BeginReloadAssembly (284ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (43ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (1829ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (343ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (1151ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (103ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (821ms)
+				ProcessInitializeOnLoadMethodAttributes (108ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.6 KB). Loaded Objects now: 4128.
+Memory consumption went from 284.4 MB to 284.3 MB.
+Total: 3.038375 ms (FindLiveObjects: 0.331334 ms CreateObjectMapping: 0.086209 ms MarkObjects: 2.517167 ms  DeleteObjects: 0.102666 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001982 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.275 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2276ms)
+		BeginReloadAssembly (265ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (43ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (1777ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (340ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (1106ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (92ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (786ms)
+				ProcessInitializeOnLoadMethodAttributes (114ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.6 KB). Loaded Objects now: 4131.
+Memory consumption went from 284.6 MB to 284.5 MB.
+Total: 2.781542 ms (FindLiveObjects: 0.238792 ms CreateObjectMapping: 0.089541 ms MarkObjects: 2.346750 ms  DeleteObjects: 0.105500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001738 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.329 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2331ms)
+		BeginReloadAssembly (268ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (40ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1835ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (343ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (1136ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (94ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (809ms)
+				ProcessInitializeOnLoadMethodAttributes (112ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.8 KB). Loaded Objects now: 4134.
+Memory consumption went from 284.8 MB to 284.7 MB.
+Total: 2.796666 ms (FindLiveObjects: 0.242750 ms CreateObjectMapping: 0.088208 ms MarkObjects: 2.360958 ms  DeleteObjects: 0.103666 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+[usbmuxd] Attached: 71 00008103-000615903CBB001E
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001895 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.748 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2751ms)
+		BeginReloadAssembly (350ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (48ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (88ms)
+		EndReloadAssembly (2141ms)
+			LoadAssemblies (186ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (357ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (1358ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (113ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (146ms)
+				ProcessInitializeOnLoadAttributes (976ms)
+				ProcessInitializeOnLoadMethodAttributes (120ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.5 KB). Loaded Objects now: 4137.
+Memory consumption went from 285.2 MB to 285.1 MB.
+Total: 3.383000 ms (FindLiveObjects: 0.331916 ms CreateObjectMapping: 0.097292 ms MarkObjects: 2.842375 ms  DeleteObjects: 0.109750 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002015 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.426 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2428ms)
+		BeginReloadAssembly (280ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (45ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (1903ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (347ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (1220ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (96ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (115ms)
+				ProcessInitializeOnLoadAttributes (880ms)
+				ProcessInitializeOnLoadMethodAttributes (124ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.7 KB). Loaded Objects now: 4141.
+Memory consumption went from 285.4 MB to 285.3 MB.
+Total: 2.912834 ms (FindLiveObjects: 0.266542 ms CreateObjectMapping: 0.090625 ms MarkObjects: 2.450500 ms  DeleteObjects: 0.103667 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002005 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.384 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2386ms)
+		BeginReloadAssembly (271ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (41ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (1874ms)
+			LoadAssemblies (123ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (354ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1176ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (98ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (844ms)
+				ProcessInitializeOnLoadMethodAttributes (113ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.5 KB). Loaded Objects now: 4144.
+Memory consumption went from 285.6 MB to 285.5 MB.
+Total: 2.971875 ms (FindLiveObjects: 0.233417 ms CreateObjectMapping: 0.090209 ms MarkObjects: 2.555167 ms  DeleteObjects: 0.092000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001949 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.688 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2691ms)
+		BeginReloadAssembly (308ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (43ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (93ms)
+		EndReloadAssembly (2094ms)
+			LoadAssemblies (125ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (390ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (1318ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (96ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (119ms)
+				ProcessInitializeOnLoadAttributes (948ms)
+				ProcessInitializeOnLoadMethodAttributes (150ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.7 KB). Loaded Objects now: 4147.
+Memory consumption went from 285.8 MB to 285.7 MB.
+Total: 3.614208 ms (FindLiveObjects: 0.427292 ms CreateObjectMapping: 0.096250 ms MarkObjects: 2.967000 ms  DeleteObjects: 0.121583 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002052 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.610 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2612ms)
+		BeginReloadAssembly (298ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (46ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (75ms)
+		EndReloadAssembly (2046ms)
+			LoadAssemblies (125ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (348ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (1282ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (128ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (883ms)
+				ProcessInitializeOnLoadMethodAttributes (128ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.7 KB). Loaded Objects now: 4150.
+Memory consumption went from 286.0 MB to 285.9 MB.
+Total: 2.686125 ms (FindLiveObjects: 0.219125 ms CreateObjectMapping: 0.081166 ms MarkObjects: 2.278250 ms  DeleteObjects: 0.102917 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 24046.329928 seconds.
+  path: Assets/Prefabs/Scale Button.prefab
+  artifactKey: Guid(4e9683a06f7c54c079614a3d995246d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scale Button.prefab using Guid(4e9683a06f7c54c079614a3d995246d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09fd9509cee572e8dbf6ce8d1eeeef77') in 0.203891 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002116 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.327 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2328ms)
+		BeginReloadAssembly (278ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (39ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (1801ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (349ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1119ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (90ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (805ms)
+				ProcessInitializeOnLoadMethodAttributes (111ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (72.3 KB). Loaded Objects now: 4153.
+Memory consumption went from 290.4 MB to 290.4 MB.
+Total: 2.850583 ms (FindLiveObjects: 0.231250 ms CreateObjectMapping: 0.087834 ms MarkObjects: 2.422541 ms  DeleteObjects: 0.107458 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001857 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.346 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2348ms)
+		BeginReloadAssembly (257ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (36ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1847ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (361ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (1152ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (88ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (833ms)
+				ProcessInitializeOnLoadMethodAttributes (117ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.5 KB). Loaded Objects now: 4156.
+Memory consumption went from 290.7 MB to 290.6 MB.
+Total: 2.975000 ms (FindLiveObjects: 0.256041 ms CreateObjectMapping: 0.086250 ms MarkObjects: 2.533125 ms  DeleteObjects: 0.098625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002176 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.372 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2373ms)
+		BeginReloadAssembly (262ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (35ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1860ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (362ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (1148ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (96ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (119ms)
+				ProcessInitializeOnLoadAttributes (812ms)
+				ProcessInitializeOnLoadMethodAttributes (116ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.5 KB). Loaded Objects now: 4159.
+Memory consumption went from 290.9 MB to 290.9 MB.
+Total: 2.715834 ms (FindLiveObjects: 0.218625 ms CreateObjectMapping: 0.083250 ms MarkObjects: 2.315458 ms  DeleteObjects: 0.097625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001946 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.396 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2398ms)
+		BeginReloadAssembly (280ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (43ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (1871ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (359ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (1168ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (93ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (115ms)
+				ProcessInitializeOnLoadAttributes (838ms)
+				ProcessInitializeOnLoadMethodAttributes (118ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.6 KB). Loaded Objects now: 4162.
+Memory consumption went from 291.1 MB to 291.1 MB.
+Total: 2.642875 ms (FindLiveObjects: 0.211500 ms CreateObjectMapping: 0.082500 ms MarkObjects: 2.252875 ms  DeleteObjects: 0.095167 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002068 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.526 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2528ms)
+		BeginReloadAssembly (273ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (40ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1967ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (363ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (1245ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (95ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (898ms)
+				ProcessInitializeOnLoadMethodAttributes (131ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.7 KB). Loaded Objects now: 4165.
+Memory consumption went from 291.4 MB to 291.3 MB.
+Total: 2.883083 ms (FindLiveObjects: 0.251792 ms CreateObjectMapping: 0.086375 ms MarkObjects: 2.452208 ms  DeleteObjects: 0.091416 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002013 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.709 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2711ms)
+		BeginReloadAssembly (306ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (47ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (80ms)
+		EndReloadAssembly (2122ms)
+			LoadAssemblies (129ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (380ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (1339ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (109ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (136ms)
+				ProcessInitializeOnLoadAttributes (949ms)
+				ProcessInitializeOnLoadMethodAttributes (140ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (71.7 KB). Loaded Objects now: 4167.
+Memory consumption went from 291.6 MB to 291.5 MB.
+Total: 2.653125 ms (FindLiveObjects: 0.231458 ms CreateObjectMapping: 0.087167 ms MarkObjects: 2.226750 ms  DeleteObjects: 0.106583 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002174 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.424 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2426ms)
+		BeginReloadAssembly (271ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (41ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (1911ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (364ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (1194ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (99ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (119ms)
+				ProcessInitializeOnLoadAttributes (852ms)
+				ProcessInitializeOnLoadMethodAttributes (122ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.7 KB). Loaded Objects now: 4170.
+Memory consumption went from 291.8 MB to 291.8 MB.
+Total: 2.632333 ms (FindLiveObjects: 0.216666 ms CreateObjectMapping: 0.086000 ms MarkObjects: 2.235875 ms  DeleteObjects: 0.092666 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001787 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.367 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2368ms)
+		BeginReloadAssembly (277ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (43ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (1842ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (349ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (1144ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (96ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (115ms)
+				ProcessInitializeOnLoadAttributes (814ms)
+				ProcessInitializeOnLoadMethodAttributes (116ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.6 KB). Loaded Objects now: 4173.
+Memory consumption went from 292.1 MB to 292.0 MB.
+Total: 2.857958 ms (FindLiveObjects: 0.225333 ms CreateObjectMapping: 0.087292 ms MarkObjects: 2.459792 ms  DeleteObjects: 0.084333 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002149 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.296 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2298ms)
+		BeginReloadAssembly (261ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (41ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1805ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (344ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1119ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (90ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (803ms)
+				ProcessInitializeOnLoadMethodAttributes (110ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.7 KB). Loaded Objects now: 4176.
+Memory consumption went from 292.3 MB to 292.2 MB.
+Total: 3.163875 ms (FindLiveObjects: 0.326958 ms CreateObjectMapping: 0.084917 ms MarkObjects: 2.644084 ms  DeleteObjects: 0.106708 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002386 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.491 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2493ms)
+		BeginReloadAssembly (311ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (40ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (1922ms)
+			LoadAssemblies (150ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (355ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (1208ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (103ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (141ms)
+				ProcessInitializeOnLoadAttributes (852ms)
+				ProcessInitializeOnLoadMethodAttributes (109ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.6 KB). Loaded Objects now: 4179.
+Memory consumption went from 292.5 MB to 292.4 MB.
+Total: 2.636791 ms (FindLiveObjects: 0.217542 ms CreateObjectMapping: 0.081833 ms MarkObjects: 2.237166 ms  DeleteObjects: 0.099375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002220 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.673 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2675ms)
+		BeginReloadAssembly (261ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (40ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (2113ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (450ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (1268ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (118ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (923ms)
+				ProcessInitializeOnLoadMethodAttributes (106ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.7 KB). Loaded Objects now: 4182.
+Memory consumption went from 292.7 MB to 292.6 MB.
+Total: 2.706792 ms (FindLiveObjects: 0.237500 ms CreateObjectMapping: 0.086459 ms MarkObjects: 2.288167 ms  DeleteObjects: 0.093166 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002017 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.351 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2353ms)
+		BeginReloadAssembly (264ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (39ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (1852ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (352ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (1162ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (89ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (839ms)
+				ProcessInitializeOnLoadMethodAttributes (121ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.6 KB). Loaded Objects now: 4185.
+Memory consumption went from 292.9 MB to 292.8 MB.
+Total: 3.317583 ms (FindLiveObjects: 0.267084 ms CreateObjectMapping: 0.145000 ms MarkObjects: 2.779334 ms  DeleteObjects: 0.124667 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002134 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.423 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2425ms)
+		BeginReloadAssembly (287ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (41ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (1887ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (361ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (1174ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (100ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (835ms)
+				ProcessInitializeOnLoadMethodAttributes (113ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.7 KB). Loaded Objects now: 4188.
+Memory consumption went from 293.1 MB to 293.0 MB.
+Total: 2.714792 ms (FindLiveObjects: 0.223542 ms CreateObjectMapping: 0.087583 ms MarkObjects: 2.319500 ms  DeleteObjects: 0.083208 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001977 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.334 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2336ms)
+		BeginReloadAssembly (261ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (40ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (1838ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (345ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (1155ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (96ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (830ms)
+				ProcessInitializeOnLoadMethodAttributes (109ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.5 KB). Loaded Objects now: 4191.
+Memory consumption went from 293.4 MB to 293.3 MB.
+Total: 3.048708 ms (FindLiveObjects: 0.284750 ms CreateObjectMapping: 0.082709 ms MarkObjects: 2.555083 ms  DeleteObjects: 0.124750 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002019 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.324 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2326ms)
+		BeginReloadAssembly (282ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (33ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (1811ms)
+			LoadAssemblies (141ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (340ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1135ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (89ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (823ms)
+				ProcessInitializeOnLoadMethodAttributes (106ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.6 KB). Loaded Objects now: 4194.
+Memory consumption went from 293.5 MB to 293.5 MB.
+Total: 2.634041 ms (FindLiveObjects: 0.203250 ms CreateObjectMapping: 0.079500 ms MarkObjects: 2.238834 ms  DeleteObjects: 0.111334 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001766 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.459 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2461ms)
+		BeginReloadAssembly (277ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (36ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (1933ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (356ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (1209ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (99ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (124ms)
+				ProcessInitializeOnLoadAttributes (866ms)
+				ProcessInitializeOnLoadMethodAttributes (117ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (71.7 KB). Loaded Objects now: 4197.
+Memory consumption went from 293.8 MB to 293.8 MB.
+Total: 2.742000 ms (FindLiveObjects: 0.288458 ms CreateObjectMapping: 0.082541 ms MarkObjects: 2.286750 ms  DeleteObjects: 0.083417 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002038 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.425 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2427ms)
+		BeginReloadAssembly (276ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (37ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (1908ms)
+			LoadAssemblies (141ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (352ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (1184ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (90ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (119ms)
+				ProcessInitializeOnLoadAttributes (859ms)
+				ProcessInitializeOnLoadMethodAttributes (113ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.6 KB). Loaded Objects now: 4201.
+Memory consumption went from 294.1 MB to 294.0 MB.
+Total: 2.679084 ms (FindLiveObjects: 0.213000 ms CreateObjectMapping: 0.085666 ms MarkObjects: 2.277208 ms  DeleteObjects: 0.102292 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001999 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.504 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2506ms)
+		BeginReloadAssembly (290ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (43ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (1979ms)
+			LoadAssemblies (123ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (363ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1264ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (92ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (859ms)
+				ProcessInitializeOnLoadMethodAttributes (191ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.6 KB). Loaded Objects now: 4204.
+Memory consumption went from 294.4 MB to 294.3 MB.
+Total: 2.848750 ms (FindLiveObjects: 0.237875 ms CreateObjectMapping: 0.084375 ms MarkObjects: 2.410417 ms  DeleteObjects: 0.114750 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002161 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.303 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2305ms)
+		BeginReloadAssembly (264ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (42ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (1808ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (340ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (1130ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (94ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (803ms)
+				ProcessInitializeOnLoadMethodAttributes (116ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.8 KB). Loaded Objects now: 4207.
+Memory consumption went from 294.6 MB to 294.5 MB.
+Total: 2.745541 ms (FindLiveObjects: 0.221375 ms CreateObjectMapping: 0.086917 ms MarkObjects: 2.338959 ms  DeleteObjects: 0.097125 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001898 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.326 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2327ms)
+		BeginReloadAssembly (288ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (34ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1804ms)
+			LoadAssemblies (142ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (340ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (1132ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (90ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (818ms)
+				ProcessInitializeOnLoadMethodAttributes (108ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.6 KB). Loaded Objects now: 4210.
+Memory consumption went from 294.8 MB to 294.7 MB.
+Total: 2.777750 ms (FindLiveObjects: 0.221917 ms CreateObjectMapping: 0.085834 ms MarkObjects: 2.388250 ms  DeleteObjects: 0.080709 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001834 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.596 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2598ms)
+		BeginReloadAssembly (341ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (42ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (79ms)
+		EndReloadAssembly (1999ms)
+			LoadAssemblies (162ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (360ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (1268ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (95ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (145ms)
+				ProcessInitializeOnLoadAttributes (904ms)
+				ProcessInitializeOnLoadMethodAttributes (121ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.6 KB). Loaded Objects now: 4213.
+Memory consumption went from 295.0 MB to 294.9 MB.
+Total: 2.882833 ms (FindLiveObjects: 0.221708 ms CreateObjectMapping: 0.082875 ms MarkObjects: 2.456583 ms  DeleteObjects: 0.120375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002026 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.307 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2309ms)
+		BeginReloadAssembly (258ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (39ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1820ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (341ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (1153ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (87ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (842ms)
+				ProcessInitializeOnLoadMethodAttributes (113ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.6 KB). Loaded Objects now: 4216.
+Memory consumption went from 295.2 MB to 295.2 MB.
+Total: 2.692250 ms (FindLiveObjects: 0.234792 ms CreateObjectMapping: 0.088375 ms MarkObjects: 2.266625 ms  DeleteObjects: 0.101250 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001960 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.386 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2387ms)
+		BeginReloadAssembly (265ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (40ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1883ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (349ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (1191ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (94ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (857ms)
+				ProcessInitializeOnLoadMethodAttributes (121ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.6 KB). Loaded Objects now: 4219.
+Memory consumption went from 295.4 MB to 295.4 MB.
+Total: 3.530250 ms (FindLiveObjects: 0.291791 ms CreateObjectMapping: 0.090209 ms MarkObjects: 2.977625 ms  DeleteObjects: 0.169500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002183 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.274 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2276ms)
+		BeginReloadAssembly (267ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (40ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (1774ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (343ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (1098ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (90ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (786ms)
+				ProcessInitializeOnLoadMethodAttributes (105ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.6 KB). Loaded Objects now: 4222.
+Memory consumption went from 295.6 MB to 295.6 MB.
+Total: 2.830083 ms (FindLiveObjects: 0.232750 ms CreateObjectMapping: 0.090167 ms MarkObjects: 2.394416 ms  DeleteObjects: 0.111833 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002232 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.459 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2462ms)
+		BeginReloadAssembly (287ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (38ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (90ms)
+		EndReloadAssembly (1936ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (341ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1223ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (98ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (884ms)
+				ProcessInitializeOnLoadMethodAttributes (117ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.7 KB). Loaded Objects now: 4225.
+Memory consumption went from 295.8 MB to 295.8 MB.
+Total: 2.937416 ms (FindLiveObjects: 0.236666 ms CreateObjectMapping: 0.085458 ms MarkObjects: 2.500584 ms  DeleteObjects: 0.113250 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002001 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.452 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2454ms)
+		BeginReloadAssembly (278ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (41ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (1927ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (364ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (1202ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (100ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (124ms)
+				ProcessInitializeOnLoadAttributes (850ms)
+				ProcessInitializeOnLoadMethodAttributes (124ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.6 KB). Loaded Objects now: 4228.
+Memory consumption went from 296.1 MB to 296.0 MB.
+Total: 2.719209 ms (FindLiveObjects: 0.232000 ms CreateObjectMapping: 0.091500 ms MarkObjects: 2.300208 ms  DeleteObjects: 0.094375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002171 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.355 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2357ms)
+		BeginReloadAssembly (277ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (40ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (78ms)
+		EndReloadAssembly (1846ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (346ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1169ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (89ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (854ms)
+				ProcessInitializeOnLoadMethodAttributes (114ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.7 KB). Loaded Objects now: 4231.
+Memory consumption went from 296.3 MB to 296.3 MB.
+Total: 2.818917 ms (FindLiveObjects: 0.300000 ms CreateObjectMapping: 0.087125 ms MarkObjects: 2.340334 ms  DeleteObjects: 0.088917 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002097 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.353 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2355ms)
+		BeginReloadAssembly (262ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (40ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (1857ms)
+			LoadAssemblies (113ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (339ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (1162ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (96ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (826ms)
+				ProcessInitializeOnLoadMethodAttributes (119ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.7 KB). Loaded Objects now: 4234.
+Memory consumption went from 296.5 MB to 296.5 MB.
+Total: 3.352250 ms (FindLiveObjects: 0.336250 ms CreateObjectMapping: 0.091125 ms MarkObjects: 2.757375 ms  DeleteObjects: 0.166292 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001873 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.814 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2816ms)
+		BeginReloadAssembly (383ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (46ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (100ms)
+		EndReloadAssembly (2142ms)
+			LoadAssemblies (197ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (415ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (1257ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (136ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (868ms)
+				ProcessInitializeOnLoadMethodAttributes (117ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.6 KB). Loaded Objects now: 4238.
+Memory consumption went from 296.8 MB to 296.7 MB.
+Total: 3.092042 ms (FindLiveObjects: 0.271542 ms CreateObjectMapping: 0.089125 ms MarkObjects: 2.586750 ms  DeleteObjects: 0.143375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002558 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.437 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2439ms)
+		BeginReloadAssembly (276ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (41ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1909ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (361ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (1181ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (101ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (851ms)
+				ProcessInitializeOnLoadMethodAttributes (110ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.6 KB). Loaded Objects now: 4241.
+Memory consumption went from 297.0 MB to 296.9 MB.
+Total: 2.671875 ms (FindLiveObjects: 0.212250 ms CreateObjectMapping: 0.095917 ms MarkObjects: 2.292750 ms  DeleteObjects: 0.070041 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001928 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.500 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2502ms)
+		BeginReloadAssembly (325ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (43ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (82ms)
+		EndReloadAssembly (1936ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (350ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1230ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (94ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (119ms)
+				ProcessInitializeOnLoadAttributes (884ms)
+				ProcessInitializeOnLoadMethodAttributes (130ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.7 KB). Loaded Objects now: 4244.
+Memory consumption went from 297.2 MB to 297.1 MB.
+Total: 2.811667 ms (FindLiveObjects: 0.268666 ms CreateObjectMapping: 0.088625 ms MarkObjects: 2.340667 ms  DeleteObjects: 0.112500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001839 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.481 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2483ms)
+		BeginReloadAssembly (278ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (42ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (1940ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (354ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1224ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (96ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (878ms)
+				ProcessInitializeOnLoadMethodAttributes (126ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.6 KB). Loaded Objects now: 4247.
+Memory consumption went from 297.4 MB to 297.4 MB.
+Total: 3.551542 ms (FindLiveObjects: 0.294917 ms CreateObjectMapping: 0.101250 ms MarkObjects: 3.054334 ms  DeleteObjects: 0.099708 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001911 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.431 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2433ms)
+		BeginReloadAssembly (279ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (44ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (1898ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (361ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (1191ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (98ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (856ms)
+				ProcessInitializeOnLoadMethodAttributes (113ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.6 KB). Loaded Objects now: 4250.
+Memory consumption went from 297.6 MB to 297.6 MB.
+Total: 2.667250 ms (FindLiveObjects: 0.218625 ms CreateObjectMapping: 0.087875 ms MarkObjects: 2.262750 ms  DeleteObjects: 0.096750 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002095 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.443 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2445ms)
+		BeginReloadAssembly (280ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (43ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (1911ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (353ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1212ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (94ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (846ms)
+				ProcessInitializeOnLoadMethodAttributes (150ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.7 KB). Loaded Objects now: 4253.
+Memory consumption went from 297.8 MB to 297.8 MB.
+Total: 2.876625 ms (FindLiveObjects: 0.236750 ms CreateObjectMapping: 0.088375 ms MarkObjects: 2.467166 ms  DeleteObjects: 0.083375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002005 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.387 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2388ms)
+		BeginReloadAssembly (266ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (42ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1876ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (357ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1167ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (95ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (830ms)
+				ProcessInitializeOnLoadMethodAttributes (119ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.5 KB). Loaded Objects now: 4256.
+Memory consumption went from 298.1 MB to 298.0 MB.
+Total: 2.807458 ms (FindLiveObjects: 0.255125 ms CreateObjectMapping: 0.089000 ms MarkObjects: 2.377000 ms  DeleteObjects: 0.085208 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002081 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.538 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2540ms)
+		BeginReloadAssembly (355ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (44ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (71ms)
+		EndReloadAssembly (1933ms)
+			LoadAssemblies (184ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (385ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1199ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (95ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (861ms)
+				ProcessInitializeOnLoadMethodAttributes (118ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.6 KB). Loaded Objects now: 4259.
+Memory consumption went from 298.3 MB to 298.2 MB.
+Total: 3.361375 ms (FindLiveObjects: 0.392208 ms CreateObjectMapping: 0.096708 ms MarkObjects: 2.753708 ms  DeleteObjects: 0.117542 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001854 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.477 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2479ms)
+		BeginReloadAssembly (296ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (43ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (78ms)
+		EndReloadAssembly (1929ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (359ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (1230ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (129ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (861ms)
+				ProcessInitializeOnLoadMethodAttributes (116ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.7 KB). Loaded Objects now: 4262.
+Memory consumption went from 298.5 MB to 298.4 MB.
+Total: 2.890083 ms (FindLiveObjects: 0.237750 ms CreateObjectMapping: 0.088833 ms MarkObjects: 2.460000 ms  DeleteObjects: 0.102458 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002055 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.330 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2332ms)
+		BeginReloadAssembly (273ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (36ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (1812ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (346ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (1127ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (92ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (803ms)
+				ProcessInitializeOnLoadMethodAttributes (116ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.6 KB). Loaded Objects now: 4265.
+Memory consumption went from 298.7 MB to 298.6 MB.
+Total: 3.070042 ms (FindLiveObjects: 0.293334 ms CreateObjectMapping: 0.084959 ms MarkObjects: 2.594000 ms  DeleteObjects: 0.096458 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002049 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.487 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2488ms)
+		BeginReloadAssembly (280ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (38ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (1962ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (370ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (1231ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (100ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (888ms)
+				ProcessInitializeOnLoadMethodAttributes (119ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.6 KB). Loaded Objects now: 4268.
+Memory consumption went from 298.9 MB to 298.8 MB.
+Total: 3.090459 ms (FindLiveObjects: 0.303542 ms CreateObjectMapping: 0.085667 ms MarkObjects: 2.591375 ms  DeleteObjects: 0.108333 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001944 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.348 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2349ms)
+		BeginReloadAssembly (270ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (41ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (1843ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (343ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1160ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (92ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (836ms)
+				ProcessInitializeOnLoadMethodAttributes (112ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.6 KB). Loaded Objects now: 4271.
+Memory consumption went from 299.1 MB to 299.0 MB.
+Total: 2.681625 ms (FindLiveObjects: 0.235542 ms CreateObjectMapping: 0.087292 ms MarkObjects: 2.245250 ms  DeleteObjects: 0.112333 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001806 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.401 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2403ms)
+		BeginReloadAssembly (300ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (39ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (79ms)
+		EndReloadAssembly (1849ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (381ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (1124ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (90ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (806ms)
+				ProcessInitializeOnLoadMethodAttributes (111ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.6 KB). Loaded Objects now: 4274.
+Memory consumption went from 299.3 MB to 299.3 MB.
+Total: 2.966000 ms (FindLiveObjects: 0.247000 ms CreateObjectMapping: 0.089625 ms MarkObjects: 2.474250 ms  DeleteObjects: 0.154000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002131 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.586 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2588ms)
+		BeginReloadAssembly (284ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (38ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (2057ms)
+			LoadAssemblies (126ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (375ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (1257ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (99ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (909ms)
+				ProcessInitializeOnLoadMethodAttributes (126ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.6 KB). Loaded Objects now: 4277.
+Memory consumption went from 299.5 MB to 299.5 MB.
+Total: 3.019875 ms (FindLiveObjects: 0.288459 ms CreateObjectMapping: 0.089292 ms MarkObjects: 2.550833 ms  DeleteObjects: 0.090166 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002055 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.405 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2406ms)
+		BeginReloadAssembly (279ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (40ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (1881ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (370ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (1144ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (100ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (814ms)
+				ProcessInitializeOnLoadMethodAttributes (111ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.6 KB). Loaded Objects now: 4280.
+Memory consumption went from 299.8 MB to 299.7 MB.
+Total: 3.189958 ms (FindLiveObjects: 0.261791 ms CreateObjectMapping: 0.090958 ms MarkObjects: 2.727708 ms  DeleteObjects: 0.108209 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002065 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.432 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2433ms)
+		BeginReloadAssembly (270ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (40ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (1914ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (356ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (1213ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (93ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (115ms)
+				ProcessInitializeOnLoadAttributes (886ms)
+				ProcessInitializeOnLoadMethodAttributes (116ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.5 KB). Loaded Objects now: 4283.
+Memory consumption went from 300.0 MB to 299.9 MB.
+Total: 2.758083 ms (FindLiveObjects: 0.255250 ms CreateObjectMapping: 0.089834 ms MarkObjects: 2.321709 ms  DeleteObjects: 0.090167 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+[usbmuxd] Detached: 71 00008103-000615903CBB001E
+[usbmuxd] Attached: 73 00008101-0005118436E9003A
+[usbmuxd] Detached: 73 00008101-0005118436E9003A
+[usbmuxd] Attached: 74 00008101-0005118436E9003A
+========================================================================
+Received Import Request.
+  Time since last request: 13760.421264 seconds.
+  path: Assets/images/MapImage/Materials/image3.mat
+  artifactKey: Guid(94748d5e27b224858b254a3f3c8d4e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images/MapImage/Materials/image3.mat using Guid(94748d5e27b224858b254a3f3c8d4e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb876849a2e7fa7996cc409724d5c94') in 0.240716 seconds 
+[usbmuxd] Error: Other end closed connection
+[usbmuxd] Send listen message
+[usbmuxd] Attached: 1 00008101-0005118436E9003A
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001970 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.524 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2526ms)
+		BeginReloadAssembly (317ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (36ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (88ms)
+		EndReloadAssembly (1969ms)
+			LoadAssemblies (166ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (378ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (1210ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (96ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (883ms)
+				ProcessInitializeOnLoadMethodAttributes (113ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.5 KB). Loaded Objects now: 4286.
+Memory consumption went from 300.3 MB to 300.2 MB.
+Total: 2.865666 ms (FindLiveObjects: 0.257417 ms CreateObjectMapping: 0.085125 ms MarkObjects: 2.411208 ms  DeleteObjects: 0.110792 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002075 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.463 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2465ms)
+		BeginReloadAssembly (290ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (45ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (1924ms)
+			LoadAssemblies (123ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (361ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (1198ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (93ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (856ms)
+				ProcessInitializeOnLoadMethodAttributes (133ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.6 KB). Loaded Objects now: 4289.
+Memory consumption went from 300.5 MB to 300.4 MB.
+Total: 3.674833 ms (FindLiveObjects: 0.646333 ms CreateObjectMapping: 0.175791 ms MarkObjects: 2.725625 ms  DeleteObjects: 0.125292 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001903 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.987 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2989ms)
+		BeginReloadAssembly (361ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (38ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (100ms)
+		EndReloadAssembly (2285ms)
+			LoadAssemblies (175ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (383ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (1492ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (112ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (1089ms)
+				ProcessInitializeOnLoadMethodAttributes (163ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.6 KB). Loaded Objects now: 4292.
+Memory consumption went from 300.7 MB to 300.7 MB.
+Total: 4.055416 ms (FindLiveObjects: 0.378958 ms CreateObjectMapping: 0.092625 ms MarkObjects: 3.383708 ms  DeleteObjects: 0.198334 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002257 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.515 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2517ms)
+		BeginReloadAssembly (281ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (42ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (1985ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (352ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (1249ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (101ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (124ms)
+				ProcessInitializeOnLoadAttributes (904ms)
+				ProcessInitializeOnLoadMethodAttributes (117ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.5 KB). Loaded Objects now: 4295.
+Memory consumption went from 300.9 MB to 300.8 MB.
+Total: 2.820250 ms (FindLiveObjects: 0.264917 ms CreateObjectMapping: 0.089500 ms MarkObjects: 2.359750 ms  DeleteObjects: 0.104958 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002008 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.338 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2339ms)
+		BeginReloadAssembly (286ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (38ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (1816ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (344ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (1144ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (90ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (833ms)
+				ProcessInitializeOnLoadMethodAttributes (108ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.6 KB). Loaded Objects now: 4298.
+Memory consumption went from 301.1 MB to 301.1 MB.
+Total: 2.805416 ms (FindLiveObjects: 0.240208 ms CreateObjectMapping: 0.086542 ms MarkObjects: 2.385292 ms  DeleteObjects: 0.092209 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001747 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jeonseonghyeon/Documents/GitHub/Korean War Military Map/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.403 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2405ms)
+		BeginReloadAssembly (287ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (44ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (1873ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (358ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (1163ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (93ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (829ms)
+				ProcessInitializeOnLoadMethodAttributes (124ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Callback registration failed. Increase kMaxCallback.
+Fatal Error! Callback registration failed. Increase kMaxCallback.
+Obtained 31 stack frames.
+#0  0x007ff81bd6300e in __pthread_kill
+#1  0x007ff81bce4d24 in abort
+#2  0x00000102ba67fe in CrashDontLaunchBugReporter()
+#3  0x000001017d599e in EditorMonoConsole::LogToConsoleImplementation(CppLogEntry&)
+#4  0x000001017d4fa6 in EditorMonoConsole::LogToConsoleImplementation(DebugStringToFileData const&)
+#5  0x000001017d65be in LogToConsoleImplementation(DebugStringToFileData const&)
+#6  0x00000102588f28 in DebugStringToFilePostprocessedStacktrace(DebugStringToFileData const&)
+#7  0x00000102589720 in DebugStringToFile(DebugStringToFileData const&)
+#8  0x00000101181f77 in CallbackArrayBase<void (*)(BuildTargetPlatform), void (*)(void const*, BuildTargetPlatform)>::Register(void (*)(BuildTargetPlatform), void (*)(void const*, BuildTargetPlatform), void const*)
+#9  0x000001018b7532 in LoadDomainAndUserAssemblies()
+#10 0x000001018b9680 in LoadUserAssemblies()
+#11 0x000001021b3ad3 in AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
+#12 0x000001021c4033 in invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_4::operator()() const
+#13 0x007ff81bbe2317 in _dispatch_client_callout
+#14 0x007ff81bbef8ad in _dispatch_async_and_wait_invoke
+#15 0x007ff81bbe2317 in _dispatch_client_callout
+#16 0x007ff81bbeec78 in _dispatch_main_queue_drain
+#17 0x007ff81bbee8bb in _dispatch_main_queue_callback_4CF
+#18 0x007ff81be9ccba in __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+#19 0x007ff81be5e1ab in __CFRunLoopRun
+#20 0x007ff81be5d014 in CFRunLoopRunSpecific
+#21 0x007ff824f715e6 in RunCurrentEventLoopInMode
+#22 0x007ff824f7134a in ReceiveNextEventCommon
+#23 0x007ff824f710e5 in _BlockUntilNextEventMatchingListInModeWithFilter
+#24 0x007ff81e7d31fd in _DPSNextEvent
+#25 0x007ff81e7d18ba in -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+#26 0x007ff81e7c3f69 in -[NSApplication run]
+#27 0x007ff81e797ee7 in NSApplicationMain
+#28 0x00000102bb72b5 in EditorMain(int, char const**)
+#29 0x00000102bb75d9 in main
+#30 0x000002064ab51e in (Unknown)

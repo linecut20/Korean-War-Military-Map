@@ -21,6 +21,8 @@ public class ScrollviewInitScript : MonoBehaviour
     public GameObject summary;
     public GameObject imageArea;
 
+    private Material mat;
+
     void Start()
     {   
         LoadJson();
@@ -69,5 +71,16 @@ public class ScrollviewInitScript : MonoBehaviour
         amount.GetComponent<TextMeshProUGUI>().text = mapData[idx]["amount"] + "면";
         connection.GetComponent<TextMeshProUGUI>().text = mapData[idx]["connection"];
         summary.GetComponent<TextMeshProUGUI>().text = mapData[idx]["summary"];
+        UpdateMap(mapData[idx]["image_path"]);
+    }
+
+    public void UpdateMap(String path) {
+        //mat의 이미지를 변경
+        mat = imageArea.GetComponent<Renderer>().material;
+        
+        Texture2D tex = new Texture2D(2, 2);
+            byte[] fileData = File.ReadAllBytes(path);
+            tex.LoadImage(fileData);
+            mat.mainTexture = tex;
     }
 }
