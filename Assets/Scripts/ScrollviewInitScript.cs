@@ -19,11 +19,13 @@ public class ScrollviewInitScript : MonoBehaviour
     public GameObject amount;
     public GameObject connection;
     public GameObject summary;
+    public GameObject imageArea;
 
-    
     void Start()
     {   
         LoadJson();
+
+        imageArea = GameObject.Find("ImageArea");
 
         for (int i = 0; i < mapData.Count ; i++) {
             GameObject newPrefabs = Instantiate(resultItem, content.transform);

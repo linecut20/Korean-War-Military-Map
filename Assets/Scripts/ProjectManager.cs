@@ -4,10 +4,17 @@ using UnityEngine;
 
 public class ProjectManager : MonoBehaviour
 {
+    public static ProjectManager instance = null;
+
     public int scale;
     // Start is called before the first frame update
     void Start()
     {
+        if (instance == null) {
+            instance = this;
+        } else if (instance != null) {
+            Destroy(gameObject);
+        }
         DontDestroyOnLoad(gameObject);
     }
 

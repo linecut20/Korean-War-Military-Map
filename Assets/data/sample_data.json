@@ -9,7 +9,8 @@
   "number": 20222002,
   "amount": 350,
   "connection": "A2 (자료집대성)",
-  "summary": "미육군 지도창에서 발간된 자료"
+  "summary": "미육군 지도창에서 발간된 자료",
+  "material_path": "Assets/images/MapImage/Materials/image1.mat"
  },
  {
   "year": 1945,
@@ -21,7 +22,8 @@
   "number": 20222302,
   "amount": 382,
   "connection": "A3 (자료집대성)",
-  "summary": "미육군 지도창에서 발간된 자료"
+  "summary": "미육군 지도창에서 발간된 자료",
+  "material_path": "Assets/images/MapImage/Materials/image2.mat"
  },
  {
   "year": 1945,
@@ -33,7 +35,8 @@
   "number": 20229832,
   "amount": 329,
   "connection": "A4 (자료집대성)",
-  "summary": "미육군 지도창에서 발간된 자료"
+  "summary": "미육군 지도창에서 발간된 자료",
+  "material_path": "Assets/images/MapImage/Materials/image3.mat"
  },
  {
   "year": 1947,
@@ -45,7 +48,8 @@
   "number": 20221081,
   "amount": 331,
   "connection": "A5 (자료집대성)",
-  "summary": "미육군 지도창에서 발간된 자료"
+  "summary": "미육군 지도창에서 발간된 자료",
+  "material_path": "Assets/images/MapImage/Materials/image1.mat"
  },
  {
   "year": 1948,
@@ -57,6 +61,7 @@
   "number": 20229937,
   "amount": 228,
   "connection": "A1 (자료집대성)",
-  "summary": "미육군 지도창에서 발간된 자료"
+  "summary": "미육군 지도창에서 발간된 자료",
+  "material_path": "Assets/images/MapImage/Materials/image2.mat"
  }
 ]
