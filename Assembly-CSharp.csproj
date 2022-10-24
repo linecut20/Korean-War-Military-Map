@@ -40,13 +40,12 @@
      <Compile Include="Assets/Scripts/ScaleButton2Script.cs" />
      <Compile Include="Assets/Scripts/F51DController.cs" />
      <Compile Include="Assets/Scripts/MapSceneEventSystem.cs" />
-     <Compile Include="Assets/Scripts/ScrollviewInitScript.cs" />
      <Compile Include="Assets/Scripts/MapCameraScript.cs" />
      <Compile Include="Assets/Scripts/ScaleButton4Script.cs" />
-     <Compile Include="Assets/Scripts/MapSceneScaleButtonEvent.cs" />
      <Compile Include="Assets/Scripts/ScaleButton3Script.cs" />
      <Compile Include="Assets/Scripts/ProjectManager.cs" />
      <Compile Include="Assets/Scripts/ScaleButton1Script.cs" />
+     <Compile Include="Assets/Scripts/SearchScript.cs" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
