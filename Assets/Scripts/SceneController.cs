@@ -24,12 +24,12 @@ public class SceneController : MonoBehaviour
         }
     }
 
-    private void moveToFirst()
+    public void moveToFirst()
     {
         SceneManager.LoadScene(0);
     }
 
-    private void moveToMap()
+    public void moveToMap()
     {   
         SceneManager.LoadScene(1);
     }
