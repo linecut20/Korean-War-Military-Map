@@ -7,6 +7,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class MapSceneEventSystem : MonoBehaviour
 {
     public List<Dictionary<string, dynamic>> mapData = new List<Dictionary<string, dynamic>>();
@@ -20,6 +21,7 @@ public class MapSceneEventSystem : MonoBehaviour
     public GameObject connection;
     public GameObject summary;
     public GameObject imageArea;
+    public GameObject mapCamera;
     private Material mat;
     public ProjectManager projectManager;
     

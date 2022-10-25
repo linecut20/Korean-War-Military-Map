@@ -4,48 +4,83 @@ using UnityEngine;
 
 public class MapCameraScript : MonoBehaviour
 {
+    public GameObject imageArea;
     public GameObject mapCamera;
+
+    private float m_DoubleClickSecond = 0.25f;
+    private bool m_IsOneClick = false;
+    private double m_Timer = 0;
     
+
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        //터치 카운트가 2개 이상일 경우 (Pinch in & out)
-        if (Input.touchCount == 2)
+        
+        if (m_IsOneClick && ((Time.time - m_Timer) > m_DoubleClickSecond))
         {
-            //get touch position
-            Touch touchZero = Input.GetTouch(0);
-            Touch touchOne = Input.GetTouch(1);
-
-            //get touch position
-            Vector2 touchZeroPrevPos = touchZero.position - touchZero.deltaPosition;
-            Vector2 touchOnePrevPos = touchOne.position - touchOne.deltaPosition;
-
-            //get magnitude
-            float prevTouchDeltaMag = (touchZeroPrevPos - touchOnePrevPos).magnitude;
-            float touchDeltaMag = (touchZero.position - touchOne.position).magnitude;
-
-            //get difference
-            float deltaMagnitudeDiff = prevTouchDeltaMag - touchDeltaMag;
-
-            //zoom
-            mapCamera.GetComponent<Camera>().orthographicSize += deltaMagnitudeDiff * Time.deltaTime;
+            m_IsOneClick = false;
         }
 
-
-        //when doubleClick, map Camera zoom in
-        if (Input.touchCount == 1 && Input.GetTouch(0).phase == TouchPhase.Began)
+        if (Input.GetMouseButtonDown(0))
         {
-            if (Input.GetTouch(0).tapCount == 2)
+            //double 클릭 구현
+            if (!m_IsOneClick)
             {
-                Debug.Log("double");
-                mapCamera.GetComponent<Camera>().orthographicSize = 1.5f;
+                m_Timer = Time.time;
+                m_IsOneClick = true;
             }
+            else if (m_IsOneClick && ((Time.time - m_Timer) < m_DoubleClickSecond))
+            {
+                //when double click
+                m_IsOneClick = false;
+
+                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                RaycastHit hit;
+                if (Physics.Raycast(ray, out hit))
+                {
+                    //imageArea에 대한 double click 시..
+                    if (hit.collider.gameObject == imageArea)
+                    {
+                        if (mapCamera.transform.position.z > 0)
+                        {
+                            //축소 (z => 0)
+                            mapCamera.transform.position = new Vector3(0, 0, 0);
+                        }
+                        else
+                        {
+                            //확대 (z => 80)
+                            mapCamera.transform.position = new Vector3(hit.point.x, hit.point.y, 85);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+    //pinch zoom
+    public void OnPinchZoom(float scale)
+    {
+        if (mapCamera.transform.position.z > 0)
+        {
+            mapCamera.transform.position = new Vector3(mapCamera.transform.position.x, mapCamera.transform.position.y, mapCamera.transform.position.z + scale);
+        }
+    }
+
+    void OnMouseDrag()
+    {
+        if (mapCamera.transform.position.z > 0) {
+            //마우스의 위치로 mainCamera를 이동시킨다.
+            float x = Input.GetAxis("Mouse X");
+            float y = Input.GetAxis("Mouse Y");
+
+            mapCamera.transform.Translate(-x, -y, 0);
         }
     }
 }
