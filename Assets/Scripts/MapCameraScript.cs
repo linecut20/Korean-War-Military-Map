@@ -10,7 +10,9 @@ public class MapCameraScript : MonoBehaviour
     private float m_DoubleClickSecond = 0.25f;
     private bool m_IsOneClick = false;
     private double m_Timer = 0;
-    
+
+    private float doubleTapZoom = 70.0f;
+
 
     // Start is called before the first frame update
     void Start()
@@ -21,7 +23,7 @@ public class MapCameraScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
         if (m_IsOneClick && ((Time.time - m_Timer) > m_DoubleClickSecond))
         {
             m_IsOneClick = false;
@@ -54,10 +56,9 @@ public class MapCameraScript : MonoBehaviour
                         }
                         else
                         {
-                            //확대 (z => 80)
-                            mapCamera.transform.position = new Vector3(hit.point.x, hit.point.y, 85);
+                            //확대 (z => doubleTapZoom)
+                            mapCamera.transform.position = new Vector3(hit.point.x, hit.point.y, doubleTapZoom);
                         }
-
                     }
                 }
             }
@@ -67,7 +68,7 @@ public class MapCameraScript : MonoBehaviour
     //pinch zoom
     public void OnPinchZoom(float scale)
     {
-        if (mapCamera.transform.position.z > 0)
+        if (mapCamera.transform.position.z >= 0)
         {
             mapCamera.transform.position = new Vector3(mapCamera.transform.position.x, mapCamera.transform.position.y, mapCamera.transform.position.z + scale);
         }
@@ -75,12 +76,13 @@ public class MapCameraScript : MonoBehaviour
 
     void OnMouseDrag()
     {
-        if (mapCamera.transform.position.z > 0) {
-            //마우스의 위치로 mainCamera를 이동시킨다.
+        if (mapCamera.transform.position.z > 0)
+        {
+            //드래그하는 방향으로 mapCamera 이동
             float x = Input.GetAxis("Mouse X");
             float y = Input.GetAxis("Mouse Y");
 
-            mapCamera.transform.Translate(-x, -y, 0);
+            mapCamera.transform.Translate((-x * 2), (-y * 2), 0);
         }
     }
 }
