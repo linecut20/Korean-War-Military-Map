@@ -70,6 +70,7 @@ public class MapSceneEventSystem : MonoBehaviour
 
     //스테이터스 창의 내용을 변경
     public void OnItemTouched(int idx) {
+        mapCamera.transform.position = new Vector3(0, 0, 0);
         time.GetComponent<TextMeshProUGUI>().text = mapData[idx]["time"];
         source.GetComponent<TextMeshProUGUI>().text = mapData[idx]["source"];
         present.GetComponent<TextMeshProUGUI>().text = mapData[idx]["present"];
