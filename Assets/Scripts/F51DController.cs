@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class F51DController : MonoBehaviour
 {
@@ -17,11 +18,6 @@ public class F51DController : MonoBehaviour
     void Start()
     {
         projectManager = GameObject.Find("ProjectManager").GetComponent<ProjectManager>();
-        f51d = GameObject.Find("F-51D");
-        scaleButton1 = GameObject.Find("ScaleButton1");
-        scaleButton2 = GameObject.Find("ScaleButton2");
-        scaleButton3 = GameObject.Find("ScaleButton3");
-        scaleButton4 = GameObject.Find("ScaleButton4");
     }
 
     void Update()
@@ -43,7 +39,7 @@ public class F51DController : MonoBehaviour
             SceneManager.LoadScene(1);
         }
 
-        if(Input.GetMouseButton(0)==false) {
+        if(Input.GetMouseButton(0) == false) {
             f51d.transform.position = Vector3.Lerp(f51d.transform.position, new Vector3(0, 0, 0), Time.deltaTime * 2f);
         }
     }
@@ -53,6 +49,41 @@ public class F51DController : MonoBehaviour
         Vector3 position = new Vector3(Input.mousePosition.x, Input.mousePosition.y, Camera.main.WorldToScreenPoint(f51d.transform.position).z);
         Vector3 worldPosition = Camera.main.ScreenToWorldPoint(position);
         f51d.transform.position = worldPosition;             
+
+        if (Vector3.Distance(f51d.transform.position, scaleButton1.transform.position) < 10)
+        {
+            scaleButton1.GetComponent<UnityEngine.UI.Image>().color = new Color(0, 96, 186);
+            scaleButton1.transform.GetChild(0).GetComponent<TextMeshProUGUI>().color = new Color(255, 255, 255);
+        } else {
+            scaleButton1.GetComponent<UnityEngine.UI.Image>().color = Color.white;
+            scaleButton1.transform.GetChild(0).GetComponent<TextMeshProUGUI>().color = Color.black;
+        }
+        if (Vector3.Distance(f51d.transform.position, scaleButton2.transform.position) < 10)
+        {
+            scaleButton2.GetComponent<UnityEngine.UI.Image>().color = new Color(0, 96, 186);
+            scaleButton2.transform.GetChild(0).GetComponent<TextMeshProUGUI>().color = new Color(255, 255, 255);
+        } else {
+            scaleButton2.GetComponent<UnityEngine.UI.Image>().color = Color.white;
+            scaleButton2.transform.GetChild(0).GetComponent<TextMeshProUGUI>().color = Color.black;
+        }
+
+        if (Vector3.Distance(f51d.transform.position, scaleButton3.transform.position) < 10)
+        {
+            scaleButton3.GetComponent<UnityEngine.UI.Image>().color = new Color(0, 96, 186);
+            scaleButton3.transform.GetChild(0).GetComponent<TextMeshProUGUI>().color = new Color(255, 255, 255);
+        } else {
+            scaleButton3.GetComponent<UnityEngine.UI.Image>().color = Color.white;
+            scaleButton3.transform.GetChild(0).GetComponent<TextMeshProUGUI>().color = Color.black;
+        }
+
+        if (Vector3.Distance(f51d.transform.position, scaleButton4.transform.position) < 10)
+        {
+            scaleButton4.GetComponent<UnityEngine.UI.Image>().color = new Color(0, 96, 186);
+            scaleButton4.transform.GetChild(0).GetComponent<TextMeshProUGUI>().color = new Color(255, 255, 255);
+        } else {
+            scaleButton4.GetComponent<UnityEngine.UI.Image>().color = Color.white;
+            scaleButton4.transform.GetChild(0).GetComponent<TextMeshProUGUI>().color = Color.black;
+        }
     }
 
     private RaycastHit CastRay() {

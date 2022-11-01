@@ -7,6 +7,7 @@ public class ProjectManager : MonoBehaviour
     public static ProjectManager instance = null;
 
     public int scale;
+    public Dictionary<string, dynamic> mapData = new Dictionary<string, dynamic>();
     
     // Start is called before the first frame update
     void Start()

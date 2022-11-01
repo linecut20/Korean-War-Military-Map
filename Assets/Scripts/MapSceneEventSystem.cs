@@ -22,6 +22,8 @@ public class MapSceneEventSystem : MonoBehaviour
     public GameObject summary;
     public GameObject imageArea;
     public GameObject mapCamera;
+    public GameObject mainPanel;
+    public GameObject sharePanel;
     private Material mat;
     public ProjectManager projectManager;
     
@@ -29,12 +31,12 @@ public class MapSceneEventSystem : MonoBehaviour
 
     void Start()
     {
+        sharePanel.SetActive(false);
+        
         projectManager = GameObject.Find("ProjectManager").GetComponent<ProjectManager>();
         scale = projectManager.scale;
 
         LoadJson();
-
-        imageArea = GameObject.Find("ImageArea");
 
         for (int i = 0; i < mapData.Count ; i++) {
             GameObject newPrefabs = Instantiate(resultItem, content.transform);
@@ -71,14 +73,15 @@ public class MapSceneEventSystem : MonoBehaviour
     //스테이터스 창의 내용을 변경
     public void OnItemTouched(int idx) {
         mapCamera.transform.position = new Vector3(0, 0, 0);
-        time.GetComponent<TextMeshProUGUI>().text = mapData[idx]["time"];
-        source.GetComponent<TextMeshProUGUI>().text = mapData[idx]["source"];
-        present.GetComponent<TextMeshProUGUI>().text = mapData[idx]["present"];
-        number.GetComponent<TextMeshProUGUI>().text = mapData[idx]["number"].ToString();
-        amount.GetComponent<TextMeshProUGUI>().text = mapData[idx]["amount"] + "면";
-        connection.GetComponent<TextMeshProUGUI>().text = mapData[idx]["connection"];
-        summary.GetComponent<TextMeshProUGUI>().text = mapData[idx]["summary"];
-        UpdateMap(mapData[idx]["image_path"]);
+        projectManager.mapData = mapData[idx];
+        time.GetComponent<TextMeshProUGUI>().text = projectManager.mapData["time"];
+        source.GetComponent<TextMeshProUGUI>().text = projectManager.mapData["source"];
+        present.GetComponent<TextMeshProUGUI>().text = projectManager.mapData["present"];
+        number.GetComponent<TextMeshProUGUI>().text = projectManager.mapData["number"].ToString();
+        amount.GetComponent<TextMeshProUGUI>().text = projectManager.mapData["amount"] + "면";
+        connection.GetComponent<TextMeshProUGUI>().text = projectManager.mapData["connection"];
+        summary.GetComponent<TextMeshProUGUI>().text = projectManager.mapData["summary"];
+        UpdateMap(projectManager.mapData["image_path"]);
     }
 
     public void UpdateMap(String path) {

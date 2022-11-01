@@ -121,7 +121,7 @@ public class MapCameraScript : MonoBehaviour
                 if (mapCamera.transform.position.x >= xMin)
                 {
 
-                    mapCamera.transform.Translate(-x * 2, 0, 0);
+                    mapCamera.transform.Translate(-x * 3, 0, 0);
                 }
                 else
                 {
@@ -134,7 +134,7 @@ public class MapCameraScript : MonoBehaviour
             {
                 if (mapCamera.transform.position.x <= xMax)
                 {
-                    mapCamera.transform.Translate(-x * 2, 0, 0);
+                    mapCamera.transform.Translate(-x * 3, 0, 0);
                 }
                 else
                 {
@@ -147,7 +147,7 @@ public class MapCameraScript : MonoBehaviour
             {
                 if (mapCamera.transform.position.y >= yMin)
                 {
-                    mapCamera.transform.Translate(0, -y * 2, 0);
+                    mapCamera.transform.Translate(0, -y * 3, 0);
                 }
                 else
                 {
@@ -160,7 +160,7 @@ public class MapCameraScript : MonoBehaviour
             {
                 if (mapCamera.transform.position.y <= yMax)
                 {
-                    mapCamera.transform.Translate(0, -y * 2, 0);
+                    mapCamera.transform.Translate(0, -y * 3, 0);
                 }
                 else
                 {
