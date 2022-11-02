@@ -46,6 +46,7 @@
      <Compile Include="Assets/Scripts/ShareScript.cs" />
      <Compile Include="Assets/Scripts/ShowSharePanel.cs" />
      <Compile Include="Assets/Scripts/ShowKeyboard.cs" />
+     <Compile Include="Assets/Scripts/CloseFunc.cs" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />

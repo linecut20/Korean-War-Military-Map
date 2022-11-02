@@ -6,6 +6,7 @@ public class ShowSharePanel : MonoBehaviour
 {
     public GameObject sharePanel;
     public GameObject shareButton;
+    public GameObject canvas;
 
     void Start()
     {
@@ -20,7 +21,7 @@ public class ShowSharePanel : MonoBehaviour
 
     public void ShareButtonTouchedFunc()
     {
-        //show messagebox
-        sharePanel.SetActive(true);
+        GameObject newPref = Instantiate(sharePanel, canvas.transform);
+        newPref.transform.SetAsLastSibling();
     }
 }

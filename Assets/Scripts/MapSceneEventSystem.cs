@@ -22,8 +22,6 @@ public class MapSceneEventSystem : MonoBehaviour
     public GameObject summary;
     public GameObject imageArea;
     public GameObject mapCamera;
-    public GameObject mainPanel;
-    public GameObject sharePanel;
     private Material mat;
     public ProjectManager projectManager;
     
@@ -31,7 +29,6 @@ public class MapSceneEventSystem : MonoBehaviour
 
     void Start()
     {
-        sharePanel.SetActive(false);
         
         projectManager = GameObject.Find("ProjectManager").GetComponent<ProjectManager>();
         scale = projectManager.scale;
