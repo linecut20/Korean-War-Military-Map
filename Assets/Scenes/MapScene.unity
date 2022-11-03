@@ -159,8 +159,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.35, y: 0}
-  m_SizeDelta: {x: 167.445, y: 25}
+  m_AnchoredPosition: {x: -4.4, y: 0.000019193}
+  m_SizeDelta: {x: 205.1216, y: 34.4191}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &15457500
 MonoBehaviour:
@@ -188,6 +188,7 @@ GameObject:
   - component: {fileID: 19288779}
   - component: {fileID: 19288778}
   - component: {fileID: 19288777}
+  - component: {fileID: 19288780}
   m_Layer: 5
   m_Name: ScaleButton1
   m_TagString: Untagged
@@ -213,7 +214,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -695.8, y: 18.516}
+  m_AnchoredPosition: {x: -690.5, y: 18.516}
   m_SizeDelta: {x: 204.1564, y: 62.9672}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &19288777
@@ -260,7 +261,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 19288780}
         m_TargetAssemblyTypeName: ScaleButtonScript, Assembly-CSharp
         m_MethodName: ScaleButtonTouchedFunc
         m_Mode: 3
@@ -310,6 +311,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 19288775}
   m_CullTransparentMesh: 1
+--- !u!114 &19288780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19288775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37ccdf0a601a54342828eca3e355314f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pm: {fileID: 0}
+  ScaleButton1: {fileID: 19288775}
+  ScaleButton2: {fileID: 272482014}
+  ScaleButton3: {fileID: 1591075507}
+  ScaleButton4: {fileID: 1657447523}
 --- !u!1 &51974498
 GameObject:
   m_ObjectHideFlags: 0
@@ -976,6 +994,7 @@ GameObject:
   - component: {fileID: 272482019}
   - component: {fileID: 272482018}
   - component: {fileID: 272482017}
+  - component: {fileID: 272482020}
   m_Layer: 5
   m_Name: ScaleButton2
   m_TagString: Untagged
@@ -1048,7 +1067,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 272482020}
         m_TargetAssemblyTypeName: ScaleButtonScript, Assembly-CSharp
         m_MethodName: ScaleButtonTouchedFunc
         m_Mode: 3
@@ -1098,6 +1117,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 272482014}
   m_CullTransparentMesh: 1
+--- !u!114 &272482020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 272482014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37ccdf0a601a54342828eca3e355314f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pm: {fileID: 0}
+  ScaleButton1: {fileID: 19288775}
+  ScaleButton2: {fileID: 272482014}
+  ScaleButton3: {fileID: 1591075507}
+  ScaleButton4: {fileID: 1657447523}
 --- !u!1 &287718801
 GameObject:
   m_ObjectHideFlags: 0
@@ -1560,7 +1596,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: 1:250,000
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1959,10 +1995,10 @@ RectTransform:
   m_Father: {fileID: 15457499}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -2.2395, y: -0.000010937}
+  m_SizeDelta: {x: 204.1068, y: 34.5966}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &740533308
 MonoBehaviour:
@@ -2004,7 +2040,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Enter text...
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: cddfc3397807f44d9baf147080383d1a, type: 2}
   m_sharedMaterial: {fileID: -360568695755202216, guid: cddfc3397807f44d9baf147080383d1a, type: 2}
@@ -3960,7 +3996,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: 1:500,000
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4319,6 +4355,7 @@ GameObject:
   - component: {fileID: 1591075512}
   - component: {fileID: 1591075511}
   - component: {fileID: 1591075510}
+  - component: {fileID: 1591075513}
   m_Layer: 5
   m_Name: ScaleButton3
   m_TagString: Untagged
@@ -4391,7 +4428,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1591075513}
         m_TargetAssemblyTypeName: ScaleButtonScript, Assembly-CSharp
         m_MethodName: ScaleButtonTouchedFunc
         m_Mode: 3
@@ -4441,6 +4478,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1591075507}
   m_CullTransparentMesh: 1
+--- !u!114 &1591075513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591075507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37ccdf0a601a54342828eca3e355314f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pm: {fileID: 0}
+  ScaleButton1: {fileID: 19288775}
+  ScaleButton2: {fileID: 272482014}
+  ScaleButton3: {fileID: 1591075507}
+  ScaleButton4: {fileID: 1657447523}
 --- !u!224 &1619062931 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 81533869934411264, guid: 85742525f45eb4779bf5b8ff9eeb99ca, type: 3}
@@ -4458,6 +4512,7 @@ GameObject:
   - component: {fileID: 1657447528}
   - component: {fileID: 1657447527}
   - component: {fileID: 1657447526}
+  - component: {fileID: 1657447529}
   m_Layer: 5
   m_Name: ScaleButton4
   m_TagString: Untagged
@@ -4530,7 +4585,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1657447529}
         m_TargetAssemblyTypeName: ScaleButtonScript, Assembly-CSharp
         m_MethodName: ScaleButtonTouchedFunc
         m_Mode: 3
@@ -4580,6 +4635,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1657447523}
   m_CullTransparentMesh: 1
+--- !u!114 &1657447529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657447523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37ccdf0a601a54342828eca3e355314f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pm: {fileID: 0}
+  ScaleButton1: {fileID: 19288775}
+  ScaleButton2: {fileID: 272482014}
+  ScaleButton3: {fileID: 1591075507}
+  ScaleButton4: {fileID: 1657447523}
 --- !u!1 &1658048438 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5096799621818175784, guid: 85742525f45eb4779bf5b8ff9eeb99ca, type: 3}
@@ -4982,7 +5054,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: 1:50,000
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5364,7 +5436,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: 1:1,000,000
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

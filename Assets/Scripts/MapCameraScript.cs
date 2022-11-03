@@ -99,6 +99,15 @@ public class MapCameraScript : MonoBehaviour
         {
             mapCamera.transform.position = new Vector3(mapCamera.transform.position.x, mapCamera.transform.position.y, mapCamera.transform.position.z * scale);
         }
+
+        if (mapCamera.transform.position.z < 0)
+        {
+            mapCamera.transform.position = new Vector3(mapCamera.transform.position.x, mapCamera.transform.position.y, 0);
+        }
+        else if (mapCamera.transform.position.z > maxZoom)
+        {
+            mapCamera.transform.position = new Vector3(mapCamera.transform.position.x, mapCamera.transform.position.y, maxZoom);
+        }
     }
 
     void OnMouseDrag()
