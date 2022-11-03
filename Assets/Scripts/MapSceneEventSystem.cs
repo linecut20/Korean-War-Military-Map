@@ -24,6 +24,7 @@ public class MapSceneEventSystem : MonoBehaviour
     public GameObject mapCamera;
     private Material mat;
     public ProjectManager projectManager;
+    private string basePath = Application.streamingAssetsPath;
 
     void Start()
     {
@@ -100,7 +101,7 @@ public class MapSceneEventSystem : MonoBehaviour
             amount.GetComponent<TextMeshProUGUI>().text = projectManager.mapData["amount"] + "면";
             connection.GetComponent<TextMeshProUGUI>().text = projectManager.mapData["connection"];
             summary.GetComponent<TextMeshProUGUI>().text = projectManager.mapData["summary"];
-            UpdateMap(projectManager.mapData["image_path"]);
+            UpdateMap(basePath + projectManager.mapData["image_path"]);
         }
 
     }

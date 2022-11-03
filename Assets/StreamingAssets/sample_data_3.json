@@ -1,0 +1,67 @@
+[
+    {
+     "year": 1945,
+     "sheet": "L751-6127 IV",
+     "name": "Paengnyong-Do",
+     "time": "1948년 ~ 1953년",
+     "source": "미 육군 지도창",
+     "present": "텍사스 주립대학",
+     "number": 20222002,
+     "amount": 350,
+     "connection": "A2 (자료집대성)",
+     "summary": "미육군 지도창에서 발간된 자료",
+     "image_path": "/MapImage/6127 IV_Paengnyong-Do.png"
+    },
+    {
+     "year": 1945,
+     "sheet": "L751-6128 I",
+     "name": "Monggumpo",
+     "time": "1948년 ~ 1954년",
+     "source": "미 육군 지도창",
+     "present": "오리건 주립대학",
+     "number": 20222302,
+     "amount": 382,
+     "connection": "A3 (자료집대성)",
+     "summary": "미육군 지도창에서 발간된 자료",
+     "image_path": "/MapImage/6128-I_Monggumpo.png"
+    },
+    {
+     "year": 1945,
+     "sheet": "L751-6127 II",
+     "name": "Tok-Tong",
+     "time": "1948년 ~ 1955년",
+     "source": "미 육군 지도창",
+     "present": "뉴욕 주립대학",
+     "number": 20229832,
+     "amount": 329,
+     "connection": "A4 (자료집대성)",
+     "summary": "미육군 지도창에서 발간된 자료",
+     "image_path": "/MapImage/6128 II_Tok-Tong.png"
+    },
+    {
+     "year": 1947,
+     "sheet": "L751-6129 II",
+     "name": "Sonam-Dong",
+     "time": "1948년 ~ 1956년",
+     "source": "미 육군 지도창",
+     "present": "보스턴 주립대학",
+     "number": 20221081,
+     "amount": 331,
+     "connection": "A5 (자료집대성)",
+     "summary": "미육군 지도창에서 발간된 자료",
+     "image_path": "/MapImage/6132 IV_Sonam-Dong.png"
+    },
+    {
+     "year": 1948,
+     "sheet": "L751-6130 II",
+     "name": "Tok-To",
+     "time": "1948년 ~ 1957년",
+     "source": "미 육군 지도창",
+     "present": "캘리포니아 주립대학",
+     "number": 20229937,
+     "amount": 228,
+     "connection": "A1 (자료집대성)",
+     "summary": "미육군 지도창에서 발간된 자료",
+     "image_path": "/MapImage/6130 II_Tok-To.png"
+    }
+   ]
