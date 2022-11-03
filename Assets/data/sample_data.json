@@ -10,7 +10,7 @@
   "amount": 350,
   "connection": "A2 (자료집대성)",
   "summary": "미육군 지도창에서 발간된 자료",
-  "image_path": "Assets/images/MapImage/image1.png"
+  "image_path": "Assets/images/MapImage/6127 IV_Paengnyong-Do.png"
  },
  {
   "year": 1945,
@@ -23,7 +23,7 @@
   "amount": 382,
   "connection": "A3 (자료집대성)",
   "summary": "미육군 지도창에서 발간된 자료",
-  "image_path": "Assets/images/MapImage/image2.png"
+  "image_path": "Assets/images/MapImage/6128-I_Monggumpo.png"
  },
  {
   "year": 1945,
@@ -36,12 +36,12 @@
   "amount": 329,
   "connection": "A4 (자료집대성)",
   "summary": "미육군 지도창에서 발간된 자료",
-  "image_path": "Assets/images/MapImage/image3.png"
+  "image_path": "Assets/images/MapImage/6128 II_Tok-Tong.png"
  },
  {
   "year": 1947,
   "sheet": "L751-6129 II",
-  "name": "Chingangpo",
+  "name": "Sonam-Dong",
   "time": "1948년 ~ 1956년",
   "source": "미 육군 지도창",
   "present": "보스턴 주립대학",
@@ -49,7 +49,7 @@
   "amount": 331,
   "connection": "A5 (자료집대성)",
   "summary": "미육군 지도창에서 발간된 자료",
-  "image_path": "Assets/images/MapImage/image1.png"
+  "image_path": "Assets/images/MapImage/6132 IV_Sonam-Dong.png"
  },
  {
   "year": 1948,
@@ -62,6 +62,6 @@
   "amount": 228,
   "connection": "A1 (자료집대성)",
   "summary": "미육군 지도창에서 발간된 자료",
-  "image_path": "Assets/images/MapImage/image2.png"
+  "image_path": "Assets/images/MapImage/6130 II_Tok-To.png"
  }
 ]

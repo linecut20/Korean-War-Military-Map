@@ -913,6 +913,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   f51d: {fileID: 983303647}
+  menu_on:
+  - {fileID: 21300000, guid: d6285d2c2a4ac77408ae402a796a94cb, type: 3}
+  - {fileID: 21300000, guid: 78bf6b34e31b4f041ba53d138b3c07d7, type: 3}
+  - {fileID: 21300000, guid: b4d0605f6133edb48b887aefe5b0b631, type: 3}
+  - {fileID: 21300000, guid: b62663f55453d074d9bb3121d84dd430, type: 3}
+  menu_off:
+  - {fileID: 21300000, guid: 5678c4cdb329169418efc84bd79041e8, type: 3}
+  - {fileID: 21300000, guid: 07ae36956a00a4e4cbd1eb736e308b0e, type: 3}
+  - {fileID: 21300000, guid: a090b99c287100e4b88beaaedbc2fd17, type: 3}
+  - {fileID: 21300000, guid: 7113f41a0a31f054bae86a5458eaa7ae, type: 3}
+  distance: 100
   scaleButton1: {fileID: 1326604959}
   scaleButton2: {fileID: 481763737}
   scaleButton3: {fileID: 1848862933}
