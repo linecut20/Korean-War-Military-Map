@@ -11,13 +11,18 @@ public class MapCameraScript : MonoBehaviour
     private bool m_IsOneClick = false;
     private double m_Timer = 0;
 
-    private float doubleTapZoom = 60.0f;
-    private float maxZoom = 80;
+    private float doubleTapZoom = 150.0f;
+    private float maxZoom = 180f;
 
-    private float minX = -60.48f;
-    private float maxX = 82.38f;
-    private float minY = -40.9f;
-    private float maxY = 47.1f;
+    private float minX = -46.1f;
+    private float maxX = 99.8f;
+    private float minY = -57.95f;
+    private float maxY = 80.925f;
+
+    float xMin;
+    float xMax;
+    float yMin;
+    float yMax;
 
     // Start is called before the first frame update
     void Start()
@@ -118,11 +123,12 @@ public class MapCameraScript : MonoBehaviour
             float x = Input.GetAxis("Mouse X");
             float y = Input.GetAxis("Mouse Y");
 
-            // (doubleTapZoom / mapCamera.transfrom.position.z) * minX, maxX, minY, maxY 의 값으로 제한
-            float xMin = (mapCamera.transform.position.z / maxZoom) * minX;
-            float xMax = (mapCamera.transform.position.z / maxZoom) * maxX;
-            float yMin = (mapCamera.transform.position.z / maxZoom) * minY;
-            float yMax = (mapCamera.transform.position.z / maxZoom) * maxY;
+            // (doubleTapZoom / mapCamera.transfrom.position.z) * minX, maxX, minY, maxY 의 값으로 제한;
+            
+            xMin = mapCamera.transform.position.z / maxZoom * minX;
+            xMax = mapCamera.transform.position.z / maxZoom * maxX;
+            yMin = mapCamera.transform.position.z / maxZoom * minY;
+            yMax = mapCamera.transform.position.z / maxZoom * maxY;
 
             //x 이동범위 내 (좌축)
             if ((mapCamera.transform.position.x + x >= xMin) && x > 0)
