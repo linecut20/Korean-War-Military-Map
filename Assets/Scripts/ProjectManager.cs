@@ -41,25 +41,25 @@ public class ProjectManager : MonoBehaviour
     //json 데이터 호출
     public void LoadJson()
     {
-        using (StreamReader r = new StreamReader(basePath+"/sample_data_1.json"))
+        using (StreamReader r = new StreamReader(basePath + "/sample_data_1.json"))
         {
             string json = r.ReadToEnd();
             mapDataScale1 = JsonConvert.DeserializeObject<List<Dictionary<string, dynamic>>>(json);
         }
 
-        using (StreamReader r = new StreamReader(basePath+"/sample_data_2.json"))
+        using (StreamReader r = new StreamReader(basePath + "/sample_data_2.json"))
         {
             string json = r.ReadToEnd();
             mapDataScale2 = JsonConvert.DeserializeObject<List<Dictionary<string, dynamic>>>(json);
         }
 
-        using (StreamReader r = new StreamReader(basePath+"/sample_data_3.json"))
+        using (StreamReader r = new StreamReader(basePath + "/sample_data_3.json"))
         {
             string json = r.ReadToEnd();
             mapDataScale3 = JsonConvert.DeserializeObject<List<Dictionary<string, dynamic>>>(json);
         }
 
-        using (StreamReader r = new StreamReader(basePath+"/sample_data_4.json"))
+        using (StreamReader r = new StreamReader(basePath + "/sample_data_4.json"))
         {
             string json = r.ReadToEnd();
             mapDataScale4 = JsonConvert.DeserializeObject<List<Dictionary<string, dynamic>>>(json);

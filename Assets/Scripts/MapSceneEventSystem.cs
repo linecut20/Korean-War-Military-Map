@@ -36,6 +36,14 @@ public class MapSceneEventSystem : MonoBehaviour
         OnItemTouched(0);
     }
 
+    public void OnMouseDown()
+    {
+        if (System.Diagnostics.Process.GetProcessesByName("OSK").Length > 0)
+        {
+            System.Diagnostics.Process.GetProcessesByName("OSK")[0].Kill();
+        }
+    }
+
     public void MapDataItemInit()
     {
         //content의 내용 clear

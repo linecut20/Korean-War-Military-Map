@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class MapCameraScript : MonoBehaviour
@@ -7,7 +8,7 @@ public class MapCameraScript : MonoBehaviour
     public GameObject imageArea;
     public GameObject mapCamera;
 
-    private float m_DoubleClickSecond = 0.25f;
+    private float m_DoubleClickSecond = 0.5f;
     private bool m_IsOneClick = false;
     private double m_Timer = 0;
 
@@ -33,7 +34,6 @@ public class MapCameraScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         if (m_IsOneClick && ((Time.time - m_Timer) > m_DoubleClickSecond))
         {
             m_IsOneClick = false;
@@ -94,6 +94,9 @@ public class MapCameraScript : MonoBehaviour
                     }
                 }
             }
+        
+            //dragging
+            
         }
     }
 
@@ -115,98 +118,100 @@ public class MapCameraScript : MonoBehaviour
         }
     }
 
+
     void OnMouseDrag()
     {
-        if (mapCamera.transform.position.z > 0)
-        {
-            //드래그하는 방향으로 mapCamera 이동
-            float x = Input.GetAxis("Mouse X");
-            float y = Input.GetAxis("Mouse Y");
+        
+        // if (mapCamera.transform.position.z > 0)
+        // {
+        //     //드래그하는 방향으로 mapCamera 이동
+        //     float x = Input.GetAxis("Mouse X");
+        //     float y = Input.GetAxis("Mouse Y");
 
-            // (doubleTapZoom / mapCamera.transfrom.position.z) * minX, maxX, minY, maxY 의 값으로 제한;
+        //     // (doubleTapZoom / mapCamera.transfrom.position.z) * minX, maxX, minY, maxY 의 값으로 제한;
             
-            xMin = mapCamera.transform.position.z / maxZoom * minX;
-            xMax = mapCamera.transform.position.z / maxZoom * maxX;
-            yMin = mapCamera.transform.position.z / maxZoom * minY;
-            yMax = mapCamera.transform.position.z / maxZoom * maxY;
+        //     xMin = mapCamera.transform.position.z / maxZoom * minX;
+        //     xMax = mapCamera.transform.position.z / maxZoom * maxX;
+        //     yMin = mapCamera.transform.position.z / maxZoom * minY;
+        //     yMax = mapCamera.transform.position.z / maxZoom * maxY;
 
-            //x 이동범위 내 (좌축)
-            if ((mapCamera.transform.position.x + x >= xMin) && x > 0)
-            {
-                if (mapCamera.transform.position.x >= xMin)
-                {
+        //     //x 이동범위 내 (좌축)
+        //     if ((mapCamera.transform.position.x + x >= xMin) && x > 0)
+        //     {
+        //         if (mapCamera.transform.position.x >= xMin)
+        //         {
 
-                    mapCamera.transform.Translate(-x * 3, 0, 0);
-                }
-                else
-                {
-                    mapCamera.transform.position = new Vector3(xMin, mapCamera.transform.position.y, mapCamera.transform.position.z);
-                }
-            }
+        //             mapCamera.transform.Translate(-x * 5, 0, 0);
+        //         }
+        //         else
+        //         {
+        //             mapCamera.transform.position = new Vector3(xMin, mapCamera.transform.position.y, mapCamera.transform.position.z);
+        //         }
+        //     }
 
-            //x 이동범위 내 (우측) 
-            if ((mapCamera.transform.position.x + x <= xMax) && x < 0)
-            {
-                if (mapCamera.transform.position.x <= xMax)
-                {
-                    mapCamera.transform.Translate(-x * 3, 0, 0);
-                }
-                else
-                {
-                    mapCamera.transform.position = new Vector3(xMax, mapCamera.transform.position.y, mapCamera.transform.position.z);
-                }
-            }
+        //     //x 이동범위 내 (우측) 
+        //     if ((mapCamera.transform.position.x + x <= xMax) && x < 0)
+        //     {
+        //         if (mapCamera.transform.position.x <= xMax)
+        //         {
+        //             mapCamera.transform.Translate(-x * 5, 0, 0);
+        //         }
+        //         else
+        //         {
+        //             mapCamera.transform.position = new Vector3(xMax, mapCamera.transform.position.y, mapCamera.transform.position.z);
+        //         }
+        //     }
 
-            //y 이동범위 내 (좌측) 
-            if ((mapCamera.transform.position.y + y >= yMin) && y > 0)
-            {
-                if (mapCamera.transform.position.y >= yMin)
-                {
-                    mapCamera.transform.Translate(0, -y * 3, 0);
-                }
-                else
-                {
-                    mapCamera.transform.position = new Vector3(mapCamera.transform.position.x, yMin, mapCamera.transform.position.z);
-                }
-            }
+        //     //y 이동범위 내 (좌측) 
+        //     if ((mapCamera.transform.position.y + y >= yMin) && y > 0)
+        //     {
+        //         if (mapCamera.transform.position.y >= yMin)
+        //         {
+        //             mapCamera.transform.Translate(0, -y * 5, 0);
+        //         }
+        //         else
+        //         {
+        //             mapCamera.transform.position = new Vector3(mapCamera.transform.position.x, yMin, mapCamera.transform.position.z);
+        //         }
+        //     }
 
-            //y 이동범위 내 (우측)
-            if ((mapCamera.transform.position.y + y <= yMax) && y < 0)
-            {
-                if (mapCamera.transform.position.y <= yMax)
-                {
-                    mapCamera.transform.Translate(0, -y * 3, 0);
-                }
-                else
-                {
-                    mapCamera.transform.position = new Vector3(mapCamera.transform.position.x, yMax, mapCamera.transform.position.z);
-                }
-            }
+        //     //y 이동범위 내 (우측)
+        //     if ((mapCamera.transform.position.y + y <= yMax) && y < 0)
+        //     {
+        //         if (mapCamera.transform.position.y <= yMax)
+        //         {
+        //             mapCamera.transform.Translate(0, -y * 5, 0);
+        //         }
+        //         else
+        //         {
+        //             mapCamera.transform.position = new Vector3(mapCamera.transform.position.x, yMax, mapCamera.transform.position.z);
+        //         }
+        //     }
 
-            //x 이동범위 밖(좌측)
-            if ((mapCamera.transform.position.x + x < xMin) && x > 0)
-            {
-                mapCamera.transform.position = new Vector3(xMin, mapCamera.transform.position.y, mapCamera.transform.position.z);
+        //     //x 이동범위 밖(좌측)
+        //     if ((mapCamera.transform.position.x + x < xMin) && x > 0)
+        //     {
+        //         mapCamera.transform.position = new Vector3(xMin, mapCamera.transform.position.y, mapCamera.transform.position.z);
 
-            }
+        //     }
 
-            //x 이동범위 밖(우측)
-            if ((mapCamera.transform.position.x + x > xMax) && x < 0)
-            {
-                mapCamera.transform.position = new Vector3(xMax, mapCamera.transform.position.y, mapCamera.transform.position.z);
-            }
+        //     //x 이동범위 밖(우측)
+        //     if ((mapCamera.transform.position.x + x > xMax) && x < 0)
+        //     {
+        //         mapCamera.transform.position = new Vector3(xMax, mapCamera.transform.position.y, mapCamera.transform.position.z);
+        //     }
 
-            //y 이동범위 밖(좌측)
-            if ((mapCamera.transform.position.y + y < yMin) && y > 0)
-            {
-                mapCamera.transform.position = new Vector3(mapCamera.transform.position.x, yMin, mapCamera.transform.position.z);
-            }
+        //     //y 이동범위 밖(좌측)
+        //     if ((mapCamera.transform.position.y + y < yMin) && y > 0)
+        //     {
+        //         mapCamera.transform.position = new Vector3(mapCamera.transform.position.x, yMin, mapCamera.transform.position.z);
+        //     }
 
-            //y 이동범위 밖(우측)
-            if ((mapCamera.transform.position.y + y > yMax) && y < 0)
-            {
-                mapCamera.transform.position = new Vector3(mapCamera.transform.position.x, yMax, mapCamera.transform.position.z);
-            }
-        }
+        //     //y 이동범위 밖(우측)
+        //     if ((mapCamera.transform.position.y + y > yMax) && y < 0)
+        //     {
+        //         mapCamera.transform.position = new Vector3(mapCamera.transform.position.x, yMax, mapCamera.transform.position.z);
+        //     }
+        // }
     }
 }

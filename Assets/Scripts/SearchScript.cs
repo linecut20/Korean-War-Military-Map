@@ -19,10 +19,19 @@ public class SearchScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-    public void OnInputTouch() {
-        TouchScreenKeyboard.Open("");
+    public void OnInputTouch()
+    {
+        if (System.Diagnostics.Process.GetProcessesByName("OSK").Length > 0)
+        {
+            System.Diagnostics.Process.GetProcessesByName("OSK")[0].MainWindowHandle.ToInt32();
+        }
+        else
+        {
+
+            System.Diagnostics.Process.Start("OSK.exe");
+        }
     }
 }

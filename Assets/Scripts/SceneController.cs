@@ -15,13 +15,7 @@ public class SceneController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.RightArrow)) {
-            moveToMap();
-        }
-
-        if (Input.GetKeyDown(KeyCode.LeftArrow)) {
-            moveToFirst();
-        }
+        
     }
 
     public void moveToFirst()
