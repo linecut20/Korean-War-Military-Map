@@ -23,6 +23,7 @@ public class MapSceneEventSystem : MonoBehaviour
     public GameObject imageArea;
     public GameObject mapCamera;
     private Material mat;
+    
     public ProjectManager projectManager;
     private string basePath = Application.streamingAssetsPath;
 

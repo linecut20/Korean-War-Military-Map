@@ -7,8 +7,8 @@ public class SearchScript : MonoBehaviour
 {
     public ProjectManager pm;
     public GameObject searchInput;
-    public GameObject searchText;
     public GameObject confirmButton;
+    public
 
     // Start is called before the first frame update
     void Start()
@@ -34,32 +34,48 @@ public class SearchScript : MonoBehaviour
         }
     }
 
-    public void SearchKeywordConfirm() {
+    public void SearchKeywordConfirm()
+    {
         string keyword = searchInput.GetComponent<TMP_InputField>().text;
         searchInput.GetComponent<TMP_InputField>().text = "";
 
-        List<Dictionary<string, dynamic>> mapData = new List<Dictionary<string, dynamic>>();
+        if (keyword.Length != 0)
+        {
+            List<Dictionary<string, dynamic>> mapData = new List<Dictionary<string, dynamic>>();
+            List<Dictionary<string, dynamic>> searchMapData = new List<Dictionary<string, dynamic>>();
 
-        switch (pm.scale) {
-            case 0:
-                mapData = pm.mapDataScale1;
-                break;
-            case 1:
-                mapData = pm.mapDataScale2;
-                break;
-            case 2:
-                mapData = pm.mapDataScale3;
-                break;
-            case 3:
-                mapData = pm.mapDataScale4;
-                break;
-            default:
-                
-                break;
-        }
+            switch (pm.scale)
+            {
+                case 0:
+                    mapData = pm.mapDataScale1;
+                    break;
+                case 1:
+                    mapData = pm.mapDataScale2;
+                    break;
+                case 2:
+                    mapData = pm.mapDataScale3;
+                    break;
+                case 3:
+                    mapData = pm.mapDataScale4;
+                    break;
+                default:
+                    break;
+            }
 
-        if (mapData.Count != 0) {
+            foreach (Dictionary<string, dynamic> data in mapData)
+            {
+                if (data["year"].ToString().Contains(keyword) || data["sheet"].Contains(keyword) || data["name"].Contains(keyword))
+                {
+                    searchMapData.Add(data);
+                }
+            }
 
+            //EventSystem에게 mapData를 넘겨줌
+            if (searchMapData.Count > 0)
+            {
+                GameObject.Find("EventSystem").GetComponent<MapSceneEventSystem>().mapData = searchMapData;
+                GameObject.Find("EventSystem").GetComponent<MapSceneEventSystem>().MapDataItemInit();
+            }
         }
     }
 }
