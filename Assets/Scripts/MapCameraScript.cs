@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class MapCameraScript : MonoBehaviour
 {
+
     public GameObject imageArea;
     public GameObject mapCamera;
 
@@ -25,6 +26,8 @@ public class MapCameraScript : MonoBehaviour
     float yMin;
     float yMax;
 
+    float preDistance = 0;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -34,69 +37,92 @@ public class MapCameraScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (m_IsOneClick && ((Time.time - m_Timer) > m_DoubleClickSecond))
+        if (Input.touchCount == 2)
         {
-            m_IsOneClick = false;
+            float deltaDistance = 0;
+            float distance = Vector2.Distance(Input.touches[0].position, Input.touches[1].position) * 0.01f;
+            if(preDistance==0) {
+                preDistance = distance;
+            }
+            else {
+                deltaDistance = distance - preDistance;
+                preDistance = distance;
+            }
+            print("deltaDistance: " + deltaDistance);
+            OnPinchZoom(deltaDistance*0.1f);  
+            return;
         }
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.touchCount > 0)
         {
-            //double 클릭 구현
-            if (!m_IsOneClick)
+            if (m_IsOneClick && ((Time.time - m_Timer) > m_DoubleClickSecond))
             {
-                m_Timer = Time.time;
-                m_IsOneClick = true;
-            }
-            else if (m_IsOneClick && ((Time.time - m_Timer) < m_DoubleClickSecond))
-            {
-                //when double click
                 m_IsOneClick = false;
+            }
 
-                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-                RaycastHit hit;
-                if (Physics.Raycast(ray, out hit))
+            if (Input.touches[0].phase == TouchPhase.Began)
+            {
+
+                //double 클릭 구현
+                if (!m_IsOneClick)
                 {
-                    //imageArea에 대한 double click 시..
-                    if (hit.collider.gameObject == imageArea)
+                    m_Timer = Time.time;
+                    m_IsOneClick = true;
+                }
+                else if (m_IsOneClick && ((Time.time - m_Timer) < m_DoubleClickSecond))
+                {
+                    //when double click
+                    m_IsOneClick = false;
+
+                    Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                    RaycastHit hit;
+                    if (Physics.Raycast(ray, out hit))
                     {
-                        if (mapCamera.transform.position.z > 0)
+                        //imageArea에 대한 double click 시..
+                        if (hit.collider.gameObject == imageArea)
                         {
-                            //축소 (z => 0)
-                            mapCamera.transform.position = new Vector3(0, 0, 0);
-                        }
-                        else
-                        {
-                            mapCamera.transform.position = new Vector3(hit.point.x, hit.point.y, doubleTapZoom);
-
-                            float xMin = (mapCamera.transform.position.z / maxZoom) * minX;
-                            float xMax = (mapCamera.transform.position.z / maxZoom) * maxX;
-                            float yMin = (mapCamera.transform.position.z / maxZoom) * minY;
-                            float yMax = (mapCamera.transform.position.z / maxZoom) * maxY;
-
-                            if (mapCamera.transform.position.x < xMin)
+                            if (mapCamera.transform.position.z > 0)
                             {
-                                mapCamera.transform.position = new Vector3(xMin, mapCamera.transform.position.y, mapCamera.transform.position.z);
+                                //축소 (z => 0)
+                                mapCamera.transform.position = new Vector3(0, 0, 0);
                             }
-                            else if (mapCamera.transform.position.x > xMax)
+                            else
                             {
-                                mapCamera.transform.position = new Vector3(xMax, mapCamera.transform.position.y, mapCamera.transform.position.z);
-                            }
+                                mapCamera.transform.position = new Vector3(hit.point.x, hit.point.y, doubleTapZoom);
 
-                            if (mapCamera.transform.position.y < yMin)
-                            {
-                                mapCamera.transform.position = new Vector3(mapCamera.transform.position.x, yMin, mapCamera.transform.position.z);
-                            }
-                            else if (mapCamera.transform.position.y > yMax)
-                            {
-                                mapCamera.transform.position = new Vector3(mapCamera.transform.position.x, yMax, mapCamera.transform.position.z);
+                                float xMin = (mapCamera.transform.position.z / maxZoom) * minX;
+                                float xMax = (mapCamera.transform.position.z / maxZoom) * maxX;
+                                float yMin = (mapCamera.transform.position.z / maxZoom) * minY;
+                                float yMax = (mapCamera.transform.position.z / maxZoom) * maxY;
+
+                                if (mapCamera.transform.position.x < xMin)
+                                {
+                                    mapCamera.transform.position = new Vector3(xMin, mapCamera.transform.position.y, mapCamera.transform.position.z);
+                                }
+                                else if (mapCamera.transform.position.x > xMax)
+                                {
+                                    mapCamera.transform.position = new Vector3(xMax, mapCamera.transform.position.y, mapCamera.transform.position.z);
+                                }
+
+                                if (mapCamera.transform.position.y < yMin)
+                                {
+                                    mapCamera.transform.position = new Vector3(mapCamera.transform.position.x, yMin, mapCamera.transform.position.z);
+                                }
+                                else if (mapCamera.transform.position.y > yMax)
+                                {
+                                    mapCamera.transform.position = new Vector3(mapCamera.transform.position.x, yMax, mapCamera.transform.position.z);
+                                }
                             }
                         }
                     }
                 }
+
             }
-        
-            //dragging
-            
+
+            if (Input.touches[0].phase == TouchPhase.Moved)
+            {
+                OnMouseDrag2();
+            }
         }
     }
 
@@ -118,100 +144,101 @@ public class MapCameraScript : MonoBehaviour
         }
     }
 
-
-    void OnMouseDrag()
+    void OnMouseDrag2()
     {
-        
-        // if (mapCamera.transform.position.z > 0)
-        // {
-        //     //드래그하는 방향으로 mapCamera 이동
-        //     float x = Input.GetAxis("Mouse X");
-        //     float y = Input.GetAxis("Mouse Y");
+        if (mapCamera.transform.position.z > 0)
+        {
+            //드래그하는 방향으로 mapCamera 이동
+            // float x = Input.GetAxis("Mouse X");
+            // float y = Input.GetAxis("Mouse Y");
 
-        //     // (doubleTapZoom / mapCamera.transfrom.position.z) * minX, maxX, minY, maxY 의 값으로 제한;
-            
-        //     xMin = mapCamera.transform.position.z / maxZoom * minX;
-        //     xMax = mapCamera.transform.position.z / maxZoom * maxX;
-        //     yMin = mapCamera.transform.position.z / maxZoom * minY;
-        //     yMax = mapCamera.transform.position.z / maxZoom * maxY;
+            float x = Input.touches[0].deltaPosition.x * 0.01f;
+            float y = Input.touches[0].deltaPosition.y * 0.01f;
 
-        //     //x 이동범위 내 (좌축)
-        //     if ((mapCamera.transform.position.x + x >= xMin) && x > 0)
-        //     {
-        //         if (mapCamera.transform.position.x >= xMin)
-        //         {
+            // (doubleTapZoom / mapCamera.transfrom.position.z) * minX, maxX, minY, maxY 의 값으로 제한;
 
-        //             mapCamera.transform.Translate(-x * 5, 0, 0);
-        //         }
-        //         else
-        //         {
-        //             mapCamera.transform.position = new Vector3(xMin, mapCamera.transform.position.y, mapCamera.transform.position.z);
-        //         }
-        //     }
+            xMin = mapCamera.transform.position.z / maxZoom * minX;
+            xMax = mapCamera.transform.position.z / maxZoom * maxX;
+            yMin = mapCamera.transform.position.z / maxZoom * minY;
+            yMax = mapCamera.transform.position.z / maxZoom * maxY;
 
-        //     //x 이동범위 내 (우측) 
-        //     if ((mapCamera.transform.position.x + x <= xMax) && x < 0)
-        //     {
-        //         if (mapCamera.transform.position.x <= xMax)
-        //         {
-        //             mapCamera.transform.Translate(-x * 5, 0, 0);
-        //         }
-        //         else
-        //         {
-        //             mapCamera.transform.position = new Vector3(xMax, mapCamera.transform.position.y, mapCamera.transform.position.z);
-        //         }
-        //     }
+            //x 이동범위 내 (좌축)
+            if ((mapCamera.transform.position.x + x >= xMin) && x > 0)
+            {
+                if (mapCamera.transform.position.x >= xMin)
+                {
 
-        //     //y 이동범위 내 (좌측) 
-        //     if ((mapCamera.transform.position.y + y >= yMin) && y > 0)
-        //     {
-        //         if (mapCamera.transform.position.y >= yMin)
-        //         {
-        //             mapCamera.transform.Translate(0, -y * 5, 0);
-        //         }
-        //         else
-        //         {
-        //             mapCamera.transform.position = new Vector3(mapCamera.transform.position.x, yMin, mapCamera.transform.position.z);
-        //         }
-        //     }
+                    mapCamera.transform.Translate(-x * 5, 0, 0);
+                }
+                else
+                {
+                    mapCamera.transform.position = new Vector3(xMin, mapCamera.transform.position.y, mapCamera.transform.position.z);
+                }
+            }
 
-        //     //y 이동범위 내 (우측)
-        //     if ((mapCamera.transform.position.y + y <= yMax) && y < 0)
-        //     {
-        //         if (mapCamera.transform.position.y <= yMax)
-        //         {
-        //             mapCamera.transform.Translate(0, -y * 5, 0);
-        //         }
-        //         else
-        //         {
-        //             mapCamera.transform.position = new Vector3(mapCamera.transform.position.x, yMax, mapCamera.transform.position.z);
-        //         }
-        //     }
+            //x 이동범위 내 (우측) 
+            if ((mapCamera.transform.position.x + x <= xMax) && x < 0)
+            {
+                if (mapCamera.transform.position.x <= xMax)
+                {
+                    mapCamera.transform.Translate(-x * 5, 0, 0);
+                }
+                else
+                {
+                    mapCamera.transform.position = new Vector3(xMax, mapCamera.transform.position.y, mapCamera.transform.position.z);
+                }
+            }
 
-        //     //x 이동범위 밖(좌측)
-        //     if ((mapCamera.transform.position.x + x < xMin) && x > 0)
-        //     {
-        //         mapCamera.transform.position = new Vector3(xMin, mapCamera.transform.position.y, mapCamera.transform.position.z);
+            //y 이동범위 내 (좌측) 
+            if ((mapCamera.transform.position.y + y >= yMin) && y > 0)
+            {
+                if (mapCamera.transform.position.y >= yMin)
+                {
+                    mapCamera.transform.Translate(0, -y * 5, 0);
+                }
+                else
+                {
+                    mapCamera.transform.position = new Vector3(mapCamera.transform.position.x, yMin, mapCamera.transform.position.z);
+                }
+            }
 
-        //     }
+            //y 이동범위 내 (우측)
+            if ((mapCamera.transform.position.y + y <= yMax) && y < 0)
+            {
+                if (mapCamera.transform.position.y <= yMax)
+                {
+                    mapCamera.transform.Translate(0, -y * 5, 0);
+                }
+                else
+                {
+                    mapCamera.transform.position = new Vector3(mapCamera.transform.position.x, yMax, mapCamera.transform.position.z);
+                }
+            }
 
-        //     //x 이동범위 밖(우측)
-        //     if ((mapCamera.transform.position.x + x > xMax) && x < 0)
-        //     {
-        //         mapCamera.transform.position = new Vector3(xMax, mapCamera.transform.position.y, mapCamera.transform.position.z);
-        //     }
+            //x 이동범위 밖(좌측)
+            if ((mapCamera.transform.position.x + x < xMin) && x > 0)
+            {
+                mapCamera.transform.position = new Vector3(xMin, mapCamera.transform.position.y, mapCamera.transform.position.z);
 
-        //     //y 이동범위 밖(좌측)
-        //     if ((mapCamera.transform.position.y + y < yMin) && y > 0)
-        //     {
-        //         mapCamera.transform.position = new Vector3(mapCamera.transform.position.x, yMin, mapCamera.transform.position.z);
-        //     }
+            }
 
-        //     //y 이동범위 밖(우측)
-        //     if ((mapCamera.transform.position.y + y > yMax) && y < 0)
-        //     {
-        //         mapCamera.transform.position = new Vector3(mapCamera.transform.position.x, yMax, mapCamera.transform.position.z);
-        //     }
-        // }
+            //x 이동범위 밖(우측)
+            if ((mapCamera.transform.position.x + x > xMax) && x < 0)
+            {
+                mapCamera.transform.position = new Vector3(xMax, mapCamera.transform.position.y, mapCamera.transform.position.z);
+            }
+
+            //y 이동범위 밖(좌측)
+            if ((mapCamera.transform.position.y + y < yMin) && y > 0)
+            {
+                mapCamera.transform.position = new Vector3(mapCamera.transform.position.x, yMin, mapCamera.transform.position.z);
+            }
+
+            //y 이동범위 밖(우측)
+            if ((mapCamera.transform.position.y + y > yMax) && y < 0)
+            {
+                mapCamera.transform.position = new Vector3(mapCamera.transform.position.x, yMax, mapCamera.transform.position.z);
+            }
+        }
     }
 }
