@@ -67,7 +67,6 @@
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
      <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
-     <None Include="Assets/Fonts/Noto_Serif_KR/OFL.txt" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>

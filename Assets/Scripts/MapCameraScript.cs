@@ -15,6 +15,7 @@ public class MapCameraScript : MonoBehaviour
 
     private float doubleTapZoom = 150.0f;
     private float maxZoom = 180f;
+    private float currentZoom = 0f;
 
     private float minX = -46.1f;
     private float maxX = 99.8f;
@@ -41,15 +42,24 @@ public class MapCameraScript : MonoBehaviour
         {
             float deltaDistance = 0;
             float distance = Vector2.Distance(Input.touches[0].position, Input.touches[1].position) * 0.01f;
-            if(preDistance==0) {
+            if (preDistance == 0)
+            {
                 preDistance = distance;
             }
-            else {
+            else
+            {
                 deltaDistance = distance - preDistance;
                 preDistance = distance;
             }
             print("deltaDistance: " + deltaDistance);
-            OnPinchZoom(deltaDistance*0.1f);  
+            if(currentZoom <= 0) {
+                currentZoom = 0;
+            } else if(currentZoom >= maxZoom) {
+                currentZoom = maxZoom;
+            } else {
+                currentZoom += deltaDistance;
+            }
+            OnPinchZoom(currentZoom);
             return;
         }
 
@@ -129,19 +139,7 @@ public class MapCameraScript : MonoBehaviour
     //pinch zoom
     public void OnPinchZoom(float scale)
     {
-        if (mapCamera.transform.position.z >= 0 && mapCamera.transform.position.z <= maxZoom)
-        {
-            mapCamera.transform.position = new Vector3(mapCamera.transform.position.x, mapCamera.transform.position.y, mapCamera.transform.position.z * scale);
-        }
-
-        if (mapCamera.transform.position.z < 0)
-        {
-            mapCamera.transform.position = new Vector3(mapCamera.transform.position.x, mapCamera.transform.position.y, 0);
-        }
-        else if (mapCamera.transform.position.z > maxZoom)
-        {
-            mapCamera.transform.position = new Vector3(mapCamera.transform.position.x, mapCamera.transform.position.y, maxZoom);
-        }
+        
     }
 
     void OnMouseDrag2()

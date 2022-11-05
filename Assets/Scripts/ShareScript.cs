@@ -25,17 +25,15 @@ public class ShareScript : MonoBehaviour
     public GameObject btnCancel;
     public GameObject infoText;
     public GameObject emailInputArea;
+    private string basePath = Application.streamingAssetsPath;
 
     public ProjectManager pm;
 
     void Start()
     {
         pm = GameObject.Find("ProjectManager").GetComponent<ProjectManager>();
-
         imageArea = GameObject.Find("ImageArea");
         canvas = GameObject.Find("Canvas");
-
-
     }
 
     // Update is called once per frame
@@ -56,11 +54,7 @@ public class ShareScript : MonoBehaviour
             }
             else
             {
-                //이메일 처리 안내문
-                GameObject newPref = Instantiate(loadingPanel, sharePanel.transform);
-                newPref.transform.SetAsLastSibling();
-
-                Invoke("SendEmail", 0.1f);
+                SendEmail();
             }
         }
         else
@@ -71,6 +65,16 @@ public class ShareScript : MonoBehaviour
 
     private void SendEmail()
     {
+        
+        //prefabs의 LoadingPanel을 추가
+        GameObject lp = Instantiate(loadingPanel, canvas.transform);
+        lp.transform.SetAsLastSibling();
+
+        Invoke("SendEmailFunc", 0.5f);
+    }
+
+    private void SendEmailFunc()
+    {
         string email = textArea.GetComponent<TMPro.TMP_InputField>().text;
 
         MailMessage mail = new MailMessage();
@@ -78,9 +82,9 @@ public class ShareScript : MonoBehaviour
         mail.To.Add(email);
         mail.Subject = "군사지도 공유 (전쟁기념관)";
         mail.Body = "전쟁기념관 군사지도 공유 메일입니다.";
-
-        //mail에 이미지 추가
-        Attachment attachment = new Attachment(pm.mapData["image_path"]);
+        
+        //mail에 이미지를 추가        
+        Attachment attachment = new Attachment(basePath + pm.mapData["image_path"]);
         mail.Attachments.Add(attachment);
 
         SmtpClient smtpServer = new SmtpClient("smtp.gmail.com");
@@ -90,27 +94,31 @@ public class ShareScript : MonoBehaviour
         ServicePointManager.ServerCertificateValidationCallback =
             delegate (object s, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors)
             { return true; };
+
         try
         {
-            smtpServer.Send(mail);
+            // smtpServer.Send(mail);
+            Destroy(GameObject.Find("Loading Panel(Clone)"));
             CompleteDialog();
         }
         catch (Exception e)
         {
             Debug.Log(e);
+            Destroy(GameObject.Find("Loading Panel(Clone)"));
             ErrorDialog();
         }
     }
 
     public void CancelButtonTouchedFunc()
     {
+        CloseKeyboard();
         //sharePanel 삭제
         DestroyImmediate(sharePanel);
     }
 
     public void OnEmailInputAreaTouched()
     {
-        TouchScreenKeyboard.Open("", TouchScreenKeyboardType.EmailAddress);
+        OnInputTouch();
     }
 
     public void ClearInfoText()
@@ -120,6 +128,7 @@ public class ShareScript : MonoBehaviour
 
     private void CompleteDialog()
     {
+        CloseKeyboard();
         //완료 안내문 
         GameObject newPref = Instantiate(completePanel, sharePanel.transform);
         newPref.transform.SetAsLastSibling();
@@ -132,4 +141,31 @@ public class ShareScript : MonoBehaviour
         newPref.transform.SetAsLastSibling();
     }
 
+    public void OnInputTouch()
+    {
+        if (System.Diagnostics.Process.GetProcessesByName("OSK").Length > 0)
+        {
+            System.Diagnostics.Process.GetProcessesByName("OSK")[0].MainWindowHandle.ToInt32();
+        }
+        else
+        {
+            System.Diagnostics.Process.Start("OSK.exe");
+        }
+    }
+
+    public void CloseKeyboard()
+    {
+        //OSK.exe 종료
+        System.Diagnostics.Process[] osk = System.Diagnostics.Process.GetProcessesByName("OSK");
+        foreach (System.Diagnostics.Process p in osk)
+        {
+            p.Kill();
+        }
+
+
+        // if (System.Diagnostics.Process.GetProcessesByName("OSK").Length > 0)
+        // {
+        //     System.Diagnostics.Process.GetProcessesByName("OSK")[0].Kill();
+        // }
+    }
 }
