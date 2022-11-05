@@ -363,6 +363,7 @@
 "Assets/Scripts/ProjectManager.cs"
 "Assets/Scripts/ScaleButtonScript.cs"
 "Assets/Scripts/SceneController.cs"
+"Assets/Scripts/SearchClear.cs"
 "Assets/Scripts/SearchScript.cs"
 "Assets/Scripts/ShareScript.cs"
 "Assets/Scripts/ShowKeyboard.cs"

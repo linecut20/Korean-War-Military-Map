@@ -2467,19 +2467,7 @@ MonoBehaviour:
   m_CharacterLimit: 0
   m_OnEndEdit:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1056058903}
-        m_TargetAssemblyTypeName: SearchScript, Assembly-CSharp
-        m_MethodName: SearchTextInit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   m_OnSubmit:
     m_PersistentCalls:
       m_Calls: []
@@ -2595,8 +2583,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pm: {fileID: 0}
   searchInput: {fileID: 1056058896}
-  searchText: {fileID: 15457498}
   confirmButton: {fileID: 1469622392}
+  searchClearPanel: {fileID: 0}
+  searchClearBtn: {fileID: 0}
 --- !u!1001 &1135809142
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3298,6 +3287,7 @@ GameObject:
   - component: {fileID: 1469622396}
   - component: {fileID: 1469622395}
   - component: {fileID: 1469622394}
+  - component: {fileID: 1469622397}
   m_Layer: 5
   m_Name: Confirm Button
   m_TagString: Untagged
@@ -3349,8 +3339,8 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 0.88235295, g: 0.5803922, b: 0.3137255, a: 1}
     m_HighlightedColor: {r: 0.14901961, g: 0, b: 0.00040049947, a: 1}
-    m_PressedColor: {r: 0.084905684, g: 0.0012014933, b: 0.0012014933, a: 1}
-    m_SelectedColor: {r: 0.08627451, g: 0, b: 0, a: 1}
+    m_PressedColor: {r: 0.14901961, g: 0.0012014933, b: 0.0012014933, a: 1}
+    m_SelectedColor: {r: 0.88235295, g: 0.5803922, b: 0.3137255, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -3369,7 +3359,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1469622395}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1469622397}
+        m_TargetAssemblyTypeName: SearchScript, Assembly-CSharp
+        m_MethodName: SearchKeywordConfirm
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1469622395
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3408,6 +3410,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1469622392}
   m_CullTransparentMesh: 1
+--- !u!114 &1469622397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469622392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81485c668cec1494e917f413563b8718, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pm: {fileID: 0}
+  searchInput: {fileID: 1056058896}
+  confirmButton: {fileID: 1469622392}
+  searchClearPanel: {fileID: 1631205292}
+  searchClearBtn: {fileID: 4447666788410019154, guid: fa03f0cc7780243b7b11a08dc60793dd, type: 3}
 --- !u!1 &1530878153
 GameObject:
   m_ObjectHideFlags: 0
@@ -3732,6 +3751,82 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 81533869934411264, guid: 85742525f45eb4779bf5b8ff9eeb99ca, type: 3}
   m_PrefabInstance: {fileID: 654451795}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1631205292
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1631205293}
+  - component: {fileID: 1631205295}
+  - component: {fileID: 1631205294}
+  m_Layer: 5
+  m_Name: Search Clear Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1631205293
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631205292}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.89070994, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1786329307}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.25002, y: -244}
+  m_SizeDelta: {x: 372.7245, y: 42.5902}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1631205294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631205292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1631205295
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631205292}
+  m_CullTransparentMesh: 1
 --- !u!1 &1658048438 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5096799621818175784, guid: 85742525f45eb4779bf5b8ff9eeb99ca, type: 3}
@@ -3782,6 +3877,7 @@ RectTransform:
   - {fileID: 985011659}
   - {fileID: 1348845331}
   - {fileID: 325976216}
+  - {fileID: 1631205293}
   m_Father: {fileID: 154698201}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -8,7 +8,9 @@ public class SearchScript : MonoBehaviour
     public ProjectManager pm;
     public GameObject searchInput;
     public GameObject confirmButton;
-    public
+    public GameObject searchClearPanel;
+    public GameObject searchClearBtn;
+
 
     // Start is called before the first frame update
     void Start()
@@ -73,6 +75,8 @@ public class SearchScript : MonoBehaviour
             //EventSystem에게 mapData를 넘겨줌
             if (searchMapData.Count > 0)
             {
+                GameObject scb = Instantiate(searchClearBtn, searchClearPanel.transform);
+
                 GameObject.Find("EventSystem").GetComponent<MapSceneEventSystem>().mapData = searchMapData;
                 GameObject.Find("EventSystem").GetComponent<MapSceneEventSystem>().MapDataItemInit();
             }
