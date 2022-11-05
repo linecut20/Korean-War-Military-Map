@@ -38,7 +38,28 @@ public class SearchScript : MonoBehaviour
         string keyword = searchInput.GetComponent<TMP_InputField>().text;
         searchInput.GetComponent<TMP_InputField>().text = "";
 
-        
-        
+        List<Dictionary<string, dynamic>> mapData = new List<Dictionary<string, dynamic>>();
+
+        switch (pm.scale) {
+            case 0:
+                mapData = pm.mapDataScale1;
+                break;
+            case 1:
+                mapData = pm.mapDataScale2;
+                break;
+            case 2:
+                mapData = pm.mapDataScale3;
+                break;
+            case 3:
+                mapData = pm.mapDataScale4;
+                break;
+            default:
+                
+                break;
+        }
+
+        if (mapData.Count != 0) {
+
+        }
     }
 }
