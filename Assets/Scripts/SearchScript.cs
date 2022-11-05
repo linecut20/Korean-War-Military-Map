@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class SearchScript : MonoBehaviour
 {
+    public ProjectManager pm;
     public GameObject searchInput;
     public GameObject searchText;
     public GameObject confirmButton;
@@ -11,9 +13,7 @@ public class SearchScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        searchInput = GameObject.Find("Search Input");
-        searchText = GameObject.Find("Search Text");
-        confirmButton = GameObject.Find("Confirm Button");
+        pm = GameObject.Find("ProjectManager").GetComponent<ProjectManager>();
     }
 
     // Update is called once per frame
@@ -30,8 +30,15 @@ public class SearchScript : MonoBehaviour
         }
         else
         {
-
             System.Diagnostics.Process.Start("OSK.exe");
         }
+    }
+
+    public void SearchKeywordConfirm() {
+        string keyword = searchInput.GetComponent<TMP_InputField>().text;
+        searchInput.GetComponent<TMP_InputField>().text = "";
+
+        
+        
     }
 }

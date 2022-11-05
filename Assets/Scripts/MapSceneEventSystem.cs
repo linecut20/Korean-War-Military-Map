@@ -29,10 +29,9 @@ public class MapSceneEventSystem : MonoBehaviour
     void Start()
     {
         projectManager = GameObject.Find("ProjectManager").GetComponent<ProjectManager>();
-        MapDataItemInit();
         GetMapDataList(projectManager.scale);
-
-
+        MapDataItemInit();
+        
         OnItemTouched(0);
     }
 
@@ -99,7 +98,6 @@ public class MapSceneEventSystem : MonoBehaviour
     {
         if (projectManager.mapData != mapData[idx])
         {
-            Debug.Log("Change");
             mapCamera.transform.position = new Vector3(0, 0, 0);
             projectManager.mapData = mapData[idx];
             time.GetComponent<TextMeshProUGUI>().text = projectManager.mapData["time"];
@@ -116,25 +114,24 @@ public class MapSceneEventSystem : MonoBehaviour
 
     public void UpdateMap(String path)
     {
-        //mat의 이미지를 변경
         mat = imageArea.GetComponent<Renderer>().material;
 
-        Texture2D tex = new Texture2D(2, 2);
+        Texture2D tex = new Texture2D(1, 1);
         byte[] fileData = File.ReadAllBytes(path);
         tex.LoadImage(fileData);
 
-        //tex의 비율을 유지하면서 imageArea의 크기에 맞게 변경
-        float ratio = (float)tex.width / (float)tex.height;
-        float width = imageArea.transform.localScale.x;
-        float height = imageArea.transform.localScale.y;
-        if (ratio > 1)
-        {
-            imageArea.transform.localScale = new Vector3(width, width / ratio, 1);
-        }
-        else
-        {
-            imageArea.transform.localScale = new Vector3(height * ratio, height, 1);
-        }
+        // //tex의 비율을 유지하면서 imageArea의 크기에 맞게 변경
+        // float ratio = (float)tex.width / (float)tex.height;
+        // float width = imageArea.transform.localScale.x;
+        // float height = imageArea.transform.localScale.y;
+        // if (ratio > 1)
+        // {
+        //     imageArea.transform.localScale = new Vector3(width, width / ratio, 1);
+        // }
+        // else
+        // {
+        //     imageArea.transform.localScale = new Vector3(height * ratio, height, 1);
+        // }
 
         mat.mainTexture = tex;
     }

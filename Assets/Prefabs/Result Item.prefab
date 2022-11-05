@@ -192,8 +192,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 1945
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cddfc3397807f44d9baf147080383d1a, type: 2}
-  m_sharedMaterial: {fileID: -360568695755202216, guid: cddfc3397807f44d9baf147080383d1a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 69d2f7ff5a5cc4bb298134935e04c75e, type: 2}
+  m_sharedMaterial: {fileID: 333799185367560346, guid: 69d2f7ff5a5cc4bb298134935e04c75e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -327,8 +327,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Paengnyong-Do
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cddfc3397807f44d9baf147080383d1a, type: 2}
-  m_sharedMaterial: {fileID: -360568695755202216, guid: cddfc3397807f44d9baf147080383d1a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7feed205ae3a44a5f8ff0ec82ba7927f, type: 2}
+  m_sharedMaterial: {fileID: 4114083434033342459, guid: 7feed205ae3a44a5f8ff0ec82ba7927f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -462,8 +462,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: L751-6127 IV
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cddfc3397807f44d9baf147080383d1a, type: 2}
-  m_sharedMaterial: {fileID: -360568695755202216, guid: cddfc3397807f44d9baf147080383d1a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 69d2f7ff5a5cc4bb298134935e04c75e, type: 2}
+  m_sharedMaterial: {fileID: 333799185367560346, guid: 69d2f7ff5a5cc4bb298134935e04c75e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
