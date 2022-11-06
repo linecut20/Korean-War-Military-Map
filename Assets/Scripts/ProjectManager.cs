@@ -9,6 +9,7 @@ public class ProjectManager : MonoBehaviour
     public static ProjectManager instance = null;
 
     public int scale;
+    public int tutorialIndex;
     public List<Dictionary<string, dynamic>> mapDataScale1 = new List<Dictionary<string, dynamic>>();
     public List<Dictionary<string, dynamic>> mapDataScale2 = new List<Dictionary<string, dynamic>>();
     public List<Dictionary<string, dynamic>> mapDataScale3 = new List<Dictionary<string, dynamic>>();

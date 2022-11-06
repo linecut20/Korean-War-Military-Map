@@ -368,6 +368,8 @@
 "Assets/Scripts/ShareScript.cs"
 "Assets/Scripts/ShowKeyboard.cs"
 "Assets/Scripts/ShowSharePanel.cs"
+"Assets/Scripts/ShowTutorialPanel.cs"
+"Assets/Scripts/TutorialScript.cs"
 -langversion:9.0
 
 /deterministic
