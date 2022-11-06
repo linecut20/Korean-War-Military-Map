@@ -69,8 +69,8 @@ MonoBehaviour:
   m_text: "\uC77C\uC2DC\uC801\uC778 \uC624\uB958\uB85C \uC774\uBA54\uC77C \uC804\uC1A1\uC774
     \uCC98\uB9AC\uB418\uC9C0 \uC54A\uC558\uC2B5\uB2C8\uB2E4"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cddfc3397807f44d9baf147080383d1a, type: 2}
-  m_sharedMaterial: {fileID: -360568695755202216, guid: cddfc3397807f44d9baf147080383d1a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 69d2f7ff5a5cc4bb298134935e04c75e, type: 2}
+  m_sharedMaterial: {fileID: 333799185367560346, guid: 69d2f7ff5a5cc4bb298134935e04c75e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -175,7 +175,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -111}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 160, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6592451052245210422
 CanvasRenderer:
@@ -431,8 +431,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\uD655\uC778"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cddfc3397807f44d9baf147080383d1a, type: 2}
-  m_sharedMaterial: {fileID: -360568695755202216, guid: cddfc3397807f44d9baf147080383d1a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7feed205ae3a44a5f8ff0ec82ba7927f, type: 2}
+  m_sharedMaterial: {fileID: 4114083434033342459, guid: 7feed205ae3a44a5f8ff0ec82ba7927f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

@@ -38,10 +38,13 @@
   <ItemGroup>
      <Compile Include="Assets/Scripts/SceneController.cs" />
      <Compile Include="Assets/Scripts/ShareScript.cs" />
+     <Compile Include="Assets/Scripts/SearchClear.cs" />
      <Compile Include="Assets/Scripts/F51DController.cs" />
+     <Compile Include="Assets/Scripts/ShowTutorialPanel.cs" />
      <Compile Include="Assets/Scripts/MapSceneEventSystem.cs" />
      <Compile Include="Assets/Scripts/ShowKeyboard.cs" />
      <Compile Include="Assets/Scripts/MapCameraScript.cs" />
+     <Compile Include="Assets/Scripts/TutorialScript.cs" />
      <Compile Include="Assets/Scripts/ScaleButtonScript.cs" />
      <Compile Include="Assets/Scripts/CloseFunc.cs" />
      <Compile Include="Assets/Scripts/ShowSharePanel.cs" />

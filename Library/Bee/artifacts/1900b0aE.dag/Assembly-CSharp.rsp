@@ -363,10 +363,13 @@
 "Assets/Scripts/ProjectManager.cs"
 "Assets/Scripts/ScaleButtonScript.cs"
 "Assets/Scripts/SceneController.cs"
+"Assets/Scripts/SearchClear.cs"
 "Assets/Scripts/SearchScript.cs"
 "Assets/Scripts/ShareScript.cs"
 "Assets/Scripts/ShowKeyboard.cs"
 "Assets/Scripts/ShowSharePanel.cs"
+"Assets/Scripts/ShowTutorialPanel.cs"
+"Assets/Scripts/TutorialScript.cs"
 -langversion:9.0
 
 /deterministic
