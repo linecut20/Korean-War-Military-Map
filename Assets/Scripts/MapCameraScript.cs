@@ -57,7 +57,7 @@ public class MapCameraScript : MonoBehaviour
             return;
         }
 
-        if (Input.touchCount > 0)
+        if (Input.touchCount == 1)
         {
             if (m_IsOneClick && ((Time.time - m_Timer) > m_DoubleClickSecond))
             {
@@ -133,7 +133,7 @@ public class MapCameraScript : MonoBehaviour
     //pinch zoom
     public void OnPinchZoom(float scale)
     {
-        currentZoom = mapCamera.transform.position.z + scale * 0.1f;
+        currentZoom = mapCamera.transform.position.z + scale * 0.2f;
 
         if (currentZoom <= 0)
         {
@@ -147,7 +147,7 @@ public class MapCameraScript : MonoBehaviour
         {
             print("currentZoom : " + currentZoom);
             print("deltaDistance : " + scale);
-            currentZoom += scale * 0.01f;
+            currentZoom += scale * 0.02f;
         }
         print(scale);
         float xMin = (currentZoom / maxZoom) * minX;
@@ -184,8 +184,8 @@ public class MapCameraScript : MonoBehaviour
             // float x = Input.GetAxis("Mouse X");
             // float y = Input.GetAxis("Mouse Y");
 
-            float x = Input.touches[0].deltaPosition.x * 0.01f;
-            float y = Input.touches[0].deltaPosition.y * 0.01f;
+            float x = Input.touches[0].deltaPosition.x * 0.02f;
+            float y = Input.touches[0].deltaPosition.y * 0.02f;
 
             // (doubleTapZoom / mapCamera.transfrom.position.z) * minX, maxX, minY, maxY 의 값으로 제한;
 
