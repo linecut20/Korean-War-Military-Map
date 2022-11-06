@@ -38,28 +38,22 @@ public class MapCameraScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.touchCount == 2)
+        if (Input.touchCount == 2 && Input.GetTouch(1).phase == TouchPhase.Began)
+        {
+            preDistance = Vector2.Distance(Input.GetTouch(0).position, Input.GetTouch(1).position);
+        }
+
+        if (Input.touchCount == 2 && Input.GetTouch(1).phase == TouchPhase.Moved)
         {
             float deltaDistance = 0;
-            float distance = Vector2.Distance(Input.touches[0].position, Input.touches[1].position) * 0.01f;
-            if (preDistance == 0)
-            {
-                preDistance = distance;
-            }
-            else
-            {
-                deltaDistance = distance - preDistance;
-                preDistance = distance;
-            }
-            print("deltaDistance: " + deltaDistance);
-            if(currentZoom <= 0) {
-                currentZoom = 0;
-            } else if(currentZoom >= maxZoom) {
-                currentZoom = maxZoom;
-            } else {
-                currentZoom += deltaDistance;
-            }
-            OnPinchZoom(currentZoom);
+
+            float distance = Vector3.Distance(Input.touches[0].position, Input.touches[1].position);
+
+            deltaDistance = distance - preDistance;
+            preDistance = distance;
+
+
+            OnPinchZoom(deltaDistance);
             return;
         }
 
@@ -139,7 +133,47 @@ public class MapCameraScript : MonoBehaviour
     //pinch zoom
     public void OnPinchZoom(float scale)
     {
-        
+        currentZoom = mapCamera.transform.position.z + scale * 0.1f;
+
+        if (currentZoom <= 0)
+        {
+            currentZoom = 0;
+        }
+        else if (currentZoom >= maxZoom)
+        {
+            currentZoom = maxZoom;
+        }
+        else
+        {
+            print("currentZoom : " + currentZoom);
+            print("deltaDistance : " + scale);
+            currentZoom += scale * 0.01f;
+        }
+        print(scale);
+        float xMin = (currentZoom / maxZoom) * minX;
+        float xMax = (currentZoom / maxZoom) * maxX;
+        float yMin = (currentZoom / maxZoom) * minY;
+        float yMax = (currentZoom / maxZoom) * maxY;
+
+        mapCamera.transform.position = new Vector3(mapCamera.transform.position.x, mapCamera.transform.position.y, currentZoom);
+
+        if (mapCamera.transform.position.x < xMin)
+        {
+            mapCamera.transform.position = new Vector3(xMin, mapCamera.transform.position.y, mapCamera.transform.position.z);
+        }
+        else if (mapCamera.transform.position.x > xMax)
+        {
+            mapCamera.transform.position = new Vector3(xMax, mapCamera.transform.position.y, mapCamera.transform.position.z);
+        }
+
+        if (mapCamera.transform.position.y < yMin)
+        {
+            mapCamera.transform.position = new Vector3(mapCamera.transform.position.x, yMin, mapCamera.transform.position.z);
+        }
+        else if (mapCamera.transform.position.y > yMax)
+        {
+            mapCamera.transform.position = new Vector3(mapCamera.transform.position.x, yMax, mapCamera.transform.position.z);
+        }
     }
 
     void OnMouseDrag2()
