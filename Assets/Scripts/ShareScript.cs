@@ -10,8 +10,8 @@ using System;
 
 public class ShareScript : MonoBehaviour
 {
-    private const string SENDER_EMAIL = "linecut20@gmail.com";
-    private const string SENDER_PASSWORD = "xwxfkyygehkdctjw";
+    private const string SENDER_EMAIL = "krwarmap@gmail.com";
+    private const string SENDER_PASSWORD = "wisfxvdhxdldrmjv";
 
 
     public GameObject imageArea;
@@ -65,7 +65,6 @@ public class ShareScript : MonoBehaviour
 
     private void SendEmail()
     {
-        
         //prefabs의 LoadingPanel을 추가
         GameObject lp = Instantiate(loadingPanel, canvas.transform);
         lp.transform.SetAsLastSibling();
@@ -84,7 +83,8 @@ public class ShareScript : MonoBehaviour
         mail.Body = "전쟁기념관 군사지도 공유 메일입니다.";
         
         //mail에 이미지를 추가        
-        Attachment attachment = new Attachment(basePath + pm.mapData["image_path"]);
+        Attachment attachment = new Attachment(basePath + pm.mapData["share_image_path"]);
+        // Attachment attachment = new Attachment(basePath + pm.mapData["image_path"]);
         mail.Attachments.Add(attachment);
 
         SmtpClient smtpServer = new SmtpClient("smtp.gmail.com");
@@ -97,7 +97,7 @@ public class ShareScript : MonoBehaviour
 
         try
         {
-            // smtpServer.Send(mail);
+            smtpServer.Send(mail);
             Destroy(GameObject.Find("Loading Panel(Clone)"));
             CompleteDialog();
         }

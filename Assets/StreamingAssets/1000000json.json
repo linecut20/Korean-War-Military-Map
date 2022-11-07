@@ -1,0 +1,20 @@
+[
+ {
+  "image_path": "/MapImage/1000000/txu-pclmaps-oclc-8322829_g_9.png",
+  "share_image_path": "/MapImage/1000000forshare/txu-pclmaps-oclc-8322829_g_9.jpg",
+  "sheet": "ONC G-9",
+  "name": "PEOPLES REPUBLIC OF CHINA"
+ },
+ {
+  "image_path": "/MapImage/1000000/txu-pclmaps-oclc-8322829_g_10.png",
+  "share_image_path": "/MapImage/1000000forshare/txu-pclmaps-oclc-8322829_g_10.jpg",
+  "sheet": "ONC G-10",
+  "name": "CHINA, JAPAN, NORTH KOREA, SOUTH KOREA"
+ },
+ {
+  "image_path": "/MapImage/1000000/txu-pclmaps-oclc-8322829_g_11.png",
+  "share_image_path": "/MapImage/1000000forshare/txu-pclmaps-oclc-8322829_g_11.jpg",
+  "sheet": "ONC G-11",
+  "name": "JAPAN, SOUTH KOREA"
+ }
+]

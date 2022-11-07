@@ -7,21 +7,32 @@ public class ShowSharePanel : MonoBehaviour
     public GameObject sharePanel;
     public GameObject shareButton;
     public GameObject canvas;
+    public ProjectManager pm;
 
     void Start()
     {
-        
+        pm = GameObject.Find("ProjectManager").GetComponent<ProjectManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void ShareButtonTouchedFunc()
     {
-        GameObject newPref = Instantiate(sharePanel, canvas.transform);
-        newPref.transform.SetAsLastSibling();
+        //공유용 이미지 존재 확인 및 인터넷 확인
+        if (pm.mapData["share_image_path"] != null && Application.internetReachability != NetworkReachability.NotReachable)
+        {
+            //pm.mapData["share_image_path"]의 파일 크기가 25Mb 이상이면...
+            if (pm.mapData["share_image_path"].Length < 25000000)
+            {
+                GameObject newPref = Instantiate(sharePanel, canvas.transform);
+                newPref.transform.SetAsLastSibling();
+            }
+        }
+
+
     }
 }

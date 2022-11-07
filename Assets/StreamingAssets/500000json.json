@@ -1,0 +1,26 @@
+[
+ {
+  "image_path": "/MapImage/500000/txu-pclmaps-oclc-22834566_f-9c.jpg",
+  "share_image_path": "/MapImage/500000forshare/txu-pclmaps-oclc-22834566_f-9c.jpg",
+  "sheet": "TPC F-9C",
+  "name": "CHINA, NORTH KOREA, RUSSIA"
+ },
+ {
+  "image_path": "/MapImage/500000/txu-pclmaps-oclc-22834566_g-10b.jpg",
+  "share_image_path": "/MapImage/500000forshare/txu-pclmaps-oclc-22834566_g-10b.jpg",
+  "sheet": "TPC G-10B",
+  "name": "CHINA, NORTH KOREA, SOUTH KOREA"
+ },
+ {
+  "image_path": "/MapImage/500000/txu-pclmaps-oclc-22834566_g-10c.jpg",
+  "share_image_path": "/MapImage/500000forshare/txu-pclmaps-oclc-22834566_g-10c.jpg",
+  "sheet": "TPC G-10C",
+  "name": "JAPAN, SOUTH KOREA"
+ },
+ {
+  "image_path": "/MapImage/500000/txu-pclmaps-oclc-22834566_g-11a.jpg",
+  "share_image_path": "/MapImage/500000forshare/txu-pclmaps-oclc-22834566_g-11a.jpg",
+  "sheet": "TPC G-11A",
+  "name": "JAPAN, SOUTH KOREA"
+ }
+]

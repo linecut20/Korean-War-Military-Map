@@ -284,11 +284,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tutorialPanel: {fileID: 3956934003177895137}
   tutorials:
-  - {fileID: 21300000, guid: d0f16f05c83cb44f4aad96f1fd2a2bfb, type: 3}
   - {fileID: 21300000, guid: 2e07ae47f34c5405e9e016ea416a84f0, type: 3}
   - {fileID: 21300000, guid: 2828d75fad2394c7e830338b47f9580d, type: 3}
   - {fileID: 21300000, guid: 18062d8dd01c64ec4886da1f40192994, type: 3}
   - {fileID: 21300000, guid: 496b44b49a20d46439e34eab758f3dec, type: 3}
+  - {fileID: 21300000, guid: af58450497951408a9468e0aabf0c0aa, type: 3}
   btnBack: {fileID: 4581912719444779690}
   btnNext: {fileID: 3644137798247382159}
   btnClose: {fileID: 2979593889533753859}
@@ -385,11 +385,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tutorialPanel: {fileID: 3956934003177895137}
   tutorials:
-  - {fileID: 21300000, guid: d0f16f05c83cb44f4aad96f1fd2a2bfb, type: 3}
   - {fileID: 21300000, guid: 2e07ae47f34c5405e9e016ea416a84f0, type: 3}
   - {fileID: 21300000, guid: 2828d75fad2394c7e830338b47f9580d, type: 3}
   - {fileID: 21300000, guid: 18062d8dd01c64ec4886da1f40192994, type: 3}
   - {fileID: 21300000, guid: 496b44b49a20d46439e34eab758f3dec, type: 3}
+  - {fileID: 21300000, guid: af58450497951408a9468e0aabf0c0aa, type: 3}
   btnBack: {fileID: 4581912719444779690}
   btnNext: {fileID: 3644137798247382159}
   btnClose: {fileID: 2979593889533753859}
@@ -519,7 +519,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d0f16f05c83cb44f4aad96f1fd2a2bfb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2e07ae47f34c5405e9e016ea416a84f0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -621,11 +621,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tutorialPanel: {fileID: 3956934003177895137}
   tutorials:
-  - {fileID: 21300000, guid: d0f16f05c83cb44f4aad96f1fd2a2bfb, type: 3}
   - {fileID: 21300000, guid: 2e07ae47f34c5405e9e016ea416a84f0, type: 3}
   - {fileID: 21300000, guid: 2828d75fad2394c7e830338b47f9580d, type: 3}
   - {fileID: 21300000, guid: 18062d8dd01c64ec4886da1f40192994, type: 3}
   - {fileID: 21300000, guid: 496b44b49a20d46439e34eab758f3dec, type: 3}
+  - {fileID: 21300000, guid: af58450497951408a9468e0aabf0c0aa, type: 3}
   btnBack: {fileID: 4581912719444779690}
   btnNext: {fileID: 3644137798247382159}
   btnClose: {fileID: 2979593889533753859}

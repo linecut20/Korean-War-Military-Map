@@ -22,6 +22,7 @@ public class MapSceneEventSystem : MonoBehaviour
     public GameObject summary;
     public GameObject imageArea;
     public GameObject mapCamera;
+    public GameObject btnShare;
     private Material mat;
     
     public ProjectManager projectManager;
@@ -29,6 +30,10 @@ public class MapSceneEventSystem : MonoBehaviour
 
     void Start()
     {
+        if (Application.internetReachability == NetworkReachability.NotReachable) {
+            btnShare.SetActive(false);
+        }
+
         projectManager = GameObject.Find("ProjectManager").GetComponent<ProjectManager>();
         GetMapDataList(projectManager.scale);
         MapDataItemInit();
@@ -56,6 +61,7 @@ public class MapSceneEventSystem : MonoBehaviour
         {
             GameObject newPrefabs = Instantiate(resultItem, content.transform);
 
+            // newPrefabs.transform.Find("year").GetComponent<TextMeshProUGUI>().text = "";
             newPrefabs.transform.Find("year").GetComponent<TextMeshProUGUI>().text = mapData[i]["year"].ToString();
             newPrefabs.transform.Find("sheet").GetComponent<TextMeshProUGUI>().text = mapData[i]["sheet"];
             newPrefabs.transform.Find("name").GetComponent<TextMeshProUGUI>().text = mapData[i]["name"];
