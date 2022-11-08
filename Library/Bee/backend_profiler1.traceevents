@@ -1,422 +1,710 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1667795334833048, "dur":413, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667795334833468, "dur":116, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1667795334833597, "dur":15, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1667795334833612, "dur":193, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1667795334833819, "dur":472, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667795334834291, "dur":7, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667795334843508, "dur":30, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667795334843538, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667795334843541, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667795334843543, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667795334843545, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667795334843547, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667795334843549, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667795334843551, "dur":1, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667795334843552, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667795334843554, "dur":1, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667795334843555, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667795334843558, "dur":1, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667795334843559, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667795334843561, "dur":1, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667795334843562, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667795334843564, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667795334843566, "dur":2, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667795334843572, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667795334843576, "dur":1284, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1667795334833684, "dur":619, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667795334834304, "dur":2661, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667795334836965, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1667795334836968, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667795334836985, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1667795334836986, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667795334837007, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":1, "ts":1667795334837018, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667795334837037, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":1, "ts":1667795334837046, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667795334837067, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":1, "ts":1667795334837109, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667795334837166, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667795334837217, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667795334837412, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667795334837434, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667795334837596, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667795334837675, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667795334837717, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667795334837728, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667795334837863, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667795334837918, "dur":186, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667795334838105, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667795334838178, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667795334838225, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667795334838290, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667795334838383, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667795334838436, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667795334838505, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667795334838592, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667795334838629, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667795334838635, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667795334838671, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667795334838714, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667795334838776, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667795334838823, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667795334838965, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667795334838972, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667795334838997, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667795334839004, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667795334839028, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667795334839035, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667795334839061, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667795334839068, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667795334839145, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667795334839195, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667795334839296, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/StreamingAssets/MapImage/6133 I_Sinsi-Dong.png" }}
-,{ "pid":12345, "tid":1, "ts":1667795334839416, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667795334839624, "dur":647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/StreamingAssets/MapImage/6133 I_Sinsi-Dong.png" }}
-,{ "pid":12345, "tid":1, "ts":1667795334840346, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/StreamingAssets/sample_data_2.json" }}
-,{ "pid":12345, "tid":1, "ts":1667795334840538, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667795334840607, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/StreamingAssets/1000000json.json" }}
-,{ "pid":12345, "tid":1, "ts":1667795334840670, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667795334840719, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/StreamingAssets/500000json.json" }}
-,{ "pid":12345, "tid":1, "ts":1667795334840763, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667795334840816, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":1, "ts":1667795334840863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667795334840866, "dur":2324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":1, "ts":1667795334843200, "dur":313, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667795334833700, "dur":628, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667795334834330, "dur":2635, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667795334836966, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1667795334836986, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667795334837001, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1667795334837015, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667795334837039, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1667795334837049, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667795334837076, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":2, "ts":1667795334837116, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667795334837190, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667795334837265, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667795334837429, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667795334837437, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667795334837543, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667795334837550, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667795334837588, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667795334837636, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667795334837682, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667795334837722, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667795334837845, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667795334837910, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667795334837980, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667795334838013, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667795334838059, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667795334838119, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667795334838229, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667795334838292, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667795334838418, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667795334838497, "dur":180, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667795334838677, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667795334838717, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667795334838778, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667795334838854, "dur":25, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667795334839503, "dur":567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667795334840193, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/StreamingAssets/MapImage/6132 IV_Sonam-Dong.png" }}
-,{ "pid":12345, "tid":2, "ts":1667795334840256, "dur":26, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667795334840354, "dur":317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/StreamingAssets/MapImage/6132 IV_Sonam-Dong.png" }}
-,{ "pid":12345, "tid":2, "ts":1667795334840737, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":2, "ts":1667795334840785, "dur":22, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667795334841044, "dur":476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":2, "ts":1667795334841552, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/resources.assets" }}
-,{ "pid":12345, "tid":2, "ts":1667795334841571, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667795334841584, "dur":1683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/resources.assets" }}
-,{ "pid":12345, "tid":2, "ts":1667795334843274, "dur":244, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667795334833717, "dur":617, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667795334834334, "dur":2683, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667795334837019, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":3, "ts":1667795334837105, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667795334837162, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667795334837212, "dur":197, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667795334837409, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667795334837415, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667795334837542, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667795334837549, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667795334837568, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667795334837630, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667795334837679, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667795334837730, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667795334837832, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667795334837849, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667795334837906, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667795334837975, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667795334838034, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667795334838053, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667795334838109, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667795334838171, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667795334838240, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667795334838297, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667795334838414, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667795334838488, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667795334838573, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667795334838622, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667795334838719, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667795334838792, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667795334838871, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667795334838911, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667795334839029, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667795334839040, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667795334839143, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667795334839190, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667795334839275, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/StreamingAssets/MapImage/6227-IV_Ongjin-Hang.png" }}
-,{ "pid":12345, "tid":3, "ts":1667795334839339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667795334839602, "dur":676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/StreamingAssets/MapImage/6227-IV_Ongjin-Hang.png" }}
-,{ "pid":12345, "tid":3, "ts":1667795334840343, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/StreamingAssets/250000json.json" }}
-,{ "pid":12345, "tid":3, "ts":1667795334840396, "dur":188, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667795334840585, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/StreamingAssets/sample_data_4.json" }}
-,{ "pid":12345, "tid":3, "ts":1667795334840645, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667795334840687, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/StreamingAssets/.DS_Store" }}
-,{ "pid":12345, "tid":3, "ts":1667795334840735, "dur":19, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667795334840889, "dur":646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/StreamingAssets/.DS_Store" }}
-,{ "pid":12345, "tid":3, "ts":1667795334841560, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":3, "ts":1667795334841597, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667795334841631, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":3, "ts":1667795334841730, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667795334841732, "dur":1732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":3, "ts":1667795334843478, "dur":48, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667795334833733, "dur":603, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667795334834336, "dur":2684, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667795334837021, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1667795334837101, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667795334837170, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//UnityPlayer.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667795334837259, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667795334837299, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667795334837307, "dur":236, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667795334837543, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667795334837550, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667795334837575, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667795334837598, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667795334837653, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667795334837693, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667795334837795, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667795334837802, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667795334837824, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667795334837891, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667795334837972, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667795334838010, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667795334838055, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667795334838128, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667795334838167, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667795334838233, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667795334838378, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667795334838430, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667795334838493, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667795334838598, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667795334838730, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667795334838788, "dur":269, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667795334839057, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667795334839064, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667795334839157, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/Microsoft.CSharp.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667795334839258, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667795334839372, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/StreamingAssets/MapImage/6128 II_Tok-Tong.png" }}
-,{ "pid":12345, "tid":4, "ts":1667795334839444, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667795334839621, "dur":596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/StreamingAssets/MapImage/6128 II_Tok-Tong.png" }}
-,{ "pid":12345, "tid":4, "ts":1667795334840290, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/StreamingAssets/MapImage/6229-II_Sinchon.png" }}
-,{ "pid":12345, "tid":4, "ts":1667795334840339, "dur":31, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667795334840694, "dur":274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/StreamingAssets/MapImage/6229-II_Sinchon.png" }}
-,{ "pid":12345, "tid":4, "ts":1667795334840974, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/level1.resS" }}
-,{ "pid":12345, "tid":4, "ts":1667795334840982, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667795334840985, "dur":828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/level1.resS" }}
-,{ "pid":12345, "tid":4, "ts":1667795334841839, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":4, "ts":1667795334841848, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667795334841851, "dur":1435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":4, "ts":1667795334843292, "dur":231, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667795334833774, "dur":565, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667795334834339, "dur":2655, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667795334837010, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1667795334837020, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667795334837029, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1667795334837042, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667795334837067, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1667795334837113, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667795334837182, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":5, "ts":1667795334837253, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667795334837297, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667795334837308, "dur":274, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667795334837584, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667795334837638, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667795334837686, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667795334837719, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667795334837861, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667795334837912, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667795334838026, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667795334838121, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667795334838163, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667795334838210, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667795334838350, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667795334838404, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667795334838459, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667795334838527, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667795334838660, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667795334838684, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667795334838760, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667795334838804, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667795334838883, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667795334838947, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667795334839008, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667795334839029, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667795334839109, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667795334839115, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667795334839150, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667795334839360, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667795334839424, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/StreamingAssets/MapImage/6127 IV_Paengnyong-Do.png" }}
-,{ "pid":12345, "tid":5, "ts":1667795334839499, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667795334839696, "dur":488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/StreamingAssets/MapImage/6127 IV_Paengnyong-Do.png" }}
-,{ "pid":12345, "tid":5, "ts":1667795334840257, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/StreamingAssets/MapImage/6228-II_Taetan.png" }}
-,{ "pid":12345, "tid":5, "ts":1667795334840302, "dur":32, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667795334840354, "dur":334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/StreamingAssets/MapImage/6228-II_Taetan.png" }}
-,{ "pid":12345, "tid":5, "ts":1667795334840752, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/level1" }}
-,{ "pid":12345, "tid":5, "ts":1667795334840804, "dur":18, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667795334840837, "dur":660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/level1" }}
-,{ "pid":12345, "tid":5, "ts":1667795334841525, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1667795334841549, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667795334841604, "dur":1875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1667795334843489, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":5, "ts":1667795334843490, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667795334833773, "dur":564, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667795334834337, "dur":2662, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667795334837000, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":6, "ts":1667795334837014, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667795334837027, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":6, "ts":1667795334837036, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667795334837071, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":6, "ts":1667795334837113, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667795334837173, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map.exe" }}
-,{ "pid":12345, "tid":6, "ts":1667795334837220, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667795334837310, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667795334837317, "dur":240, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667795334837557, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667795334837568, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667795334837608, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667795334837642, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667795334837794, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667795334837824, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667795334837856, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667795334837961, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667795334838016, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667795334838115, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667795334838246, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667795334838303, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667795334838411, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667795334838617, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667795334838631, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667795334838673, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667795334838725, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667795334838783, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667795334838848, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667795334838901, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667795334839051, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667795334839079, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667795334839218, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/StreamingAssets/MapImage/6228-I_Kongse-Ri.png" }}
-,{ "pid":12345, "tid":6, "ts":1667795334839325, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667795334839640, "dur":585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/StreamingAssets/MapImage/6228-I_Kongse-Ri.png" }}
-,{ "pid":12345, "tid":6, "ts":1667795334840298, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/StreamingAssets/sample_data_3.json" }}
-,{ "pid":12345, "tid":6, "ts":1667795334840353, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667795334840388, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":6, "ts":1667795334840585, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667795334840655, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/StreamingAssets/50000json.json" }}
-,{ "pid":12345, "tid":6, "ts":1667795334840697, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667795334840742, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":6, "ts":1667795334840791, "dur":27, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667795334840861, "dur":2326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":6, "ts":1667795334843195, "dur":324, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667795334833788, "dur":552, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667795334834340, "dur":2647, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667795334837026, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":7, "ts":1667795334837118, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667795334837176, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":7, "ts":1667795334837251, "dur":180, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667795334837431, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667795334837439, "dur":162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667795334837601, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667795334837643, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667795334837794, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667795334837801, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667795334837868, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667795334837903, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667795334838023, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667795334838064, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667795334838132, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667795334838243, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667795334838370, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667795334838409, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667795334838476, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667795334838550, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667795334838664, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667795334838710, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667795334838773, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667795334838826, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667795334838967, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667795334838974, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667795334838996, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667795334839004, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667795334839059, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667795334839297, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667795334839421, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/StreamingAssets/MapImage/6128-I_Monggumpo.png" }}
-,{ "pid":12345, "tid":7, "ts":1667795334839494, "dur":36, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667795334839764, "dur":797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/StreamingAssets/MapImage/6128-I_Monggumpo.png" }}
-,{ "pid":12345, "tid":7, "ts":1667795334840652, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/StreamingAssets/sample_data_1.json" }}
-,{ "pid":12345, "tid":7, "ts":1667795334840701, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667795334840746, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1667795334840798, "dur":20, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667795334840890, "dur":932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1667795334841844, "dur":1662, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667795334833809, "dur":533, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667795334834342, "dur":2705, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667795334837048, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":8, "ts":1667795334837125, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667795334837168, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":8, "ts":1667795334837219, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667795334837294, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667795334837305, "dur":190, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667795334837495, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667795334837501, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667795334837603, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667795334837671, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667795334837795, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667795334837801, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667795334837853, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667795334837899, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667795334838021, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667795334838112, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667795334838173, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667795334838268, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667795334838375, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667795334838424, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667795334838481, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667795334838565, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667795334838722, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667795334838786, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667795334838852, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667795334838905, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667795334838967, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667795334838975, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667795334838996, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667795334839005, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667795334839025, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667795334839032, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667795334839172, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/StreamingAssets/MapImage/6130 II_Tok-To.png" }}
-,{ "pid":12345, "tid":8, "ts":1667795334839293, "dur":41, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667795334839599, "dur":499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/StreamingAssets/MapImage/6130 II_Tok-To.png" }}
-,{ "pid":12345, "tid":8, "ts":1667795334840197, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/StreamingAssets/MapImage/.DS_Store" }}
-,{ "pid":12345, "tid":8, "ts":1667795334840263, "dur":25, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667795334840311, "dur":404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/StreamingAssets/MapImage/.DS_Store" }}
-,{ "pid":12345, "tid":8, "ts":1667795334840779, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/level0" }}
-,{ "pid":12345, "tid":8, "ts":1667795334840852, "dur":43, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667795334840898, "dur":615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/level0" }}
-,{ "pid":12345, "tid":8, "ts":1667795334841543, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":8, "ts":1667795334841582, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667795334841603, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/boot.config" }}
-,{ "pid":12345, "tid":8, "ts":1667795334841632, "dur":179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667795334841812, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1667795334841839, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667795334841842, "dur":1625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop//Korean War Military Map_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1667795334843486, "dur":18, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667795334845268, "dur":342, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1667873741701649, "dur":395, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667873741702049, "dur":53754, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1667873741755826, "dur":22, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1667873741755848, "dur":191, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1667873741756054, "dur":588, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667873741756642, "dur":8, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667873741779111, "dur":13, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667873741779124, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667873741779128, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667873741779130, "dur":1, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667873741779132, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667873741779134, "dur":1, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667873741779135, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667873741779137, "dur":1, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667873741779138, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667873741779141, "dur":1, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667873741779142, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667873741779144, "dur":1, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667873741779145, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667873741779147, "dur":1, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667873741779148, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667873741779150, "dur":1, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667873741779151, "dur":2, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667873741779156, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667873741779159, "dur":1497, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1667873741755938, "dur":722, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741756661, "dur":3124, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741759785, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1667873741759789, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741759823, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1667873741759824, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741759834, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741760689, "dur":174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1667873741760863, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1667873741760873, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741760881, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741760952, "dur":200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1667873741761178, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1667873741761194, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741761212, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741761217, "dur":258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1667873741761580, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1667873741761650, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741761708, "dur":18, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741762007, "dur":258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1667873741762336, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667873741762401, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741762481, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741762824, "dur":301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667873741763207, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667873741763277, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741763406, "dur":33, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741763738, "dur":385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667873741764191, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667873741764329, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741764449, "dur":27, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741764680, "dur":261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667873741764994, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667873741765075, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741765166, "dur":88, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741765422, "dur":340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667873741765831, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667873741765886, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741765992, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741765996, "dur":340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667873741766397, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667873741766486, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741766583, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741766923, "dur":308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667873741767312, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667873741767404, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741767547, "dur":24, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741767770, "dur":320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667873741768215, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667873741768303, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741768392, "dur":29, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741768628, "dur":316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667873741769021, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667873741769106, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741769185, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741769332, "dur":424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667873741769877, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667873741769987, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741770048, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741770326, "dur":728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667873741771179, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667873741771230, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741771313, "dur":40, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741771403, "dur":1061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667873741772549, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667873741772589, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741772655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741772659, "dur":1299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667873741774116, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667873741774349, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741774500, "dur":30, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741774534, "dur":401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667873741775005, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/MapImage/6133 I_Sinsi-Dong.png" }}
+,{ "pid":12345, "tid":1, "ts":1667873741775074, "dur":49, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741775291, "dur":509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/MapImage/6133 I_Sinsi-Dong.png" }}
+,{ "pid":12345, "tid":1, "ts":1667873741775863, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/MapImage/6229-II_Sinchon.png" }}
+,{ "pid":12345, "tid":1, "ts":1667873741775912, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741776108, "dur":721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/MapImage/6229-II_Sinchon.png" }}
+,{ "pid":12345, "tid":1, "ts":1667873741776956, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/500000json.json" }}
+,{ "pid":12345, "tid":1, "ts":1667873741777000, "dur":26, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741777225, "dur":415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/500000json.json" }}
+,{ "pid":12345, "tid":1, "ts":1667873741777799, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1667873741777860, "dur":18, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667873741778038, "dur":555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1667873741778680, "dur":433, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667873741755938, "dur":745, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667873741756685, "dur":3187, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667873741759872, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1667873741759918, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667873741759968, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667873741761408, "dur":311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1667873741761775, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1667873741761845, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667873741761926, "dur":39, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667873741762251, "dur":302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1667873741762690, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map.exe" }}
+,{ "pid":12345, "tid":2, "ts":1667873741762762, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667873741762879, "dur":110, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667873741763149, "dur":432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map.exe" }}
+,{ "pid":12345, "tid":2, "ts":1667873741763755, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667873741763904, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667873741764008, "dur":19, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667873741764142, "dur":329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667873741764536, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667873741764585, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667873741764704, "dur":23, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667873741764900, "dur":395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667873741765339, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667873741765397, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667873741765477, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667873741765706, "dur":542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667873741766349, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667873741766395, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667873741766458, "dur":22, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667873741766573, "dur":315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667873741766931, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667873741767131, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667873741767195, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667873741767410, "dur":438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667873741767956, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667873741767996, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667873741768057, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667873741768353, "dur":331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667873741768832, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667873741768886, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667873741768942, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667873741769161, "dur":396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667873741769645, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667873741769807, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667873741769880, "dur":41, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667873741770104, "dur":731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667873741771021, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667873741771133, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667873741771217, "dur":18, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667873741771399, "dur":1019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667873741772482, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667873741772547, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667873741772616, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667873741772620, "dur":398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667873741773026, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667873741773033, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667873741773048, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667873741773051, "dur":1199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667873741774331, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667873741774473, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667873741774557, "dur":19, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667873741774581, "dur":402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667873741775087, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/MapImage/6128 II_Tok-Tong.png" }}
+,{ "pid":12345, "tid":2, "ts":1667873741775164, "dur":23, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667873741775406, "dur":606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/MapImage/6128 II_Tok-Tong.png" }}
+,{ "pid":12345, "tid":2, "ts":1667873741776043, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/sample_data_2.json" }}
+,{ "pid":12345, "tid":2, "ts":1667873741776097, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667873741776263, "dur":90, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667873741776544, "dur":345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/sample_data_2.json" }}
+,{ "pid":12345, "tid":2, "ts":1667873741777006, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1667873741777088, "dur":36, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667873741777330, "dur":519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1667873741777908, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1667873741777986, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667873741778149, "dur":49, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667873741778380, "dur":395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1667873741778889, "dur":202, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741755962, "dur":727, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741756689, "dur":3180, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741759871, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1667873741759948, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741760002, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741761660, "dur":325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1667873741762084, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1667873741762112, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741762230, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741762460, "dur":328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1667873741762988, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667873741763062, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741763159, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741763569, "dur":428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667873741764060, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667873741764097, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741764166, "dur":18, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741764372, "dur":324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667873741764783, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667873741764832, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741764899, "dur":19, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741765084, "dur":315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667873741765475, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667873741765536, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741765647, "dur":41, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741765900, "dur":490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667873741766460, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667873741766506, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741766573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741766578, "dur":299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667873741766938, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667873741767068, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741767149, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741767279, "dur":336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667873741767714, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667873741767828, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741767967, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741768105, "dur":402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667873741768578, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667873741768662, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741768740, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741768744, "dur":244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667873741769061, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667873741769146, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741769246, "dur":18, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741769538, "dur":373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667873741770031, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667873741770098, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741770166, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741770383, "dur":250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667873741770641, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667873741770651, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741770671, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741770812, "dur":420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667873741771335, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667873741771365, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741771429, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741771432, "dur":926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667873741772427, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667873741772474, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741772569, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741772620, "dur":637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667873741773265, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667873741773325, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741773385, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741773389, "dur":192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667873741773587, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667873741773595, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741773618, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741773622, "dur":219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667873741773849, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667873741773859, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741773871, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741773884, "dur":321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667873741774294, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667873741774357, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741774406, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741774410, "dur":471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667873741774956, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/MapImage/6228-I_Kongse-Ri.png" }}
+,{ "pid":12345, "tid":3, "ts":1667873741775018, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741775237, "dur":494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/MapImage/6228-I_Kongse-Ri.png" }}
+,{ "pid":12345, "tid":3, "ts":1667873741775810, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/MapImage/.DS_Store" }}
+,{ "pid":12345, "tid":3, "ts":1667873741775860, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741776039, "dur":479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/MapImage/.DS_Store" }}
+,{ "pid":12345, "tid":3, "ts":1667873741776588, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/1000000json.json" }}
+,{ "pid":12345, "tid":3, "ts":1667873741776679, "dur":33, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741776892, "dur":436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/1000000json.json" }}
+,{ "pid":12345, "tid":3, "ts":1667873741777493, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1667873741777553, "dur":39, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741777852, "dur":401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1667873741778337, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1667873741778386, "dur":22, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667873741778647, "dur":340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1667873741778995, "dur":110, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741756065, "dur":630, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741756696, "dur":3137, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741759866, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1667873741759878, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741759888, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741760823, "dur":228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1667873741761060, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1667873741761071, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741761117, "dur":22, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741761458, "dur":297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1667873741761848, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1667873741761907, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741762013, "dur":29, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741762261, "dur":306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1667873741762697, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1667873741762768, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741762881, "dur":110, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741763367, "dur":414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1667873741763968, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667873741764020, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741764089, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741764332, "dur":309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667873741764750, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667873741764778, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741764841, "dur":23, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741765050, "dur":358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667873741765507, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667873741765608, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741765691, "dur":26, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741765964, "dur":514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667873741766565, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667873741766785, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741766889, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741767173, "dur":317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667873741767603, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667873741767656, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741767757, "dur":73, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741768026, "dur":303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667873741768425, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667873741768570, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741768674, "dur":23, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741768927, "dur":327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667873741769314, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667873741769387, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741769498, "dur":48, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741769717, "dur":368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667873741770162, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667873741770303, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741770385, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741770389, "dur":659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667873741771176, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667873741771224, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741771350, "dur":41, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741771395, "dur":266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667873741771669, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667873741771678, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741771704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741771708, "dur":660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667873741772430, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667873741772477, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741772576, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741772612, "dur":235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667873741772853, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667873741772860, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741772885, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741772888, "dur":238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667873741773134, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667873741773143, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741773287, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741773291, "dur":646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667873741774110, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667873741774179, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741774281, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741774560, "dur":365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667873741775001, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/MapImage/6227-IV_Ongjin-Hang.png" }}
+,{ "pid":12345, "tid":4, "ts":1667873741775063, "dur":53, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741775285, "dur":534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/MapImage/6227-IV_Ongjin-Hang.png" }}
+,{ "pid":12345, "tid":4, "ts":1667873741775888, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/sample_data_3.json" }}
+,{ "pid":12345, "tid":4, "ts":1667873741775926, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741775960, "dur":20, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741776126, "dur":447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/sample_data_3.json" }}
+,{ "pid":12345, "tid":4, "ts":1667873741776663, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/sample_data_1.json" }}
+,{ "pid":12345, "tid":4, "ts":1667873741776729, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741776798, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741776803, "dur":337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/sample_data_1.json" }}
+,{ "pid":12345, "tid":4, "ts":1667873741777222, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1667873741777268, "dur":36, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741777576, "dur":381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1667873741778066, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1667873741778224, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741778318, "dur":25, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667873741778349, "dur":341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1667873741778742, "dur":373, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667873741756069, "dur":630, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667873741756699, "dur":3112, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667873741759855, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1667873741759948, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667873741760019, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667873741762020, "dur":313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1667873741762424, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1667873741762475, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667873741762646, "dur":25, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667873741762828, "dur":773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1667873741763703, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667873741763799, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667873741763986, "dur":27, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667873741764132, "dur":294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667873741764505, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667873741764555, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667873741764677, "dur":25, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667873741764880, "dur":402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667873741765365, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667873741765407, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667873741765504, "dur":52, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667873741765749, "dur":511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667873741766357, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667873741766400, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667873741766486, "dur":23, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667873741766583, "dur":296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667873741766944, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667873741766986, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667873741767128, "dur":23, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667873741767284, "dur":315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667873741767665, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667873741767735, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667873741767872, "dur":27, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667873741768073, "dur":347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667873741768490, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667873741768570, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667873741768681, "dur":20, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667873741768928, "dur":334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667873741769322, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667873741769378, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667873741769544, "dur":29, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667873741769727, "dur":371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667873741770185, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667873741770367, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667873741770469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667873741770473, "dur":184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667873741770665, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667873741770724, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667873741770903, "dur":51, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667873741771255, "dur":299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667873741771562, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667873741771571, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667873741771586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667873741771590, "dur":785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667873741772442, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667873741772521, "dur":20, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667873741772616, "dur":1699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667873741774391, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Microsoft.CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667873741774516, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667873741774602, "dur":38, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667873741774986, "dur":336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Microsoft.CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667873741775531, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/MapImage/6132 IV_Sonam-Dong.png" }}
+,{ "pid":12345, "tid":5, "ts":1667873741775639, "dur":94, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667873741775897, "dur":519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/MapImage/6132 IV_Sonam-Dong.png" }}
+,{ "pid":12345, "tid":5, "ts":1667873741776537, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/sample_data_4.json" }}
+,{ "pid":12345, "tid":5, "ts":1667873741776585, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667873741776710, "dur":21, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667873741776923, "dur":398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/sample_data_4.json" }}
+,{ "pid":12345, "tid":5, "ts":1667873741777496, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1667873741777559, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667873741777562, "dur":313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1667873741777939, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1667873741778001, "dur":57, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667873741778312, "dur":443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1667873741778847, "dur":242, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741756099, "dur":604, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741756703, "dur":3112, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741759815, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1667873741759830, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741759845, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741760840, "dur":241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1667873741761101, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1667873741761126, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741761175, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741761206, "dur":303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1667873741761640, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1667873741761703, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741761768, "dur":22, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741762051, "dur":311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1667873741762443, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667873741762494, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741762660, "dur":33, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741762861, "dur":289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667873741763218, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667873741763299, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741763411, "dur":37, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741763714, "dur":332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667873741764102, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667873741764139, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741764323, "dur":47, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741764537, "dur":292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667873741764896, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667873741764949, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741765052, "dur":51, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741765378, "dur":356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667873741765819, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667873741765904, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741765993, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741765997, "dur":354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667873741766425, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667873741766466, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741766557, "dur":131, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741766915, "dur":281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667873741767267, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667873741767306, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741767430, "dur":51, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741767690, "dur":327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667873741768070, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667873741768143, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741768266, "dur":38, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741768518, "dur":364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667873741768930, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667873741768968, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741769055, "dur":53, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741769281, "dur":358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667873741769697, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667873741769769, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741769903, "dur":55, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741770137, "dur":614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667873741770932, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667873741771083, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741771183, "dur":29, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741771398, "dur":987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667873741772447, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667873741772515, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741772576, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741772612, "dur":921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667873741773542, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667873741773553, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741773570, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741773574, "dur":619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667873741774287, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667873741774335, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741774487, "dur":24, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741774899, "dur":310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667873741775263, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/MapImage/6127 IV_Paengnyong-Do.png" }}
+,{ "pid":12345, "tid":6, "ts":1667873741775310, "dur":26, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741775802, "dur":271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/MapImage/6127 IV_Paengnyong-Do.png" }}
+,{ "pid":12345, "tid":6, "ts":1667873741776139, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1667873741776259, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741776508, "dur":18, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741776757, "dur":340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1667873741777180, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1667873741777235, "dur":22, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741777541, "dur":395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1667873741778033, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1667873741778230, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741778331, "dur":24, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667873741778596, "dur":382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1667873741778986, "dur":117, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667873741756068, "dur":630, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667873741756698, "dur":3110, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667873741759846, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1667873741759958, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667873741759992, "dur":21, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667873741761855, "dur":352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1667873741762255, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667873741762303, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667873741762407, "dur":31, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667873741762806, "dur":359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667873741763237, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667873741763341, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667873741763445, "dur":115, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667873741763706, "dur":353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667873741764108, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667873741764154, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667873741764202, "dur":93, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667873741764519, "dur":301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667873741764883, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667873741764926, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667873741765017, "dur":40, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667873741765309, "dur":282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667873741765641, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667873741765705, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667873741765788, "dur":33, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667873741766001, "dur":348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667873741766408, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667873741766463, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667873741766563, "dur":128, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667873741766918, "dur":292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667873741767240, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667873741767303, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667873741767407, "dur":48, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667873741767670, "dur":358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667873741768088, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667873741768115, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667873741768227, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667873741768231, "dur":322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667873741768653, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667873741768733, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667873741768868, "dur":20, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667873741769008, "dur":282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667873741769383, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667873741769506, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667873741769592, "dur":20, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667873741769817, "dur":360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667873741770373, "dur":409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667873741770782, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667873741770952, "dur":81, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667873741771293, "dur":1077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667873741772436, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667873741772480, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667873741772578, "dur":21, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667873741772623, "dur":759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667873741773389, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667873741773397, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667873741773407, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667873741773410, "dur":194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667873741773610, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667873741773619, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667873741773633, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667873741773637, "dur":330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667873741774140, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667873741774198, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667873741774291, "dur":26, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667873741774587, "dur":438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667873741775127, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/MapImage/6128-I_Monggumpo.png" }}
+,{ "pid":12345, "tid":7, "ts":1667873741775185, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667873741775433, "dur":450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/MapImage/6128-I_Monggumpo.png" }}
+,{ "pid":12345, "tid":7, "ts":1667873741775953, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/250000json.json" }}
+,{ "pid":12345, "tid":7, "ts":1667873741775992, "dur":23, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667873741776187, "dur":581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/250000json.json" }}
+,{ "pid":12345, "tid":7, "ts":1667873741776835, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/.DS_Store" }}
+,{ "pid":12345, "tid":7, "ts":1667873741776916, "dur":45, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667873741777157, "dur":372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/.DS_Store" }}
+,{ "pid":12345, "tid":7, "ts":1667873741777631, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/level1.resS" }}
+,{ "pid":12345, "tid":7, "ts":1667873741777736, "dur":60, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667873741777934, "dur":419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/level1.resS" }}
+,{ "pid":12345, "tid":7, "ts":1667873741778446, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1667873741778537, "dur":24, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667873741778725, "dur":346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1667873741779080, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1667873741779080, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741756095, "dur":606, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741756701, "dur":3139, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741759859, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1667873741759881, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741759895, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741761490, "dur":311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1667873741761889, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1667873741761964, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741762046, "dur":51, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741762305, "dur":378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1667873741762776, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1667873741762860, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741763001, "dur":31, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741763391, "dur":405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1667873741763977, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667873741764025, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741764083, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741764155, "dur":353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667873741764577, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667873741764678, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741764752, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741764756, "dur":291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667873741765127, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667873741765192, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741765325, "dur":20, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741765585, "dur":349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667873741766212, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667873741766308, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741766383, "dur":18, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741766476, "dur":437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667873741767053, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667873741767116, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741767174, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741767360, "dur":365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667873741767858, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667873741767952, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741768020, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741768054, "dur":346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667873741768476, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667873741768536, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741768586, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741768590, "dur":318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667873741768962, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667873741769028, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741769113, "dur":28, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741769310, "dur":346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667873741769721, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667873741769802, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741769882, "dur":42, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741770137, "dur":358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667873741770504, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667873741770514, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741770534, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741770538, "dur":479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667873741771151, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667873741771218, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741771325, "dur":33, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741771406, "dur":1133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667873741772606, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667873741772647, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741772658, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741772671, "dur":247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667873741772928, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667873741772936, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741772952, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741772956, "dur":206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667873741773171, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667873741773179, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741773195, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741773199, "dur":964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667873741774256, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667873741774323, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741774403, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741774408, "dur":391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667873741774913, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/MapImage/6130 II_Tok-To.png" }}
+,{ "pid":12345, "tid":8, "ts":1667873741774977, "dur":32, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741775269, "dur":535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/MapImage/6130 II_Tok-To.png" }}
+,{ "pid":12345, "tid":8, "ts":1667873741775848, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/MapImage/6228-II_Taetan.png" }}
+,{ "pid":12345, "tid":8, "ts":1667873741775893, "dur":25, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741776077, "dur":698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/MapImage/6228-II_Taetan.png" }}
+,{ "pid":12345, "tid":8, "ts":1667873741776817, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/50000json.json" }}
+,{ "pid":12345, "tid":8, "ts":1667873741776875, "dur":43, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741777151, "dur":360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/StreamingAssets/50000json.json" }}
+,{ "pid":12345, "tid":8, "ts":1667873741777624, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1667873741777731, "dur":60, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741777911, "dur":395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1667873741778405, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1667873741778546, "dur":19, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667873741778728, "dur":322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/jeonseonghyeon/Desktop///Korean War Military Map_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1667873741779058, "dur":50, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667873741781125, "dur":701, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
