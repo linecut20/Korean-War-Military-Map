@@ -7,6 +7,8 @@ public class ShowSharePanel : MonoBehaviour
     public GameObject sharePanel;
     public GameObject shareButton;
     public GameObject canvas;
+    public GameObject indexCanvas;
+    public GameObject naviCanvas;
     public ProjectManager pm;
 
     void Start()
@@ -28,6 +30,15 @@ public class ShowSharePanel : MonoBehaviour
             //pm.mapData["share_image_path"]의 파일 크기가 25Mb 이상이면...
             if (pm.mapData["share_image_path"].Length < 25000000)
             {
+                indexCanvas = GameObject.Find("IndexCanvas");
+                indexCanvas.GetComponent<Canvas>().sortingOrder = 1;
+
+                naviCanvas = GameObject.Find("NaviCanvas");
+
+                if (naviCanvas != null) {
+                    naviCanvas.GetComponent<Canvas>().sortingOrder = 1;
+                }
+
                 GameObject newPref = Instantiate(sharePanel, canvas.transform);
                 newPref.transform.SetAsLastSibling();
             }

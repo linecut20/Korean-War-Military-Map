@@ -10,6 +10,7 @@ public class ProjectManager : MonoBehaviour
 
     public int scale;
     public int tutorialIndex;
+    public bool touched = false;
     public List<Dictionary<string, dynamic>> mapDataScale1 = new List<Dictionary<string, dynamic>>();
     public List<Dictionary<string, dynamic>> mapDataScale2 = new List<Dictionary<string, dynamic>>();
     public List<Dictionary<string, dynamic>> mapDataScale3 = new List<Dictionary<string, dynamic>>();
@@ -42,25 +43,25 @@ public class ProjectManager : MonoBehaviour
     //json 데이터 호출
     public void LoadJson()
     {
-        using (StreamReader r = new StreamReader(basePath + "/sample_data_1.json"))
+        using (StreamReader r = new StreamReader(basePath + "/50000json.json"))
         {
             string json = r.ReadToEnd();
             mapDataScale1 = JsonConvert.DeserializeObject<List<Dictionary<string, dynamic>>>(json);
         }
 
-        using (StreamReader r = new StreamReader(basePath + "/sample_data_2.json"))
+        using (StreamReader r = new StreamReader(basePath + "/250000json.json"))
         {
             string json = r.ReadToEnd();
             mapDataScale2 = JsonConvert.DeserializeObject<List<Dictionary<string, dynamic>>>(json);
         }
 
-        using (StreamReader r = new StreamReader(basePath + "/sample_data_3.json"))
+        using (StreamReader r = new StreamReader(basePath + "/500000json.json"))
         {
             string json = r.ReadToEnd();
             mapDataScale3 = JsonConvert.DeserializeObject<List<Dictionary<string, dynamic>>>(json);
         }
 
-        using (StreamReader r = new StreamReader(basePath + "/sample_data_4.json"))
+        using (StreamReader r = new StreamReader(basePath + "/1000000json.json"))
         {
             string json = r.ReadToEnd();
             mapDataScale4 = JsonConvert.DeserializeObject<List<Dictionary<string, dynamic>>>(json);

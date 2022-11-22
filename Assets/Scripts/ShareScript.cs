@@ -25,9 +25,14 @@ public class ShareScript : MonoBehaviour
     public GameObject btnCancel;
     public GameObject infoText;
     public GameObject emailInputArea;
+    public GameObject domainDropdown;
+    public GameObject domainInputArea;
+    public GameObject indexCanvas;
     private string basePath = Application.streamingAssetsPath;
 
     public ProjectManager pm;
+
+    private string email;
 
     void Start()
     {
@@ -44,7 +49,14 @@ public class ShareScript : MonoBehaviour
 
     public void ConfirmButtonTouchedFunc()
     {
-        string email = textArea.GetComponent<TMPro.TMP_InputField>().text;
+        string domain = "";
+        if (domainDropdown.GetComponent<TMPro.TMP_Dropdown>().value == 5) {
+            domain = domainInputArea.GetComponent<TMPro.TMP_InputField>().text;
+        } else {
+            domain = domainDropdown.GetComponent<TMPro.TMP_Dropdown>().options[domainDropdown.GetComponent<TMPro.TMP_Dropdown>().value].text;
+        }
+
+        email = textArea.GetComponent<TMPro.TMP_InputField>().text + "@" + domain;
 
         if (email.Length != 0)
         {
@@ -55,6 +67,8 @@ public class ShareScript : MonoBehaviour
             else
             {
                 SendEmail();
+                indexCanvas = GameObject.Find("IndexCanvas");
+                indexCanvas.GetComponent<Canvas>().sortingOrder = 2;
             }
         }
         else
@@ -74,8 +88,6 @@ public class ShareScript : MonoBehaviour
 
     private void SendEmailFunc()
     {
-        string email = textArea.GetComponent<TMPro.TMP_InputField>().text;
-
         MailMessage mail = new MailMessage();
         mail.From = new MailAddress(SENDER_EMAIL);
         mail.To.Add(email);
@@ -112,6 +124,10 @@ public class ShareScript : MonoBehaviour
     public void CancelButtonTouchedFunc()
     {
         CloseKeyboard();
+
+        indexCanvas = GameObject.Find("IndexCanvas");
+        indexCanvas.GetComponent<Canvas>().sortingOrder = 2;
+
         //sharePanel 삭제
         DestroyImmediate(sharePanel);
     }

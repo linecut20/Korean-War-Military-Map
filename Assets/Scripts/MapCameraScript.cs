@@ -8,6 +8,7 @@ public class MapCameraScript : MonoBehaviour
 
     public GameObject imageArea;
     public GameObject mapCamera;
+    public ProjectManager pm;
 
     private float m_DoubleClickSecond = 0.5f;
     private bool m_IsOneClick = false;
@@ -20,7 +21,7 @@ public class MapCameraScript : MonoBehaviour
     private float minX = -46.1f;
     private float maxX = 99.8f;
     private float minY = -57.95f;
-    private float maxY = 80.925f;
+    private float maxY = 88.925f;
 
     float xMin;
     float xMax;
@@ -32,13 +33,14 @@ public class MapCameraScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        pm = GameObject.Find("ProjectManager").GetComponent<ProjectManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.touchCount == 2 && Input.GetTouch(1).phase == TouchPhase.Began)
+        if (pm.mapData["image_path"].Length > 0) {
+            if (Input.touchCount == 2 && Input.GetTouch(1).phase == TouchPhase.Began)
         {
             preDistance = Vector2.Distance(Input.GetTouch(0).position, Input.GetTouch(1).position);
         }
@@ -128,6 +130,8 @@ public class MapCameraScript : MonoBehaviour
                 OnMouseDrag2();
             }
         }
+        }
+        
     }
 
     //pinch zoom
@@ -199,7 +203,6 @@ public class MapCameraScript : MonoBehaviour
             {
                 if (mapCamera.transform.position.x >= xMin)
                 {
-
                     mapCamera.transform.Translate(-x * 5, 0, 0);
                 }
                 else
@@ -251,7 +254,6 @@ public class MapCameraScript : MonoBehaviour
             if ((mapCamera.transform.position.x + x < xMin) && x > 0)
             {
                 mapCamera.transform.position = new Vector3(xMin, mapCamera.transform.position.y, mapCamera.transform.position.z);
-
             }
 
             //x 이동범위 밖(우측)

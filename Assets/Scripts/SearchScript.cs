@@ -66,7 +66,7 @@ public class SearchScript : MonoBehaviour
 
             foreach (Dictionary<string, dynamic> data in mapData)
             {
-                if (data["year"].ToString().Contains(keyword) || data["sheet"].Contains(keyword) || data["name"].Contains(keyword))
+                if (data["year"].ToString().Contains(keyword) || data["sheet"].ToLower().Contains(keyword) || data["name"].ToLower().Contains(keyword) || data["name_kor"].Contains(keyword))
                 {
                     searchMapData.Add(data);
                 }

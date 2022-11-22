@@ -37,8 +37,12 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Image.cs" />
-     <Compile Include="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs" />
+     <Compile Include="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/RawImage.cs" />
+     <Compile Include="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/ScrollRect.cs" />
+     <Compile Include="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Toggle.cs" />
+     <Compile Include="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/GraphicRaycaster.cs" />
      <Compile Include="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/UIElements/PanelRaycaster.cs" />
+     <Compile Include="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs" />
      <Compile Include="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Selectable.cs" />
      <Compile Include="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/VertexModifiers/Shadow.cs" />
      <Compile Include="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Utility/VertexHelper.cs" />
@@ -49,7 +53,6 @@
      <Compile Include="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Utility/ReflectionMethodsCache.cs" />
      <Compile Include="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs" />
      <Compile Include="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/SpriteState.cs" />
-     <Compile Include="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/RawImage.cs" />
      <Compile Include="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Culling/RectangularVertexClipper.cs" />
      <Compile Include="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventInterfaces.cs" />
      <Compile Include="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Graphic.cs" />
@@ -58,7 +61,6 @@
      <Compile Include="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs" />
      <Compile Include="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/StencilMaterial.cs" />
      <Compile Include="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Culling/IClipRegion.cs" />
-     <Compile Include="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/GraphicRaycaster.cs" />
      <Compile Include="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs" />
      <Compile Include="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/ToggleGroup.cs" />
      <Compile Include="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/RaycastResult.cs" />
@@ -86,7 +88,6 @@
      <Compile Include="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs" />
      <Compile Include="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/InputModules/PointerInputModule.cs" />
      <Compile Include="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/RaycasterManager.cs" />
-     <Compile Include="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Toggle.cs" />
      <Compile Include="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/IGraphicEnabledDisabled.cs" />
      <Compile Include="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Slider.cs" />
      <Compile Include="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalLayoutGroup.cs" />
@@ -113,7 +114,6 @@
      <Compile Include="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Dropdown.cs" />
      <Compile Include="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/GraphicRebuildTracker.cs" />
      <Compile Include="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Culling/Clipping.cs" />
-     <Compile Include="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/ScrollRect.cs" />
      <Compile Include="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/Raycasters/BaseRaycaster.cs" />
      <Compile Include="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs" />
      <Compile Include="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/AnimationTriggers.cs" />

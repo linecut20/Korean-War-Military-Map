@@ -11,14 +11,14 @@ public class ScaleButtonScript : MonoBehaviour
     public GameObject ScaleButton2;
     public GameObject ScaleButton3;
     public GameObject ScaleButton4;
-    public GameObject eventSystem;
+    public MapSceneEventSystem eventSystem;
 
 
     // Start is called before the first frame update
     void Start()
     {
         pm = GameObject.Find("ProjectManager").GetComponent<ProjectManager>();
-        eventSystem = GameObject.Find("EventSystem");
+        eventSystem = GameObject.Find("EventSystem").GetComponent<MapSceneEventSystem>();
 
         ScaleButtonInit(pm.scale);
     }
@@ -35,6 +35,11 @@ public class ScaleButtonScript : MonoBehaviour
         {
             pm.scale = scale;
             ScaleButtonInit(scale);
+
+            if (GameObject.Find("GridPanel(Clone)") != null)
+            {
+                Destroy(GameObject.Find("GridPanel(Clone)"));
+            }
         }
     }
 
@@ -45,26 +50,26 @@ public class ScaleButtonScript : MonoBehaviour
             case 0:
                 //ScaleButton1의 색상을 r = 185, g = 124, b = 55로 변경
                 ScaleButton1.GetComponent<Image>().color = new Color(185f / 255f, 124f / 255f, 55f / 255f);
-                ScaleButton2.GetComponent<Image>().color = new Color(32f,70f,73f);
-                ScaleButton3.GetComponent<Image>().color = new Color(32f,70f,73f);
-                ScaleButton4.GetComponent<Image>().color = new Color(32f,70f,73f);
+                ScaleButton2.GetComponent<Image>().color = new Color(32f, 70f, 73f);
+                ScaleButton3.GetComponent<Image>().color = new Color(32f, 70f, 73f);
+                ScaleButton4.GetComponent<Image>().color = new Color(32f, 70f, 73f);
                 break;
             case 1:
-                ScaleButton1.GetComponent<Image>().color = new Color(32f,70f,73f);
+                ScaleButton1.GetComponent<Image>().color = new Color(32f, 70f, 73f);
                 ScaleButton2.GetComponent<Image>().color = new Color(185f / 255f, 124f / 255f, 55f / 255f);
-                ScaleButton3.GetComponent<Image>().color = new Color(32f,70f,73f);
-                ScaleButton4.GetComponent<Image>().color = new Color(32f,70f,73f);
+                ScaleButton3.GetComponent<Image>().color = new Color(32f, 70f, 73f);
+                ScaleButton4.GetComponent<Image>().color = new Color(32f, 70f, 73f);
                 break;
             case 2:
-                ScaleButton1.GetComponent<Image>().color = new Color(32f,70f,73f);
-                ScaleButton2.GetComponent<Image>().color = new Color(32f,70f,73f);
+                ScaleButton1.GetComponent<Image>().color = new Color(32f, 70f, 73f);
+                ScaleButton2.GetComponent<Image>().color = new Color(32f, 70f, 73f);
                 ScaleButton3.GetComponent<Image>().color = new Color(185f / 255f, 124f / 255f, 55f / 255f);
-                ScaleButton4.GetComponent<Image>().color = new Color(32f,70f,73f);
+                ScaleButton4.GetComponent<Image>().color = new Color(32f, 70f, 73f);
                 break;
             case 3:
-                ScaleButton1.GetComponent<Image>().color = new Color(32f,70f,73f);
-                ScaleButton2.GetComponent<Image>().color = new Color(32f,70f,73f);
-                ScaleButton3.GetComponent<Image>().color = new Color(32f,70f,73f);
+                ScaleButton1.GetComponent<Image>().color = new Color(32f, 70f, 73f);
+                ScaleButton2.GetComponent<Image>().color = new Color(32f, 70f, 73f);
+                ScaleButton3.GetComponent<Image>().color = new Color(32f, 70f, 73f);
                 ScaleButton4.GetComponent<Image>().color = new Color(185f / 255f, 124f / 255f, 55f / 255f);
                 break;
             default: break;
@@ -72,5 +77,8 @@ public class ScaleButtonScript : MonoBehaviour
 
         eventSystem.GetComponent<MapSceneEventSystem>().GetMapDataList(pm.scale);
         eventSystem.GetComponent<MapSceneEventSystem>().MapDataItemInit();
+        eventSystem.GetComponent<MapSceneEventSystem>().IndexImageInit();
     }
+
+
 }

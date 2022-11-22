@@ -69,7 +69,7 @@ MonoBehaviour:
   m_text: "\uC774\uC6A9\uC548\uB0B4 \uB098\uAC00\uAE30"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 69d2f7ff5a5cc4bb298134935e04c75e, type: 2}
-  m_sharedMaterial: {fileID: 333799185367560346, guid: 69d2f7ff5a5cc4bb298134935e04c75e, type: 2}
+  m_sharedMaterial: {fileID: 1333525361098912094, guid: 69d2f7ff5a5cc4bb298134935e04c75e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -147,7 +147,7 @@ GameObject:
   - component: {fileID: 639954832294131194}
   - component: {fileID: 5451700751376560093}
   - component: {fileID: 8646462138505796833}
-  - component: {fileID: 9013252553961918794}
+  - component: {fileID: 6348011055521622493}
   m_Layer: 5
   m_Name: ButtonClose
   m_TagString: Untagged
@@ -258,8 +258,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 9013252553961918794}
-        m_TargetAssemblyTypeName: TutorialScript, Assembly-CSharp
+      - m_Target: {fileID: 6348011055521622493}
+        m_TargetAssemblyTypeName: TutorialClose, Assembly-CSharp
         m_MethodName: BtnCloseFunc
         m_Mode: 1
         m_Arguments:
@@ -270,7 +270,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &9013252553961918794
+--- !u!114 &6348011055521622493
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -279,20 +279,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2979593889533753859}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 424bcd420f70541eab5d3f2063bc45b2, type: 3}
+  m_Script: {fileID: 11500000, guid: a76e4754173934170be9a4576d9d822d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tutorialPanel: {fileID: 3956934003177895137}
-  tutorials:
-  - {fileID: 21300000, guid: f60fa7181799f4816b7fad9e3fda213e, type: 3}
-  - {fileID: 21300000, guid: 1583c1adcb2c04e708182713afaa828f, type: 3}
-  - {fileID: 21300000, guid: 55d80d4cf951f4bd5b3781fb767b49fa, type: 3}
-  - {fileID: 21300000, guid: 4212416dc66ab4878a8f55ba1a35d767, type: 3}
-  - {fileID: 21300000, guid: 05006a829a0934b789a33ad63cb257bd, type: 3}
-  btnBack: {fileID: 4581912719444779690}
-  btnNext: {fileID: 3644137798247382159}
   btnClose: {fileID: 2979593889533753859}
-  pm: {fileID: 0}
 --- !u!1 &3644137798247382159
 GameObject:
   m_ObjectHideFlags: 0
@@ -304,8 +295,8 @@ GameObject:
   - component: {fileID: 8114023399651878689}
   - component: {fileID: 7305315741151057489}
   - component: {fileID: 4446944998705912914}
-  - component: {fileID: 1037917117633507386}
   - component: {fileID: 1506616990290815412}
+  - component: {fileID: 3102202868551643578}
   m_Layer: 5
   m_Name: ButtonNext
   m_TagString: Untagged
@@ -371,29 +362,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &1037917117633507386
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3644137798247382159}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 424bcd420f70541eab5d3f2063bc45b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tutorialPanel: {fileID: 3956934003177895137}
-  tutorials:
-  - {fileID: 21300000, guid: f60fa7181799f4816b7fad9e3fda213e, type: 3}
-  - {fileID: 21300000, guid: 1583c1adcb2c04e708182713afaa828f, type: 3}
-  - {fileID: 21300000, guid: 55d80d4cf951f4bd5b3781fb767b49fa, type: 3}
-  - {fileID: 21300000, guid: 4212416dc66ab4878a8f55ba1a35d767, type: 3}
-  - {fileID: 21300000, guid: 05006a829a0934b789a33ad63cb257bd, type: 3}
-  btnBack: {fileID: 4581912719444779690}
-  btnNext: {fileID: 3644137798247382159}
-  btnClose: {fileID: 2979593889533753859}
-  pm: {fileID: 0}
 --- !u!114 &1506616990290815412
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -438,8 +406,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1037917117633507386}
-        m_TargetAssemblyTypeName: TutorialScript, Assembly-CSharp
+      - m_Target: {fileID: 3102202868551643578}
+        m_TargetAssemblyTypeName: TutorialButtonScript, Assembly-CSharp
         m_MethodName: BtnNextFunc
         m_Mode: 1
         m_Arguments:
@@ -450,6 +418,28 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &3102202868551643578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3644137798247382159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8e7e530c3cbe4d2d8c78fed60606b87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tutorialPanel: {fileID: 3956934003177895137}
+  tutorials:
+  - {fileID: 21300000, guid: f60fa7181799f4816b7fad9e3fda213e, type: 3}
+  - {fileID: 21300000, guid: 1583c1adcb2c04e708182713afaa828f, type: 3}
+  - {fileID: 21300000, guid: 55d80d4cf951f4bd5b3781fb767b49fa, type: 3}
+  - {fileID: 21300000, guid: 4212416dc66ab4878a8f55ba1a35d767, type: 3}
+  - {fileID: 21300000, guid: 05006a829a0934b789a33ad63cb257bd, type: 3}
+  btnBack: {fileID: 4581912719444779690}
+  btnNext: {fileID: 3644137798247382159}
+  pm: {fileID: 0}
 --- !u!1 &3956934003177895137
 GameObject:
   m_ObjectHideFlags: 0
@@ -461,6 +451,7 @@ GameObject:
   - component: {fileID: 1025742299176279194}
   - component: {fileID: 5024746686505548311}
   - component: {fileID: 6373097616286291804}
+  - component: {fileID: 5216241057356500032}
   m_Layer: 5
   m_Name: Tutorial Panel
   m_TagString: Untagged
@@ -529,6 +520,28 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5216241057356500032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3956934003177895137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 424bcd420f70541eab5d3f2063bc45b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tutorialPanel: {fileID: 3956934003177895137}
+  tutorials:
+  - {fileID: 21300000, guid: f60fa7181799f4816b7fad9e3fda213e, type: 3}
+  - {fileID: 21300000, guid: 1583c1adcb2c04e708182713afaa828f, type: 3}
+  - {fileID: 21300000, guid: 55d80d4cf951f4bd5b3781fb767b49fa, type: 3}
+  - {fileID: 21300000, guid: 4212416dc66ab4878a8f55ba1a35d767, type: 3}
+  - {fileID: 21300000, guid: 05006a829a0934b789a33ad63cb257bd, type: 3}
+  btnBack: {fileID: 4581912719444779690}
+  btnNext: {fileID: 3644137798247382159}
+  pm: {fileID: 0}
 --- !u!1 &4581912719444779690
 GameObject:
   m_ObjectHideFlags: 0
@@ -540,8 +553,8 @@ GameObject:
   - component: {fileID: 3071507602082043049}
   - component: {fileID: 8453773406774654701}
   - component: {fileID: 3568695298366857650}
-  - component: {fileID: 9171618703964200127}
   - component: {fileID: 314861005759088958}
+  - component: {fileID: 404526038076572229}
   m_Layer: 5
   m_Name: ButtonBack
   m_TagString: Untagged
@@ -607,29 +620,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &9171618703964200127
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4581912719444779690}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 424bcd420f70541eab5d3f2063bc45b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tutorialPanel: {fileID: 3956934003177895137}
-  tutorials:
-  - {fileID: 21300000, guid: f60fa7181799f4816b7fad9e3fda213e, type: 3}
-  - {fileID: 21300000, guid: 1583c1adcb2c04e708182713afaa828f, type: 3}
-  - {fileID: 21300000, guid: 55d80d4cf951f4bd5b3781fb767b49fa, type: 3}
-  - {fileID: 21300000, guid: 4212416dc66ab4878a8f55ba1a35d767, type: 3}
-  - {fileID: 21300000, guid: 05006a829a0934b789a33ad63cb257bd, type: 3}
-  btnBack: {fileID: 4581912719444779690}
-  btnNext: {fileID: 3644137798247382159}
-  btnClose: {fileID: 2979593889533753859}
-  pm: {fileID: 0}
 --- !u!114 &314861005759088958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -674,8 +664,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 9171618703964200127}
-        m_TargetAssemblyTypeName: TutorialScript, Assembly-CSharp
+      - m_Target: {fileID: 404526038076572229}
+        m_TargetAssemblyTypeName: TutorialButtonScript, Assembly-CSharp
         m_MethodName: BtnBackFunc
         m_Mode: 1
         m_Arguments:
@@ -686,3 +676,25 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &404526038076572229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4581912719444779690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8e7e530c3cbe4d2d8c78fed60606b87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tutorialPanel: {fileID: 3956934003177895137}
+  tutorials:
+  - {fileID: 21300000, guid: f60fa7181799f4816b7fad9e3fda213e, type: 3}
+  - {fileID: 21300000, guid: 1583c1adcb2c04e708182713afaa828f, type: 3}
+  - {fileID: 21300000, guid: 55d80d4cf951f4bd5b3781fb767b49fa, type: 3}
+  - {fileID: 21300000, guid: 4212416dc66ab4878a8f55ba1a35d767, type: 3}
+  - {fileID: 21300000, guid: 05006a829a0934b789a33ad63cb257bd, type: 3}
+  btnBack: {fileID: 4581912719444779690}
+  btnNext: {fileID: 3644137798247382159}
+  pm: {fileID: 0}

@@ -8,8 +8,9 @@ public class TutorialScript : MonoBehaviour
     public Sprite[] tutorials;
     public GameObject btnBack;
     public GameObject btnNext;
-    public GameObject btnClose;
     public ProjectManager pm;
+
+    private int time = 10;
 
     // Start is called before the first frame update
     void Start()
@@ -17,45 +18,52 @@ public class TutorialScript : MonoBehaviour
         pm = GameObject.Find("ProjectManager").GetComponent<ProjectManager>();
         pm.tutorialIndex = 0;
 
+        StartCoroutine("Timer");
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (pm.tutorialIndex == 0) {
-            
+        
+
+        if (pm.tutorialIndex == 0)
+        {
             btnBack.SetActive(false);
-        } else {
+        }
+        else
+        {
             btnBack.SetActive(true);
         }
 
-        if (pm.tutorialIndex == 4) {
+        if (pm.tutorialIndex == 4)
+        {
             btnNext.SetActive(false);
-        } else {
+        }
+        else
+        {
             btnNext.SetActive(true);
         }
     }
 
-    public void BtnCloseFunc()
+    private IEnumerator Timer()
     {
-        Destroy(tutorialPanel);
-    }
-
-    public void BtnBackFunc()
-    {
-        if (pm.tutorialIndex > 0) {
-            pm.tutorialIndex--;
+        while (true)
+        {
+            yield return new WaitForSeconds(1f);
+            time--;
+            if (time == 0)
+            {
+                if (pm.tutorialIndex == 4)
+                {
+                    pm.tutorialIndex = 0;
+                }
+                else
+                {
+                    pm.tutorialIndex++;
+                }
+                tutorialPanel.GetComponent<UnityEngine.UI.Image>().sprite = tutorials[pm.tutorialIndex];
+                time = 10;
+            }
         }
-        
-        tutorialPanel.GetComponent<UnityEngine.UI.Image>().sprite = tutorials[pm.tutorialIndex];
-    }
-
-    public void BtnNextFunc()
-    {
-        if (pm.tutorialIndex < 4) {
-            pm.tutorialIndex++;
-        }
-        
-        tutorialPanel.GetComponent<UnityEngine.UI.Image>().sprite = tutorials[pm.tutorialIndex];
     }
 }
