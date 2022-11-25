@@ -42,13 +42,15 @@
      <Compile Include="Assets/Scripts/F51DController.cs" />
      <Compile Include="Assets/Scripts/ShowTutorialPanel.cs" />
      <Compile Include="Assets/Scripts/DestroyNoMapPanel.cs" />
+     <Compile Include="Assets/Scripts/CloseGridPanel.cs" />
      <Compile Include="Assets/Scripts/MapSceneEventSystem.cs" />
-     <Compile Include="Assets/Scripts/ShowKeyboard.cs" />
      <Compile Include="Assets/Scripts/ShowIndexImageScript.cs" />
      <Compile Include="Assets/Scripts/MapCameraScript.cs" />
      <Compile Include="Assets/Scripts/IndexMapButtonScript.cs" />
+     <Compile Include="Assets/Scripts/ShareResetScript.cs" />
      <Compile Include="Assets/Scripts/TutorialScript.cs" />
      <Compile Include="Assets/Scripts/ShareDomainChange.cs" />
+     <Compile Include="Assets/Scripts/CloseNoMapPanel.cs" />
      <Compile Include="Assets/Scripts/ScaleButtonScript.cs" />
      <Compile Include="Assets/Scripts/CloseFunc.cs" />
      <Compile Include="Assets/Scripts/TutorialButtonScript.cs" />

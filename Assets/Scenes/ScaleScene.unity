@@ -154,6 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scale: 0
   tutorialIndex: 0
+  touched: 0
 --- !u!4 &461585514
 Transform:
   m_ObjectHideFlags: 0
@@ -377,8 +378,14 @@ MonoBehaviour:
   scaleBtn3: {fileID: 1848862933}
   scaleBtn4: {fileID: 1478422301}
   backgroundHand: {fileID: 4001230564216407294, guid: 4f14992afd5434e9090eb0c03b1d4620, type: 3}
+  backgroundHandDefault: {fileID: 705294533}
   panel: {fileID: 1802659823}
   backgroundCircle: {fileID: 1851527306}
+--- !u!1 &705294533 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4001230564216407294, guid: 4f14992afd5434e9090eb0c03b1d4620, type: 3}
+  m_PrefabInstance: {fileID: 271084435863753753}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0

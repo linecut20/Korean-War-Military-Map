@@ -13,6 +13,7 @@ public class ScaleSceneEventSystem : MonoBehaviour
     public GameObject scaleBtn3;
     public GameObject scaleBtn4;
     public GameObject backgroundHand;
+    public GameObject backgroundHandDefault;
     public GameObject panel;
     public GameObject backgroundCircle;
 
@@ -28,16 +29,18 @@ public class ScaleSceneEventSystem : MonoBehaviour
     {
         if (endPos != backgroundCircle.transform.position)
         {
-            hand.transform.position = Vector3.Lerp(hand.transform.position, endPos, Time.deltaTime * 0.5f);
+            hand.transform.position = Vector3.Lerp(hand.transform.position, endPos, Time.deltaTime * 1.5f);
         }
         else
-        {    
+        {   
+            backgroundHandDefault.SetActive(true); 
             Destroy(hand);
         }
     }
 
     private void MapSceneAnimFunc()
     {
+        backgroundHandDefault.SetActive(false);
         hand = Instantiate(backgroundHand, panel.transform);
         hand.transform.position = backgroundCircle.transform.position;
 

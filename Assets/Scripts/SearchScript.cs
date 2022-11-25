@@ -21,14 +21,17 @@ public class SearchScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            SearchKeywordConfirm();
+        }
     }
 
     public void OnInputTouch()
     {
-        if (System.Diagnostics.Process.GetProcessesByName("OSK").Length > 0)
+        if (System.Diagnostics.Process.GetProcessesByName("OSK.exe").Length > 0)
         {
-            System.Diagnostics.Process.GetProcessesByName("OSK")[0].MainWindowHandle.ToInt32();
+            System.Diagnostics.Process.GetProcessesByName("OSK.exe")[0].MainWindowHandle.ToInt32();
         }
         else
         {
@@ -38,6 +41,11 @@ public class SearchScript : MonoBehaviour
 
     public void SearchKeywordConfirm()
     {
+        if (System.Diagnostics.Process.GetProcessesByName("OSK").Length > 0)
+        {
+            CloseKeyboard();
+        }
+
         string keyword = searchInput.GetComponent<TMP_InputField>().text;
         searchInput.GetComponent<TMP_InputField>().text = "";
 
@@ -80,6 +88,15 @@ public class SearchScript : MonoBehaviour
                 GameObject.Find("EventSystem").GetComponent<MapSceneEventSystem>().mapData = searchMapData;
                 GameObject.Find("EventSystem").GetComponent<MapSceneEventSystem>().MapDataItemInit();
             }
+        }
+    }
+
+    public void CloseKeyboard()
+    {
+        System.Diagnostics.Process[] osk = System.Diagnostics.Process.GetProcessesByName("OSK.exe");
+        foreach (System.Diagnostics.Process p in osk)
+        {
+            p.Kill();
         }
     }
 }

@@ -6,7 +6,6 @@ public class DestroyNoMapPanel : MonoBehaviour
 {
 
     public GameObject noMapPanel;
-    public GameObject indexCanvas;
     public GameObject naviCanvas;
     public GameObject btn;
 
@@ -24,9 +23,6 @@ public class DestroyNoMapPanel : MonoBehaviour
 
     public void DestroyNoMapPanelFunc()
     {
-        indexCanvas = GameObject.Find("IndexCanvas");
-        indexCanvas.GetComponent<Canvas>().sortingOrder = 2;
-
         naviCanvas = GameObject.Find("NaviCanvas");
 
         if (naviCanvas != null) {

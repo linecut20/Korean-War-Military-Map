@@ -6,7 +6,6 @@ public class TutorialClose : MonoBehaviour
 {
     public GameObject tutorialPanel;
     public GameObject btnClose;
-    public GameObject indexCanvas;
     public GameObject naviCanvas;
 
     // Start is called before the first frame update
@@ -22,9 +21,6 @@ public class TutorialClose : MonoBehaviour
 
     public void BtnCloseFunc()
     {
-        indexCanvas = GameObject.Find("IndexCanvas");
-        indexCanvas.GetComponent<Canvas>().sortingOrder = 2;
-
         naviCanvas = GameObject.Find("NaviCanvas");
         if (naviCanvas != null) {
             naviCanvas.GetComponent<Canvas>().sortingOrder = 2;

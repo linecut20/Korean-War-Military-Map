@@ -2,6 +2,8 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CloseFunc
+    - CloseGridPanel
+    - CloseNoMapPanel
     - F51DController
     - GridScript
     - IndexMapButtonScript
@@ -14,6 +16,7 @@ ScriptsOnlyBuild:
     - SearchClear
     - SearchScript
     - ShareDomainChange
+    - ShareResetScript
     - ShareScript
     - ShowGridPanel
     - ShowIndexImageScript
@@ -31,7 +34,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
-    - TMPro.TextMeshPro
     - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -106,8 +108,8 @@ ScriptsOnlyBuild:
     fullTypeName: SceneController
     methodName: moveToFirst
   - assembly: Assembly-CSharp
-    fullTypeName: TutorialClose
-    methodName: BtnCloseFunc
+    fullTypeName: SearchClear
+    methodName: SearchClearBtnFunc
   - assembly: Assembly-CSharp
     fullTypeName: TutorialButtonScript
     methodName: BtnNextFunc
@@ -115,8 +117,23 @@ ScriptsOnlyBuild:
     fullTypeName: TutorialButtonScript
     methodName: BtnBackFunc
   - assembly: Assembly-CSharp
-    fullTypeName: SearchClear
-    methodName: SearchClearBtnFunc
+    fullTypeName: CloseNoMapPanel
+    methodName: CloseButtonTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: CloseGridPanel
+    methodName: CloseButtonTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: CloseGridPanel
+    methodName: CloseButtonTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: CloseGridPanel
+    methodName: CloseButtonTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: CloseGridPanel
+    methodName: CloseButtonTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: TutorialClose
+    methodName: BtnCloseFunc
   - assembly: Assembly-CSharp
     fullTypeName: ShareScript
     methodName: ConfirmButtonTouchedFunc
@@ -133,1268 +150,611 @@ ScriptsOnlyBuild:
     fullTypeName: ShareDomainChange
     methodName: DomainDropdownValueChangedFunc
   - assembly: Assembly-CSharp
+    fullTypeName: ShareResetScript
+    methodName: ResetButtonFunc
+  - assembly: Assembly-CSharp
     fullTypeName: ShareScript
     methodName: OnEmailInputAreaTouched
   - assembly: Assembly-CSharp
     fullTypeName: ShareScript
     methodName: ClearInfoText
   - assembly: Assembly-CSharp
-    fullTypeName: CloseFunc
-    methodName: CloseButtonTouchedFunc
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
+  - assembly: Assembly-CSharp
+    fullTypeName: GridScript
+    methodName: GridItemTouchedFunc
   - assembly: Assembly-CSharp
     fullTypeName: CloseFunc
     methodName: CloseButtonTouchedFunc
   - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
+    fullTypeName: CloseFunc
+    methodName: CloseButtonTouchedFunc
   - assembly: Assembly-CSharp
     fullTypeName: ShowGridPanel
     methodName: GridButtonTouchedFunc
   - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
     fullTypeName: SearchScript
     methodName: OnInputTouch
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
   - assembly: Assembly-CSharp
     fullTypeName: ShowTutorialPanel
     methodName: ShowTutorialPanelFunc
   - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
     fullTypeName: SearchScript
     methodName: SearchKeywordConfirm
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
   - assembly: Assembly-CSharp
     fullTypeName: ShowSharePanel
     methodName: ShareButtonTouchedFunc
   - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
     fullTypeName: ShowIndexImageScript
     methodName: ShowIndexImageFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: IndexMapButtonScript
-    methodName: OnIndexButtonFunc
   - assembly: Assembly-CSharp
     fullTypeName: ScaleButtonScript
     methodName: ScaleButtonTouchedFunc
@@ -1470,9 +830,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3374}
     - Class: 114
-      Script: {instanceID: 3594}
+      Script: {instanceID: 3520}
     - Class: 114
-      Script: {instanceID: 3656}
+      Script: {instanceID: 3596}
     - Class: 114
       Script: {instanceID: 3952}
     - Class: 114
@@ -1484,45 +844,49 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4252}
     - Class: 114
-      Script: {instanceID: 4894}
+      Script: {instanceID: 4806}
     - Class: 114
-      Script: {instanceID: 4930}
+      Script: {instanceID: 4896}
     - Class: 114
-      Script: {instanceID: 5088}
+      Script: {instanceID: 4932}
     - Class: 114
-      Script: {instanceID: 5226}
+      Script: {instanceID: 5090}
     - Class: 114
-      Script: {instanceID: 5304}
+      Script: {instanceID: 5228}
     - Class: 114
-      Script: {instanceID: 5582}
+      Script: {instanceID: 5306}
     - Class: 114
-      Script: {instanceID: 5918}
+      Script: {instanceID: 5406}
     - Class: 114
-      Script: {instanceID: 6070}
+      Script: {instanceID: 5586}
     - Class: 114
-      Script: {instanceID: 6076}
+      Script: {instanceID: 5922}
     - Class: 114
-      Script: {instanceID: 6158}
+      Script: {instanceID: 6074}
     - Class: 114
-      Script: {instanceID: 6418}
+      Script: {instanceID: 6080}
     - Class: 114
-      Script: {instanceID: 6430}
+      Script: {instanceID: 6162}
     - Class: 114
-      Script: {instanceID: 6604}
+      Script: {instanceID: 6422}
     - Class: 114
-      Script: {instanceID: 6718}
+      Script: {instanceID: 6434}
+    - Class: 114
+      Script: {instanceID: 6608}
     - Class: 114
       Script: {instanceID: 6722}
     - Class: 114
       Script: {instanceID: 6726}
     - Class: 114
-      Script: {instanceID: 6784}
+      Script: {instanceID: 6730}
     - Class: 114
-      Script: {instanceID: 6866}
+      Script: {instanceID: 6788}
     - Class: 114
-      Script: {instanceID: 7046}
+      Script: {instanceID: 6870}
     - Class: 114
-      Script: {instanceID: 8020}
+      Script: {instanceID: 7050}
+    - Class: 114
+      Script: {instanceID: 8024}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1581,17 +945,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4536}
     - Class: 114
-      Script: {instanceID: 5304}
+      Script: {instanceID: 5306}
     - Class: 114
-      Script: {instanceID: 5918}
+      Script: {instanceID: 5922}
     - Class: 114
-      Script: {instanceID: 6070}
+      Script: {instanceID: 6074}
     - Class: 114
-      Script: {instanceID: 6418}
+      Script: {instanceID: 6422}
     - Class: 114
-      Script: {instanceID: 7052}
+      Script: {instanceID: 7056}
     - Class: 114
-      Script: {instanceID: 7346}
+      Script: {instanceID: 7350}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1617,12 +981,6 @@ ScriptsOnlyBuild:
     className: Image
   - hash:
       serializedVersion: 2
-      Hash: c1d728126ff1918728036c59106d32b2
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: RawImage
-  - hash:
-      serializedVersion: 2
       Hash: 040dd48e3a027d5424519a5fa2009df4
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -1633,6 +991,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: c1d728126ff1918728036c59106d32b2
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
   - hash:
       serializedVersion: 2
       Hash: ae83e830e7a90c0aff918c4c2e520825
@@ -1653,7 +1017,7 @@ ScriptsOnlyBuild:
     className: PanelRaycaster
   - hash:
       serializedVersion: 2
-      Hash: c82648daa9260442478eb5150e6c8715
+      Hash: b0dca0ee979ffde085148d126d0560c6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ShareScript
@@ -1755,7 +1119,7 @@ ScriptsOnlyBuild:
     className: UnityOnBecameVisibleMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 470370917bb22a40881f6d07341799da
+      Hash: a5759a05e85a9f3b019277f4579aebd2
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ShowTutorialPanel
@@ -1857,7 +1221,7 @@ ScriptsOnlyBuild:
     className: ToggleGroup
   - hash:
       serializedVersion: 2
-      Hash: e66bb4f3c65b1a492abf1bba64d00528
+      Hash: 89b12f44cefdcde74adaf8bd02404046
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DestroyNoMapPanel
@@ -1923,13 +1287,19 @@ ScriptsOnlyBuild:
     className: PlayerQuitHandler
   - hash:
       serializedVersion: 2
+      Hash: dcbc1f323336d025e84decec06336746
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CloseGridPanel
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: BaseInput
   - hash:
       serializedVersion: 2
-      Hash: 0fd0f949c2fbe9e9c0f642971f9b1a9a
+      Hash: a51e5a190ba40974b2d1948ba45d1ce7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MapSceneEventSystem
@@ -1963,12 +1333,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Flow.dll
     namespaceName: Unity.VisualScripting
     className: ScriptGraphAsset
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ShowKeyboard
   - hash:
       serializedVersion: 2
       Hash: a5781dc71a671b1ad2b38de19f24b71f
@@ -2025,7 +1389,7 @@ ScriptsOnlyBuild:
     className: VariablesSaver
   - hash:
       serializedVersion: 2
-      Hash: 885c42cc39d849a3200922bd092a2938
+      Hash: ee158151f490c29cae77d314178b20e1
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: IndexMapButtonScript
@@ -2089,6 +1453,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnPointerClickMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 9b899390708a08e65fdbc489eb371808
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ShareResetScript
   - hash:
       serializedVersion: 2
       Hash: a9864b074b2045b8deb5aaa1e45ff0b8
@@ -2181,6 +1551,12 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
+      Hash: 69c2fab3954bda04d4a08b1c8d438ed6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CloseNoMapPanel
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -2241,7 +1617,7 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
-      Hash: fa8b1ea2687372466a1d119ace542332
+      Hash: 11329cec39ebb95447a238471bd5df5a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ScaleButtonScript
@@ -2301,19 +1677,19 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: d41d6278059fbc5b12f659a5ba0ccddc
+      Hash: c5034144473d590f897ec53f9f77b6c7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ShowSharePanel
   - hash:
       serializedVersion: 2
-      Hash: d32f2e1c92b0474e74b0528fc7908d31
+      Hash: 1bb32ea1979777566382aa86b2c7a7ab
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TutorialClose
   - hash:
       serializedVersion: 2
-      Hash: 1bb0937690afa4d9cebf44f49f91d04b
+      Hash: 8f1d0eb539d63aa89587feb4c40f935a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GridScript
@@ -2367,7 +1743,7 @@ ScriptsOnlyBuild:
     className: PlayModeRunnerCallback
   - hash:
       serializedVersion: 2
-      Hash: 3e0452d22b843c3807b3e6e26f47ed2a
+      Hash: 303d76bc37c6df02bf76af837c9fdca7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ShowGridPanel
@@ -2379,7 +1755,7 @@ ScriptsOnlyBuild:
     className: PositionAsUV1
   - hash:
       serializedVersion: 2
-      Hash: a1145614f3edefaa5a5621539d9ff552
+      Hash: b73c5424521dadcf6c81ce508b3816d7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ScaleSceneEventSystem
@@ -2433,7 +1809,7 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
-      Hash: df8d6b372a7a5555fe8110dc15c94d2a
+      Hash: c866a0a6026fd9db1265541cf81ae67d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ProjectManager
@@ -2525,5 +1901,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/ScaleScene.unity
   - Assets/Scenes/MapScene.unity
-  playerPath: "/Users/jeonseonghyeon/Desktop/\u1100\u116E\u11AB\u1109\u1161\u110C\u1175\u1103\u1169/Korean
-    War Military Map.exe"
+  playerPath: /Users/jeonseonghyeon/Desktop/koreawarmap/Korean War Military Map.exe

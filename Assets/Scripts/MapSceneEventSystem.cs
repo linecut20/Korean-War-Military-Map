@@ -12,6 +12,7 @@ using UnityEngine.UI;
 public class MapSceneEventSystem : MonoBehaviour
 {
     public List<Dictionary<string, dynamic>> mapData = new List<Dictionary<string, dynamic>>();
+    public GameObject canvas;
     public GameObject content;
     public GameObject resultItem;
     public GameObject time;
@@ -29,14 +30,18 @@ public class MapSceneEventSystem : MonoBehaviour
     public GameObject indexImage500000;
     public GameObject indexImage1000000;
     public GameObject topButton;
+    public GameObject noMapPanel;
     public GameObject naviCanvas;
     public GameObject naviPointer;
-    public GameObject textNoMap;
+    public GameObject plane;
+    public Material[] planeMat;
     private Material mat;
 
     public ProjectManager projectManager;
     private string basePath = Application.streamingAssetsPath;
     private int timer = 180;
+
+    private SearchScript searchScript;
 
     void Start()
     {
@@ -69,6 +74,13 @@ public class MapSceneEventSystem : MonoBehaviour
             naviCanvas.SetActive(false);
             naviPointer.SetActive(false);
         }
+
+        ChangePlaneMaterial(0);
+    }
+
+    public void ChangePlaneMaterial(int value)
+    {
+        plane.GetComponent<Renderer>().material = planeMat[value];
     }
 
     public void IndexImageInit()
@@ -95,14 +107,13 @@ public class MapSceneEventSystem : MonoBehaviour
                 indexImage1000000.SetActive(true);
                 break;
         }
+
+        amount.GetComponent<TextMeshProUGUI>().text = mapData.Count + "면";
     }
 
     public void OnMouseDown()
     {
-        if (System.Diagnostics.Process.GetProcessesByName("OSK").Length > 0)
-        {
-            System.Diagnostics.Process.GetProcessesByName("OSK")[0].Kill();
-        }
+
     }
 
     public void MapDataItemInit()
@@ -135,6 +146,7 @@ public class MapSceneEventSystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (Input.anyKey)
         {
             timer = 180;
@@ -180,47 +192,45 @@ public class MapSceneEventSystem : MonoBehaviour
     //스테이터스 창의 내용을 변경
     public void OnItemTouched(int idx)
     {
-        switch (projectManager.scale)
-        {
-            case 0:
-                indexImage50000.SetActive(false);
-                break;
-
-            case 1:
-                indexImage250000.SetActive(false);
-                break;
-
-            case 2:
-                indexImage500000.SetActive(false);
-                break;
-
-            case 3:
-                indexImage1000000.SetActive(false);
-                break;
-        }
-
-        mapCamera.transform.position = new Vector3(0, 0, 0);
-        projectManager.mapData = mapData[idx];
 
         if (mapData[idx]["image_path"].Length > 0)
         {
+            switch (projectManager.scale)
+            {
+                case 0:
+                    indexImage50000.SetActive(false);
+                    break;
+
+                case 1:
+                    indexImage250000.SetActive(false);
+                    break;
+
+                case 2:
+                    indexImage500000.SetActive(false);
+                    break;
+
+                case 3:
+                    indexImage1000000.SetActive(false);
+                    break;
+            }
+
+            mapCamera.transform.position = new Vector3(0, 0, 0);
+            projectManager.mapData = mapData[idx];
+
             imageArea.SetActive(true);
-            textNoMap.SetActive(false);
+            topButton.SetActive(true);
             UpdateMap(basePath + projectManager.mapData["image_path"]);
+
+            ChangePlaneMaterial(1);
         }
         else
         {
-            imageArea.SetActive(false);
-            textNoMap.SetActive(true);
+            GameObject newPref = Instantiate(noMapPanel, canvas.transform);
+
         }
 
 
-        topButton.SetActive(true);
 
-        if (GameObject.Find("GridPanel(Clone)") != null)
-        {
-            Destroy(GameObject.Find("GridPanel(Clone)"));
-        }
     }
 
     public void UpdateMap(String path)
@@ -243,6 +253,15 @@ public class MapSceneEventSystem : MonoBehaviour
                 SceneManager.LoadScene(0);
                 break;
             }
+        }
+    }
+
+    public void CloseKeyboard()
+    {
+        System.Diagnostics.Process[] osk = System.Diagnostics.Process.GetProcessesByName("OSK.exe");
+        foreach (System.Diagnostics.Process p in osk)
+        {
+            p.Kill();
         }
     }
 }

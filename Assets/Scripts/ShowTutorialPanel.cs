@@ -6,7 +6,6 @@ public class ShowTutorialPanel : MonoBehaviour
 {
     public GameObject canvas;
     public GameObject tutorialPanel;
-    public GameObject indexCanvas;
     public GameObject naviCanvas;
     public ProjectManager pm;
     
@@ -25,9 +24,6 @@ public class ShowTutorialPanel : MonoBehaviour
 
     public void ShowTutorialPanelFunc()
     {
-        indexCanvas = GameObject.Find("IndexCanvas");
-        indexCanvas.GetComponent<Canvas>().sortingOrder = 1;
-
         naviCanvas = GameObject.Find("NaviCanvas");
         if (naviCanvas != null) {
             naviCanvas.GetComponent<Canvas>().sortingOrder = 1;

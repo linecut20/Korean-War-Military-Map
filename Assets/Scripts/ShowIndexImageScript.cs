@@ -10,9 +10,9 @@ public class ShowIndexImageScript : MonoBehaviour
     public GameObject indexImage500000;
     public GameObject IndexImage1000000;
     public GameObject naviCanvas;
-    public GameObject textNoMap;
     public GameObject topButton;
     public ProjectManager pm;
+    private MapSceneEventSystem eventSystem;
 
     // Start is called before the first frame update
     void Start()
@@ -35,7 +35,9 @@ public class ShowIndexImageScript : MonoBehaviour
     {
         imageArea.SetActive(false);
         topButton.SetActive(false);
-        textNoMap.SetActive(false);
+
+        eventSystem = GameObject.Find("EventSystem").GetComponent<MapSceneEventSystem>();
+        eventSystem.ChangePlaneMaterial(0);
 
         naviCanvas = GameObject.Find("NaviCanvas");
         if (naviCanvas != null) {

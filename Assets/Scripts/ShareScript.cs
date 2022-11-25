@@ -27,7 +27,6 @@ public class ShareScript : MonoBehaviour
     public GameObject emailInputArea;
     public GameObject domainDropdown;
     public GameObject domainInputArea;
-    public GameObject indexCanvas;
     private string basePath = Application.streamingAssetsPath;
 
     public ProjectManager pm;
@@ -44,15 +43,23 @@ public class ShareScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            ConfirmButtonTouchedFunc();
+        }
     }
 
     public void ConfirmButtonTouchedFunc()
     {
+        CloseKeyboard();
+
         string domain = "";
-        if (domainDropdown.GetComponent<TMPro.TMP_Dropdown>().value == 5) {
+        if (domainDropdown.GetComponent<TMPro.TMP_Dropdown>().value == 5)
+        {
             domain = domainInputArea.GetComponent<TMPro.TMP_InputField>().text;
-        } else {
+        }
+        else
+        {
             domain = domainDropdown.GetComponent<TMPro.TMP_Dropdown>().options[domainDropdown.GetComponent<TMPro.TMP_Dropdown>().value].text;
         }
 
@@ -67,8 +74,6 @@ public class ShareScript : MonoBehaviour
             else
             {
                 SendEmail();
-                indexCanvas = GameObject.Find("IndexCanvas");
-                indexCanvas.GetComponent<Canvas>().sortingOrder = 2;
             }
         }
         else
@@ -93,7 +98,7 @@ public class ShareScript : MonoBehaviour
         mail.To.Add(email);
         mail.Subject = "군사지도 공유 (전쟁기념관)";
         mail.Body = "전쟁기념관 군사지도 공유 메일입니다.";
-        
+
         //mail에 이미지를 추가        
         Attachment attachment = new Attachment(basePath + pm.mapData["share_image_path"]);
         // Attachment attachment = new Attachment(basePath + pm.mapData["image_path"]);
@@ -124,9 +129,6 @@ public class ShareScript : MonoBehaviour
     public void CancelButtonTouchedFunc()
     {
         CloseKeyboard();
-
-        indexCanvas = GameObject.Find("IndexCanvas");
-        indexCanvas.GetComponent<Canvas>().sortingOrder = 2;
 
         //sharePanel 삭제
         DestroyImmediate(sharePanel);
@@ -159,9 +161,9 @@ public class ShareScript : MonoBehaviour
 
     public void OnInputTouch()
     {
-        if (System.Diagnostics.Process.GetProcessesByName("OSK").Length > 0)
+        if (System.Diagnostics.Process.GetProcessesByName("OSK.exe").Length > 0)
         {
-            System.Diagnostics.Process.GetProcessesByName("OSK")[0].MainWindowHandle.ToInt32();
+            System.Diagnostics.Process.GetProcessesByName("OSK.exe")[0].MainWindowHandle.ToInt32();
         }
         else
         {
@@ -171,17 +173,10 @@ public class ShareScript : MonoBehaviour
 
     public void CloseKeyboard()
     {
-        //OSK.exe 종료
-        System.Diagnostics.Process[] osk = System.Diagnostics.Process.GetProcessesByName("OSK");
+        System.Diagnostics.Process[] osk = System.Diagnostics.Process.GetProcessesByName("OSK.exe");
         foreach (System.Diagnostics.Process p in osk)
         {
             p.Kill();
         }
-
-
-        // if (System.Diagnostics.Process.GetProcessesByName("OSK").Length > 0)
-        // {
-        //     System.Diagnostics.Process.GetProcessesByName("OSK")[0].Kill();
-        // }
     }
 }

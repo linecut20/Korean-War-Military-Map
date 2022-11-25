@@ -113,11 +113,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scale: 500000
   sheet: TPC F-9C
-  canvas: {fileID: 0}
   indexImage50000: {fileID: 0}
   indexImage250000: {fileID: 0}
   indexImage500000: {fileID: 0}
   IndexImage1000000: {fileID: 0}
   indexButton: {fileID: 6023385451702522453}
+  noMapPanel: {fileID: 6402289603435783368, guid: c4b19c669251b42349864e97c9e4fa55, type: 3}
+  imageArea: {fileID: 0}
+  topButton: {fileID: 0}
   naviCanvas: {fileID: 0}
   pm: {fileID: 0}

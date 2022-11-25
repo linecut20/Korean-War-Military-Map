@@ -11,7 +11,8 @@ public class IndexMapButtonScript : MonoBehaviour
     public GameObject indexImage500000;
     public GameObject IndexImage1000000;
     public GameObject indexButton;
-    public GameObject textNoMap;
+    public GameObject canvas;
+    public GameObject noMapPanel;
     public GameObject imageArea;
     public GameObject topButton;
     public GameObject naviCanvas;
@@ -31,12 +32,11 @@ public class IndexMapButtonScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && Input.touchCount == 1)
         {
             RaycastHit hitInfo = new RaycastHit();
 
             bool hit = Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hitInfo);
-
             if (hit)
             {
                 if (hitInfo.transform.gameObject == indexButton)
@@ -49,52 +49,38 @@ public class IndexMapButtonScript : MonoBehaviour
 
     public void OnIndexButtonFunc()
     {
-        if (!pm.touched)
+        GameObject noPanelPref = GameObject.Find("NoMapPanel(Clone)");
+        GameObject grid50000Pref = GameObject.Find("GridPanel50000(Clone)");
+        GameObject grid250000Pref = GameObject.Find("GridPanel250000(Clone)");
+        GameObject grid500000Pref = GameObject.Find("GridPanel500000(Clone)");
+        GameObject grid1000000Pref = GameObject.Find("GridPanel1000000(Clone)");
+
+        if (noPanelPref == null && grid50000Pref == null && grid250000Pref == null && grid500000Pref == null && grid1000000Pref == null)
         {
-            pm.touched = true;
+            if (!pm.touched)
+            {
+                pm.touched = true;
 
-            if (sheet != "none")
-            {
-                mapIndex = eventSystem.mapData.FindIndex(x => x["sheet"] == sheet);
-                eventSystem.OnItemTouched(mapIndex);
-            }
-            else
-            {
-                switch (scale)
+                if (sheet != "none")
                 {
-                    case 50000:
-                        eventSystem.mapData = pm.mapDataScale1;
-                        indexImage50000.SetActive(false);
-                        break;
+                    mapIndex = eventSystem.mapData.FindIndex(x => x["sheet"] == sheet);
+                    eventSystem.OnItemTouched(mapIndex);
+                }
+                else
+                {
+                    //sheet 자체가 없는 경우
+                    naviCanvas = GameObject.Find("NaviCanvas");
 
-                    case 250000:
-                        eventSystem.mapData = pm.mapDataScale2;
-                        indexImage250000.SetActive(false);
-                        break;
+                    GameObject newp = Instantiate(noMapPanel, canvas.transform);
 
-                    case 500000:
-                        eventSystem.mapData = pm.mapDataScale3;
-                        indexImage500000.SetActive(false);
-                        break;
-
-                    case 1000000:
-                        eventSystem.mapData = pm.mapDataScale4;
-                        IndexImage1000000.SetActive(false);
-                        break;
+                    if (naviCanvas != null)
+                    {
+                        naviCanvas.GetComponent<Canvas>().sortingOrder = 1;
+                    }
                 }
 
-                //sheet 자체가 없는 경우
-                naviCanvas = GameObject.Find("NaviCanvas");
-                textNoMap.SetActive(true);
-                imageArea.SetActive(false);
-                topButton.SetActive(true);
-
-                if (naviCanvas != null)
-                {
-                    naviCanvas.GetComponent<Canvas>().sortingOrder = 1;
-                }
+                pm.touched = false;
             }
-            pm.touched = false;
         }
     }
 }

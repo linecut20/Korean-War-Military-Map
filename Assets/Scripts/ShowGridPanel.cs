@@ -5,14 +5,17 @@ using UnityEngine;
 public class ShowGridPanel : MonoBehaviour
 {
     public GameObject canvas;
-    public GameObject gridPanel;
-    public GameObject indexCanvas;
+    public GameObject grid50000;
+    public GameObject grid250000;
+    public GameObject grid500000;
+    public GameObject grid1000000;
     public GameObject naviCanvas;
+    public ProjectManager pm;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        pm = GameObject.Find("ProjectManager").GetComponent<ProjectManager>();
     }
 
     // Update is called once per frame
@@ -23,34 +26,61 @@ public class ShowGridPanel : MonoBehaviour
 
     public void GridButtonTouchedFunc()
     {
+        GameObject grid = null;
 
-
-        if (GameObject.Find("GridPanel(Clone)") == null)
+        switch (pm.scale)
         {
-            indexCanvas = GameObject.Find("IndexCanvas");
-            indexCanvas.GetComponent<Canvas>().sortingOrder = 1;
+            case 0:
+                grid = GameObject.Find("GridPanel50000(Clone)");
 
-            naviCanvas = GameObject.Find("NaviCanvas");
-            if (naviCanvas != null) {
-                naviCanvas.GetComponent<Canvas>().sortingOrder = 1;
-            }
-            
-            
-            GameObject newPref = Instantiate(gridPanel, canvas.transform);
-        }
-        else
-        {
-            indexCanvas = GameObject.Find("IndexCanvas");
-            indexCanvas.GetComponent<Canvas>().sortingOrder = 2;
+                if (grid == null)
+                {
+                    GameObject newPrefab = Instantiate(grid50000, canvas.transform);
+                }
+                else
+                {
+                    Destroy(grid);
+                }
+                break;
 
-            naviCanvas = GameObject.Find("NaviCanvas");
+            case 1:
+                grid = GameObject.Find("GridPanel250000(Clone)");
 
-            if (naviCanvas != null) {
-                naviCanvas.GetComponent<Canvas>().sortingOrder = 2;
-            }
-            
+                if (grid == null)
+                {
+                    GameObject newPrefab = Instantiate(grid250000, canvas.transform);
+                }
+                else
+                {
+                    Destroy(grid);
+                }
+                break;
 
-            Destroy(GameObject.Find("GridPanel(Clone)"));
+            case 2:
+                grid = GameObject.Find("GridPanel500000(Clone)");
+
+                if (grid == null)
+                {
+                    GameObject newPrefab = Instantiate(grid500000, canvas.transform);
+                }
+                else
+                {
+                    Destroy(grid);
+                }
+                break;
+
+            case 3:
+                grid = GameObject.Find("GridPanel1000000(Clone)");
+
+                if (grid == null)
+                {
+                    GameObject newPrefab = Instantiate(grid1000000, canvas.transform);
+                }
+                else
+                {
+                    Destroy(grid);
+                }
+                break;
         }
     }
 }
