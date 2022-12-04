@@ -39,100 +39,96 @@ public class MapCameraScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (pm.mapData["image_path"].Length > 0)
+        if (Input.touchCount == 2 && Input.GetTouch(1).phase == TouchPhase.Began)
         {
-            if (Input.touchCount == 2 && Input.GetTouch(1).phase == TouchPhase.Began)
+            preDistance = Vector2.Distance(Input.GetTouch(0).position, Input.GetTouch(1).position);
+        }
+
+        if (Input.touchCount == 2 && Input.GetTouch(1).phase == TouchPhase.Moved)
+        {
+            float deltaDistance = 0;
+
+            float distance = Vector3.Distance(Input.touches[0].position, Input.touches[1].position);
+
+            deltaDistance = distance - preDistance;
+            preDistance = distance;
+
+
+            OnPinchZoom(deltaDistance);
+            return;
+        }
+
+        if (Input.touchCount == 1)
+        {
+            if (m_IsOneClick && ((Time.time - m_Timer) > m_DoubleClickSecond))
             {
-                preDistance = Vector2.Distance(Input.GetTouch(0).position, Input.GetTouch(1).position);
+                m_IsOneClick = false;
             }
 
-            if (Input.touchCount == 2 && Input.GetTouch(1).phase == TouchPhase.Moved)
+            if (Input.touches[0].phase == TouchPhase.Began)
             {
-                float deltaDistance = 0;
-
-                float distance = Vector3.Distance(Input.touches[0].position, Input.touches[1].position);
-
-                deltaDistance = distance - preDistance;
-                preDistance = distance;
-
-
-                OnPinchZoom(deltaDistance);
-                return;
-            }
-
-            if (Input.touchCount == 1)
-            {
-                if (m_IsOneClick && ((Time.time - m_Timer) > m_DoubleClickSecond))
+                //double 클릭 구현
+                if (!m_IsOneClick)
                 {
-                    m_IsOneClick = false;
+                    m_Timer = Time.time;
+                    m_IsOneClick = true;
                 }
-
-                if (Input.touches[0].phase == TouchPhase.Began)
+                else if (m_IsOneClick && ((Time.time - m_Timer) < m_DoubleClickSecond))
                 {
+                    //when double click
+                    m_IsOneClick = false;
 
-                    //double 클릭 구현
-                    if (!m_IsOneClick)
-                    {
-                        m_Timer = Time.time;
-                        m_IsOneClick = true;
-                    }
-                    else if (m_IsOneClick && ((Time.time - m_Timer) < m_DoubleClickSecond))
-                    {
-                        //when double click
-                        m_IsOneClick = false;
+                    Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                    RaycastHit hit;
 
-                        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-                        RaycastHit hit;
-                        if (Physics.Raycast(ray, out hit))
+                    if (Physics.Raycast(ray, out hit))
+                    {
+                        //imageArea에 대한 double click 시..
+                        if (hit.collider.gameObject == imageArea)
                         {
-                            //imageArea에 대한 double click 시..
-                            if (hit.collider.gameObject == imageArea)
+                            if (mapCamera.transform.position.z > 0)
                             {
-                                if (mapCamera.transform.position.z > 0)
+                                //축소 (z => 0)
+                                mapCamera.transform.position = new Vector3(0, 0, 0);
+                            }
+                            else
+                            {
+                                mapCamera.transform.position = new Vector3(hit.point.x, hit.point.y, doubleTapZoom);
+
+                                float xMin = (mapCamera.transform.position.z / maxZoom) * minX;
+                                float xMax = (mapCamera.transform.position.z / maxZoom) * maxX;
+                                float yMin = (mapCamera.transform.position.z / maxZoom) * minY;
+                                float yMax = (mapCamera.transform.position.z / maxZoom) * maxY;
+
+                                if (mapCamera.transform.position.x < xMin)
                                 {
-                                    //축소 (z => 0)
-                                    mapCamera.transform.position = new Vector3(0, 0, 0);
+                                    mapCamera.transform.position = new Vector3(xMin, mapCamera.transform.position.y, mapCamera.transform.position.z);
                                 }
-                                else
+                                else if (mapCamera.transform.position.x > xMax)
                                 {
-                                    mapCamera.transform.position = new Vector3(hit.point.x, hit.point.y, doubleTapZoom);
+                                    mapCamera.transform.position = new Vector3(xMax, mapCamera.transform.position.y, mapCamera.transform.position.z);
+                                }
 
-                                    float xMin = (mapCamera.transform.position.z / maxZoom) * minX;
-                                    float xMax = (mapCamera.transform.position.z / maxZoom) * maxX;
-                                    float yMin = (mapCamera.transform.position.z / maxZoom) * minY;
-                                    float yMax = (mapCamera.transform.position.z / maxZoom) * maxY;
-
-                                    if (mapCamera.transform.position.x < xMin)
-                                    {
-                                        mapCamera.transform.position = new Vector3(xMin, mapCamera.transform.position.y, mapCamera.transform.position.z);
-                                    }
-                                    else if (mapCamera.transform.position.x > xMax)
-                                    {
-                                        mapCamera.transform.position = new Vector3(xMax, mapCamera.transform.position.y, mapCamera.transform.position.z);
-                                    }
-
-                                    if (mapCamera.transform.position.y < yMin)
-                                    {
-                                        mapCamera.transform.position = new Vector3(mapCamera.transform.position.x, yMin, mapCamera.transform.position.z);
-                                    }
-                                    else if (mapCamera.transform.position.y > yMax)
-                                    {
-                                        mapCamera.transform.position = new Vector3(mapCamera.transform.position.x, yMax, mapCamera.transform.position.z);
-                                    }
+                                if (mapCamera.transform.position.y < yMin)
+                                {
+                                    mapCamera.transform.position = new Vector3(mapCamera.transform.position.x, yMin, mapCamera.transform.position.z);
+                                }
+                                else if (mapCamera.transform.position.y > yMax)
+                                {
+                                    mapCamera.transform.position = new Vector3(mapCamera.transform.position.x, yMax, mapCamera.transform.position.z);
                                 }
                             }
                         }
                     }
-
                 }
 
-                if (Input.touches[0].phase == TouchPhase.Moved)
-                {
-                    OnMouseDrag2();
-                }
+            }
+
+            if (Input.touches[0].phase == TouchPhase.Moved)
+            {
+                OnMouseDrag2();
             }
         }
-
     }
 
     //pinch zoom

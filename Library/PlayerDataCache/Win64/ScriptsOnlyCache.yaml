@@ -7,6 +7,7 @@ ScriptsOnlyBuild:
     - F51DController
     - GridScript
     - IndexMapButtonScript
+    - MapCameraForIndexPageScript
     - MapCameraScript
     - MapSceneEventSystem
     - ProjectManager
@@ -870,23 +871,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6422}
     - Class: 114
-      Script: {instanceID: 6434}
+      Script: {instanceID: 6430}
     - Class: 114
-      Script: {instanceID: 6608}
+      Script: {instanceID: 6436}
     - Class: 114
-      Script: {instanceID: 6722}
+      Script: {instanceID: 6610}
     - Class: 114
-      Script: {instanceID: 6726}
+      Script: {instanceID: 6724}
     - Class: 114
-      Script: {instanceID: 6730}
+      Script: {instanceID: 6728}
     - Class: 114
-      Script: {instanceID: 6788}
+      Script: {instanceID: 6732}
     - Class: 114
-      Script: {instanceID: 6870}
+      Script: {instanceID: 6790}
     - Class: 114
-      Script: {instanceID: 7050}
+      Script: {instanceID: 6872}
     - Class: 114
-      Script: {instanceID: 8024}
+      Script: {instanceID: 7052}
+    - Class: 114
+      Script: {instanceID: 8026}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -951,11 +954,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6074}
     - Class: 114
-      Script: {instanceID: 6422}
+      Script: {instanceID: 6430}
     - Class: 114
-      Script: {instanceID: 7056}
+      Script: {instanceID: 7058}
     - Class: 114
-      Script: {instanceID: 7350}
+      Script: {instanceID: 7352}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1119,7 +1122,7 @@ ScriptsOnlyBuild:
     className: UnityOnBecameVisibleMessageListener
   - hash:
       serializedVersion: 2
-      Hash: a5759a05e85a9f3b019277f4579aebd2
+      Hash: 4968a77d4dd8ee45a494df199cdce112
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ShowTutorialPanel
@@ -1287,7 +1290,7 @@ ScriptsOnlyBuild:
     className: PlayerQuitHandler
   - hash:
       serializedVersion: 2
-      Hash: dcbc1f323336d025e84decec06336746
+      Hash: 085e83a69a8490c8d0988a1449949b0b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CloseGridPanel
@@ -1299,7 +1302,7 @@ ScriptsOnlyBuild:
     className: BaseInput
   - hash:
       serializedVersion: 2
-      Hash: a51e5a190ba40974b2d1948ba45d1ce7
+      Hash: 99fdecd321a7d574d7a16e902924940a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MapSceneEventSystem
@@ -1347,7 +1350,7 @@ ScriptsOnlyBuild:
     className: UnityOnPointerExitMessageListener
   - hash:
       serializedVersion: 2
-      Hash: fc53bfebffef4581c405e320c5357f71
+      Hash: 62b3b6757b3a2581fcf6d2f94b9cc976
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ShowIndexImageScript
@@ -1617,7 +1620,7 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
-      Hash: 11329cec39ebb95447a238471bd5df5a
+      Hash: 626accbb9542a9789f368f3fa0c341a7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ScaleButtonScript
@@ -1633,6 +1636,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseUpAsButtonMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d873a999fa1ac72bd662d95e4884f22e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MapCameraForIndexPageScript
   - hash:
       serializedVersion: 2
       Hash: e09e8bebc0fcd32bb8af1287a6b44816
@@ -1677,7 +1686,7 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: c5034144473d590f897ec53f9f77b6c7
+      Hash: 07703769b0484e0f190ccad8aeac6864
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ShowSharePanel
@@ -1689,7 +1698,7 @@ ScriptsOnlyBuild:
     className: TutorialClose
   - hash:
       serializedVersion: 2
-      Hash: 8f1d0eb539d63aa89587feb4c40f935a
+      Hash: dcece5ca83ae4030857bafa687817c97
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GridScript

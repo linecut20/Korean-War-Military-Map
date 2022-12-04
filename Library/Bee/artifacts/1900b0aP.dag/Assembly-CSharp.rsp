@@ -315,6 +315,7 @@
 "Assets/Scripts/F51DController.cs"
 "Assets/Scripts/GridScript.cs"
 "Assets/Scripts/IndexMapButtonScript.cs"
+"Assets/Scripts/MapCameraForIndexPageScript.cs"
 "Assets/Scripts/MapCameraScript.cs"
 "Assets/Scripts/MapSceneEventSystem.cs"
 "Assets/Scripts/ProjectManager.cs"

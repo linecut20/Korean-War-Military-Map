@@ -21,6 +21,6 @@ public class CloseNoMapPanel : MonoBehaviour
 
     public void CloseButtonTouchedFunc()
     {
-        DestroyImmediate(panel, true);
+        Destroy(panel);
     }
 }

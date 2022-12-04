@@ -8,7 +8,6 @@ using TMPro;
 public class GridScript : MonoBehaviour
 {
     public GameObject sheet;
-    public GameObject plane;
     public ProjectManager pm;
     private MapSceneEventSystem eventSystem;
 

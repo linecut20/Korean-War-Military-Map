@@ -11,6 +11,7 @@ public class ShowIndexImageScript : MonoBehaviour
     public GameObject IndexImage1000000;
     public GameObject naviCanvas;
     public GameObject topButton;
+    public GameObject mapCamera;
     public ProjectManager pm;
     private MapSceneEventSystem eventSystem;
 
@@ -22,25 +23,25 @@ public class ShowIndexImageScript : MonoBehaviour
         indexImage250000.SetActive(false);
         indexImage500000.SetActive(false);
         IndexImage1000000.SetActive(false);
-        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void ShowIndexImageFunc()
     {
+        mapCamera.transform.position = new Vector3(0, 0, 0);
         imageArea.SetActive(false);
         topButton.SetActive(false);
 
         eventSystem = GameObject.Find("EventSystem").GetComponent<MapSceneEventSystem>();
-        eventSystem.ChangePlaneMaterial(0);
 
         naviCanvas = GameObject.Find("NaviCanvas");
-        if (naviCanvas != null) {
+        if (naviCanvas != null)
+        {
             naviCanvas.GetComponent<Canvas>().sortingOrder = 2;
         }
 
@@ -74,6 +75,5 @@ public class ShowIndexImageScript : MonoBehaviour
                 IndexImage1000000.SetActive(true);
                 break;
         }
-
     }
 }

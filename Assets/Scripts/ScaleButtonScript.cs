@@ -13,6 +13,7 @@ public class ScaleButtonScript : MonoBehaviour
     public GameObject ScaleButton4;
     public GameObject imageArea;
     public GameObject topButton;
+    public GameObject mapCamera;
     
     public MapSceneEventSystem eventSystem;
 
@@ -76,7 +77,6 @@ public class ScaleButtonScript : MonoBehaviour
             pm.scale = scale;
             ScaleButtonInit(scale);
 
-            eventSystem.ChangePlaneMaterial(0);
         }
         
     }
@@ -119,6 +119,7 @@ public class ScaleButtonScript : MonoBehaviour
 
         imageArea.SetActive(false);
         topButton.SetActive(false);
+        mapCamera.transform.position = new Vector3(0, 0, 0);
         eventSystem.GetComponent<MapSceneEventSystem>().GetMapDataList(pm.scale);
         eventSystem.GetComponent<MapSceneEventSystem>().MapDataItemInit();
         eventSystem.GetComponent<MapSceneEventSystem>().IndexImageInit();

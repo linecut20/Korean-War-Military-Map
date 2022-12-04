@@ -22,6 +22,7 @@ public class F51DController : MonoBehaviour, IDragHandler
 
     private Vector3 f51dDefaultPos;
     private bool coroutineFlag = false;
+    private bool selected = false;
 
     // Start is called before the first frame update
     void Start()
@@ -35,22 +36,30 @@ public class F51DController : MonoBehaviour, IDragHandler
         if (Input.GetMouseButtonUp(0) && Vector3.Distance(f51d.transform.position, scaleButton1.transform.position) < distance)
         {
             projectManager.scale = 0;
-            SceneManager.LoadScene(1);
+            selected = true;
+            
+            StartCoroutine("WaitAndGoNext");
         }
         if (Input.GetMouseButtonUp(0) && Vector3.Distance(f51d.transform.position, scaleButton2.transform.position) < distance)
         {
             projectManager.scale = 1;
-            SceneManager.LoadScene(1);
+            selected = true;
+            
+            StartCoroutine("WaitAndGoNext");
         }
         if (Input.GetMouseButtonUp(0) && Vector3.Distance(f51d.transform.position, scaleButton3.transform.position) < distance)
         {
             projectManager.scale = 2;
-            SceneManager.LoadScene(1);
+            selected = true;
+            
+            StartCoroutine("WaitAndGoNext");
         }
         if (Input.GetMouseButtonUp(0) && Vector3.Distance(f51d.transform.position, scaleButton4.transform.position) < distance)
         {
             projectManager.scale = 3;
-            SceneManager.LoadScene(1);
+            selected = true;
+            
+            StartCoroutine("WaitAndGoNext");
         }
 
         //대기상태
@@ -62,7 +71,11 @@ public class F51DController : MonoBehaviour, IDragHandler
                 StartCoroutine("BackgroundCircleLightFunc");
             }
 
-            f51d.transform.position = Vector3.Lerp(f51d.transform.position, f51dDefaultPos, Time.deltaTime * 2f);
+            if (!selected) {
+                f51d.transform.position = Vector3.Lerp(f51d.transform.position, f51dDefaultPos, Time.deltaTime * 2f);
+            } else {
+                f51d.transform.localScale = Vector3.Lerp(f51d.transform.localScale, new Vector3(0.35f, 0.35f, 0.35f), 2f * Time.deltaTime);
+            }
         }
         else
         {
@@ -71,6 +84,11 @@ public class F51DController : MonoBehaviour, IDragHandler
             coroutineFlag = false;
             StopCoroutine("BackgroundCircleLightFunc");
         }
+    }
+    
+    private IEnumerator WaitAndGoNext() {
+        yield return new WaitForSeconds(0.5f);
+        SceneManager.LoadScene(1);
     }
 
     public void OnDrag(PointerEventData eventData)

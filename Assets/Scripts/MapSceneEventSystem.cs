@@ -33,8 +33,6 @@ public class MapSceneEventSystem : MonoBehaviour
     public GameObject noMapPanel;
     public GameObject naviCanvas;
     public GameObject naviPointer;
-    public GameObject plane;
-    public Material[] planeMat;
     private Material mat;
 
     public ProjectManager projectManager;
@@ -42,6 +40,7 @@ public class MapSceneEventSystem : MonoBehaviour
     private int timer = 180;
 
     private SearchScript searchScript;
+    private Vector3 viewPos = new Vector3(0,0,0);
 
     void Start()
     {
@@ -75,12 +74,6 @@ public class MapSceneEventSystem : MonoBehaviour
             naviPointer.SetActive(false);
         }
 
-        ChangePlaneMaterial(0);
-    }
-
-    public void ChangePlaneMaterial(int value)
-    {
-        plane.GetComponent<Renderer>().material = planeMat[value];
     }
 
     public void IndexImageInit()
@@ -146,7 +139,6 @@ public class MapSceneEventSystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         if (Input.anyKey)
         {
             timer = 180;
@@ -166,7 +158,8 @@ public class MapSceneEventSystem : MonoBehaviour
 
         if (naviPointer.activeSelf)
         {
-            naviPointer.transform.localPosition = new Vector3(mapCamera.transform.position.x + 200f, mapCamera.transform.position.y + 68f, 0f);
+            naviPointer.transform.localPosition = new Vector3(mapCamera.transform.position.x * 8.5f, mapCamera.transform.position.y * 8.8f, 0f);
+            Debug.Log(naviPointer.transform.localPosition);
         }
     }
 
@@ -221,7 +214,6 @@ public class MapSceneEventSystem : MonoBehaviour
             topButton.SetActive(true);
             UpdateMap(basePath + projectManager.mapData["image_path"]);
 
-            ChangePlaneMaterial(1);
         }
         else
         {
@@ -253,15 +245,6 @@ public class MapSceneEventSystem : MonoBehaviour
                 SceneManager.LoadScene(0);
                 break;
             }
-        }
-    }
-
-    public void CloseKeyboard()
-    {
-        System.Diagnostics.Process[] osk = System.Diagnostics.Process.GetProcessesByName("OSK.exe");
-        foreach (System.Diagnostics.Process p in osk)
-        {
-            p.Kill();
         }
     }
 }

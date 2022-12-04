@@ -131,7 +131,7 @@ public class ShareScript : MonoBehaviour
         CloseKeyboard();
 
         //sharePanel 삭제
-        DestroyImmediate(sharePanel);
+        Destroy(sharePanel);
     }
 
     public void OnEmailInputAreaTouched()
@@ -161,22 +161,15 @@ public class ShareScript : MonoBehaviour
 
     public void OnInputTouch()
     {
-        if (System.Diagnostics.Process.GetProcessesByName("OSK.exe").Length > 0)
-        {
-            System.Diagnostics.Process.GetProcessesByName("OSK.exe")[0].MainWindowHandle.ToInt32();
-        }
-        else
-        {
-            System.Diagnostics.Process.Start("OSK.exe");
-        }
+        ProjectManager.osk = System.Diagnostics.Process.Start("osk.exe");
     }
 
     public void CloseKeyboard()
     {
-        System.Diagnostics.Process[] osk = System.Diagnostics.Process.GetProcessesByName("OSK.exe");
-        foreach (System.Diagnostics.Process p in osk)
+        if (ProjectManager.osk != null)
         {
-            p.Kill();
+            ProjectManager.osk.Kill();
+            ProjectManager.osk = null;
         }
     }
 }

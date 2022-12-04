@@ -7,6 +7,7 @@ public class ShowTutorialPanel : MonoBehaviour
     public GameObject canvas;
     public GameObject tutorialPanel;
     public GameObject naviCanvas;
+    public GameObject mainCam;
     public ProjectManager pm;
     
     // Start is called before the first frame update
@@ -24,6 +25,7 @@ public class ShowTutorialPanel : MonoBehaviour
 
     public void ShowTutorialPanelFunc()
     {
+        mainCam.transform.position = new Vector3(0, 0, 0);
         naviCanvas = GameObject.Find("NaviCanvas");
         if (naviCanvas != null) {
             naviCanvas.GetComponent<Canvas>().sortingOrder = 1;

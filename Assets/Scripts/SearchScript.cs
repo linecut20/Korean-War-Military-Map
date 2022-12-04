@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using System.Runtime.InteropServices;
 
 public class SearchScript : MonoBehaviour
 {
@@ -29,22 +30,14 @@ public class SearchScript : MonoBehaviour
 
     public void OnInputTouch()
     {
-        if (System.Diagnostics.Process.GetProcessesByName("OSK.exe").Length > 0)
-        {
-            System.Diagnostics.Process.GetProcessesByName("OSK.exe")[0].MainWindowHandle.ToInt32();
-        }
-        else
-        {
-            System.Diagnostics.Process.Start("OSK.exe");
-        }
+        ProjectManager.osk = System.Diagnostics.Process.Start("osk.exe");
     }
 
     public void SearchKeywordConfirm()
     {
-        if (System.Diagnostics.Process.GetProcessesByName("OSK").Length > 0)
-        {
-            CloseKeyboard();
-        }
+        
+        CloseKeyboard();
+        
 
         string keyword = searchInput.GetComponent<TMP_InputField>().text;
         searchInput.GetComponent<TMP_InputField>().text = "";
@@ -93,10 +86,10 @@ public class SearchScript : MonoBehaviour
 
     public void CloseKeyboard()
     {
-        System.Diagnostics.Process[] osk = System.Diagnostics.Process.GetProcessesByName("OSK.exe");
-        foreach (System.Diagnostics.Process p in osk)
+        if (ProjectManager.osk != null)
         {
-            p.Kill();
+            ProjectManager.osk.Kill();
+            ProjectManager.osk = null;
         }
     }
 }

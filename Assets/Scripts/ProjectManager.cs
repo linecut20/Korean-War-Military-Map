@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json;
 using UnityEngine;
+using System.Diagnostics;
 
 public class ProjectManager : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class ProjectManager : MonoBehaviour
 
     private string basePath = Application.streamingAssetsPath;
     public Dictionary<string, dynamic> mapData = new Dictionary<string, dynamic>();
+    public static Process osk;
 
     // Start is called before the first frame update
     void Start()

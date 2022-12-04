@@ -825,6 +825,7 @@ GameObject:
   - component: {fileID: 983303651}
   - component: {fileID: 983303650}
   - component: {fileID: 983303649}
+  - component: {fileID: 983303652}
   m_Layer: 5
   m_Name: F-51D
   m_TagString: Untagged
@@ -920,6 +921,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 983303647}
   m_CullTransparentMesh: 1
+--- !u!114 &983303652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983303647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5c1a1ed8b9cf40c5901b197f94fa970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  f51d: {fileID: 983303647}
+  distance: 100
+  scaleButton1: {fileID: 1326604959}
+  scaleButton2: {fileID: 481763737}
+  scaleButton3: {fileID: 1848862933}
+  scaleButton4: {fileID: 1478422301}
 --- !u!1 &1114599318
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,7 +6,7 @@ public class CloseGridPanel : MonoBehaviour
 {
     public GameObject panel;
     public GameObject btn;
-    public GameObject plane;
+    public GameObject mainCam;
     public ProjectManager pm;
     private MapSceneEventSystem eventSystem;
 
@@ -24,6 +24,8 @@ public class CloseGridPanel : MonoBehaviour
 
     public void CloseButtonTouchedFunc()
     {
+        mainCam = GameObject.Find("Main Camera");
+        mainCam.transform.position = new Vector3(0, 0, 0);
         pm = GameObject.Find("ProjectManager").GetComponent<ProjectManager>();
 
         switch (pm.scale) {
@@ -45,6 +47,5 @@ public class CloseGridPanel : MonoBehaviour
         }
 
         eventSystem = GameObject.Find("EventSystem").GetComponent<MapSceneEventSystem>();
-        eventSystem.ChangePlaneMaterial(0);
     }
 }
