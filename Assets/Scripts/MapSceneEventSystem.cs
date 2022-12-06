@@ -34,17 +34,18 @@ public class MapSceneEventSystem : MonoBehaviour
     public GameObject naviCanvas;
     public GameObject naviPointer;
     private Material mat;
-    private Texture2D tex = new Texture2D(1, 1);
+    private Texture2D tex;
 
     public ProjectManager projectManager;
     private string basePath = Application.streamingAssetsPath;
     private int timer = 600;
 
     private SearchScript searchScript;
-    private Vector3 viewPos = new Vector3(0,0,0);
+    private Vector3 viewPos = new Vector3(0, 0, 0);
 
     void Start()
     {
+        tex = new Texture2D(1, 1);
         StartCoroutine("Timer");
         //인덱스 이미지 패널을 활성화하기 위해 imageArea를 비활성화
         imageArea.SetActive(false);
@@ -160,7 +161,7 @@ public class MapSceneEventSystem : MonoBehaviour
         if (naviPointer.activeSelf)
         {
             naviPointer.transform.localPosition = new Vector3(mapCamera.transform.position.x * 8.5f, mapCamera.transform.position.y * 8.8f, 0f);
-            Debug.Log(naviPointer.transform.localPosition);
+            // Debug.Log(naviPointer.transform.localPosition);
         }
     }
 
@@ -186,49 +187,59 @@ public class MapSceneEventSystem : MonoBehaviour
     //스테이터스 창의 내용을 변경
     public void OnItemTouched(int idx)
     {
-
-        if (mapData[idx]["image_path"].Length > 0)
-        {
-            switch (projectManager.scale)
+        try {
+            if (mapData[idx]["image_path"].Length > 0)
             {
-                case 0:
-                    indexImage50000.SetActive(false);
-                    break;
+                switch (projectManager.scale)
+                {
+                    case 0:
+                        indexImage50000.SetActive(false);
+                        break;
 
-                case 1:
-                    indexImage250000.SetActive(false);
-                    break;
+                    case 1:
+                        indexImage250000.SetActive(false);
+                        break;
 
-                case 2:
-                    indexImage500000.SetActive(false);
-                    break;
+                    case 2:
+                        indexImage500000.SetActive(false);
+                        break;
 
-                case 3:
-                    indexImage1000000.SetActive(false);
-                    break;
+                    case 3:
+                        indexImage1000000.SetActive(false);
+                        break;
+                }
+
+                mapCamera.transform.position = new Vector3(0, 0, 0);
+                projectManager.mapData = mapData[idx];
+
+                imageArea.SetActive(true);
+                topButton.SetActive(true);
+                UpdateMap(basePath + projectManager.mapData["image_path"]);
+
             }
-
-            mapCamera.transform.position = new Vector3(0, 0, 0);
-            projectManager.mapData = mapData[idx];
-
-            imageArea.SetActive(true);
-            topButton.SetActive(true);
-            UpdateMap(basePath + projectManager.mapData["image_path"]);
-
-        }
-        else
-        {
-            GameObject newPref = Instantiate(noMapPanel, canvas.transform);
+            else
+            {
+                GameObject newPref = Instantiate(noMapPanel, canvas.transform);
+            }
+        } catch {
+            
         }
     }
 
     public void UpdateMap(String path)
     {
-        mat = imageArea.GetComponent<Renderer>().material;
-        Texture2D tex = new Texture2D(1, 1);
-        byte[] fileData = File.ReadAllBytes(path);
-        tex.LoadImage(fileData);
-        mat.mainTexture = tex;
+        try
+        {
+            mat = imageArea.GetComponent<Renderer>().material;
+            Texture2D tex = new Texture2D(1, 1);
+            byte[] fileData = File.ReadAllBytes(path);
+            tex.LoadImage(fileData);
+            mat.mainTexture = tex;
+        }
+        catch
+        {
+            Debug.Log("이미지가 없습니다.");
+        }
     }
 
     private IEnumerator Timer()

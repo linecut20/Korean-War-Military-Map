@@ -21,7 +21,7 @@ public class IndexMapButtonScript : MonoBehaviour
     private MapSceneEventSystem eventSystem;
     private int mapIndex;
 
-
+    private GameObject preSelected = null;
     // Start is called before the first frame update
     void Start()
     {
@@ -41,10 +41,23 @@ public class IndexMapButtonScript : MonoBehaviour
             {
                 if (hitInfo.transform.gameObject == indexButton)
                 {
-                    OnIndexButtonFunc();
+                    preSelected = hitInfo.transform.gameObject;
                 }
             }
         }
+        if (Input.GetMouseButtonUp(0))
+        {
+            RaycastHit hitInfo = new RaycastHit();
+
+            bool hit = Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hitInfo);
+            if (hit)
+            {
+                if (hitInfo.transform.gameObject == indexButton && preSelected == indexButton)
+                {
+                    OnIndexButtonFunc();
+                }
+            }
+        }        
     }
 
     public void OnIndexButtonFunc()
