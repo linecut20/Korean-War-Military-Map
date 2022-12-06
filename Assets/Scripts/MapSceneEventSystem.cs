@@ -34,6 +34,7 @@ public class MapSceneEventSystem : MonoBehaviour
     public GameObject naviCanvas;
     public GameObject naviPointer;
     private Material mat;
+    private Texture2D tex = new Texture2D(1, 1);
 
     public ProjectManager projectManager;
     private string basePath = Application.streamingAssetsPath;

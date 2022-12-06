@@ -39,7 +39,7 @@ public class IndexMapButtonScript : MonoBehaviour
             bool hit = Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hitInfo);
             if (hit)
             {
-                if (hitInfo.transform.gameObject == indexButton && Input.touchCount == 1)
+                if (hitInfo.transform.gameObject == indexButton)
                 {
                     OnIndexButtonFunc();
                 }

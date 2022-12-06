@@ -313,6 +313,7 @@
 "Assets/Scripts/CloseNoMapPanel.cs"
 "Assets/Scripts/DestroyNoMapPanel.cs"
 "Assets/Scripts/F51DController.cs"
+"Assets/Scripts/F51DScaleScript.cs"
 "Assets/Scripts/GridScript.cs"
 "Assets/Scripts/IndexMapButtonScript.cs"
 "Assets/Scripts/MapCameraForIndexPageScript.cs"
