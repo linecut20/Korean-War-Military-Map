@@ -85,6 +85,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.TestTools.CodeCoverag
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualScripting.Shared.Editor", "Unity.VisualScripting.Shared.Editor.csproj", "{1f5fca55-bcfd-cdbe-b52f-53446fe27bc2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.Sprite.Editor", "Unity.2D.Sprite.Editor.csproj", "{520348c8-d713-ce35-f514-99943f5e935c}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -174,6 +176,8 @@ Global
 		{f8bd4169-0ec0-2624-bb1a-958ba82a0a74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1f5fca55-bcfd-cdbe-b52f-53446fe27bc2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1f5fca55-bcfd-cdbe-b52f-53446fe27bc2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{520348c8-d713-ce35-f514-99943f5e935c}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{520348c8-d713-ce35-f514-99943f5e935c}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

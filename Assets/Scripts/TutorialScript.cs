@@ -10,7 +10,7 @@ public class TutorialScript : MonoBehaviour
     public GameObject btnNext;
     public ProjectManager pm;
 
-    private int time = 10;
+    private int time = 4;
 
     // Start is called before the first frame update
     void Start()
@@ -62,7 +62,7 @@ public class TutorialScript : MonoBehaviour
                     pm.tutorialIndex++;
                 }
                 tutorialPanel.GetComponent<UnityEngine.UI.Image>().sprite = tutorials[pm.tutorialIndex];
-                time = 10;
+                time = 4;
             }
         }
     }

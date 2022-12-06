@@ -10,6 +10,12 @@ using System;
 
 public class ShareScript : MonoBehaviour
 {
+    const string URL_50000_SHARE = "https://drive.google.com/drive/folders/18MpR6GpbTU0e1WRjxFmEob-Eg36G2Umg?usp=share_link";
+    const string URL_250000_SHARE = "https://drive.google.com/drive/folders/1yTkRvEwfeJgUAyewboQL3ekDJoTC1k87?usp=share_link";
+    const string URL_500000_SHARE = "https://drive.google.com/drive/folders/155MSEbT29PM_3z0r2AiH1h5JywVxk4Fs?usp=share_link";
+    const string URL_1000000_SHARE = "https://drive.google.com/drive/folders/1a-eB9VSDfqY4lIjx7-RtXgS0qeKMGhdb?usp=share_link";
+
+
     private const string SENDER_EMAIL = "krwarmap@gmail.com";
     private const string SENDER_PASSWORD = "wisfxvdhxdldrmjv";
 
@@ -97,12 +103,26 @@ public class ShareScript : MonoBehaviour
         mail.From = new MailAddress(SENDER_EMAIL);
         mail.To.Add(email);
         mail.Subject = "군사지도 공유 (전쟁기념관)";
-        mail.Body = "전쟁기념관 군사지도 공유 메일입니다.";
 
-        //mail에 이미지를 추가        
-        Attachment attachment = new Attachment(basePath + pm.mapData["share_image_path"]);
-        // Attachment attachment = new Attachment(basePath + pm.mapData["image_path"]);
-        mail.Attachments.Add(attachment);
+        switch (pm.scale)
+        {
+            case 0:
+                mail.Body = "전쟁기념관 1:50,000 군사지도 공유 메일입니다. \n\n\n" + URL_50000_SHARE;
+                break;
+
+            case 1:
+                mail.Body = "전쟁기념관 1:250,000 군사지도 공유 메일입니다. \n\n\n" + URL_250000_SHARE;
+                break;
+
+            case 2:
+                mail.Body = "전쟁기념관 1:500,000 군사지도 공유 메일입니다. \n\n\n" + URL_500000_SHARE;
+                break;
+
+            case 3:
+                mail.Body = "전쟁기념관 1:1,000,000 군사지도 공유 메일입니다. \n\n\n" + URL_1000000_SHARE;
+                break;
+        }
+
 
         SmtpClient smtpServer = new SmtpClient("smtp.gmail.com");
         smtpServer.Port = 587;

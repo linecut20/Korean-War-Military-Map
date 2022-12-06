@@ -4,2903 +4,2533 @@
     "sheet": "L751 - 6127 IV",
     "year": 1945,
     "name_kor": "백령도",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6127 IV_Paengnyong-Do.png"
   },
   {
     "name": "Monggumpo",
     "sheet": "L751 - 6128 I",
     "year": 1945,
     "name_kor": "몽금포",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6128 I_Monggumpo.png"
   },
   {
     "name": "Tok-Tong",
     "sheet": "L751 - 6128 II",
     "year": 1945,
     "name_kor": "덕동",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6128 II_Tok-Tong.png"
   },
   {
     "name": "Chingangpo",
     "sheet": "L751 - 6129 II",
     "year": 1947,
     "name_kor": "진강포",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6129 II_Chingangpo.png"
   },
   {
     "name": "Tok-To",
     "sheet": "L751 - 6130 II",
     "year": 1947,
     "name_kor": "덕도",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6130 II_Tok-To.png"
   },
   {
     "name": "Sonam-Dong",
     "sheet": "L751 - 6132 IV",
     "year": 1947,
     "name_kor": "서남동",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6132 IV_Sonam-Dong.png"
   },
   {
     "name": "Sinsi-Dong",
     "sheet": "L751 - 6133 I",
     "year": 1947,
     "name_kor": "신시동",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6133 I_Sinsi-Dong.png"
   },
   {
     "name": "Cholsan",
     "sheet": "L751 - 6133 III",
     "year": "1947",
     "name_kor": "철산",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6133 III_Cholsan.png"
   },
   {
     "name": "Charyongwan",
     "sheet": "L751 - 6133 IV",
     "year": "1947",
     "name_kor": "차련관",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6133 IV_Charyongwan.png"
   },
   {
     "name": "Changhyon-Ni",
     "sheet": "L751 - 6227 I",
     "year": 1946,
     "name_kor": "장현리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6227 I_Changhyon-Ni.png"
   },
   {
     "name": "Ongjin-Hang",
     "sheet": "L751 - 6227 IV",
     "year": 1945,
     "name_kor": "옹진항",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6227 IV_Ongjin-Hang.png"
   },
   {
     "name": "Kongse-Ri",
     "sheet": "L751 - 6228 I",
     "year": 1945,
     "name_kor": "공세리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6228 I_Kongse-Ri.png"
   },
   {
     "name": "Taetan",
     "sheet": "L751 - 6228 II",
     "year": 1945,
     "name_kor": "태탄",
-    "image_path": "/MapImage/50000/6228 II_Taetan.png",
-    "share_image_path": "/MapImage/50000forshare/6228 II_Taetan.pdf"
+    "image_path": "/MapImage/50000/6228 II_Taetan.png"
   },
   {
     "name": "Changyon",
     "sheet": "L751 - 6228 IV",
     "year": 1945,
     "name_kor": "장연",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6228 IV_Changyon.png"
   },
   {
     "name": "Anak",
     "sheet": "L751 - 6229 I",
     "year": 1947,
     "name_kor": "안악",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6229 I_Anak.png"
   },
   {
     "name": "Sinchon",
     "sheet": "L751 - 6229 II",
     "year": 1947,
     "name_kor": "신천",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6229 II_Sinchon.png"
   },
   {
     "name": "Songhwa",
     "sheet": "L751 - 6229 III",
     "year": 1947,
     "name_kor": "송화",
-    "image_path": "/MapImage/50000/6229 III_Songhwa.png",
-    "share_image_path": "/MapImage/50000forshare/6229 III_Songhwa.pdf"
+    "image_path": "/MapImage/50000/6229 III_Songhwa.png"
   },
   {
     "name": "Ullyul",
     "sheet": "L751 - 6229 IV",
     "year": 1947,
     "name_kor": "은률",
-    "image_path": "/MapImage/50000/6229 IV_Ullyul.png",
-    "share_image_path": "/MapImage/50000forshare/6229 IV_Ullyul.pdf"
+    "image_path": "/MapImage/50000/6229 IV_Ullyul.png"
   },
   {
     "name": "Kangso",
     "sheet": "L751 - 6230 I",
-    "year": 1947,
+    "year": "1947",
     "name_kor": "강서",
-    "image_path": "/MapImage/50000/6230 I_Kangso.png",
-    "share_image_path": "/MapImage/50000forshare/6230 I_Kangso.pdf"
+    "image_path": "/MapImage/50000/6230 I_Kangso.png"
   },
   {
     "name": "Chinnampo",
     "sheet": "L751 - 6230 II",
     "year": 1947,
     "name_kor": "진남포",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6230 II_Chinnampo.png"
   },
   {
     "name": "Kwangnyangman",
     "sheet": "L751 - 6230 III",
     "year": 1947,
     "name_kor": "광양만",
-    "image_path": "/MapImage/50000/6230 III_Kwangnyangman.png",
-    "share_image_path": "/MapImage/50000forshare/6230 III_Kwangnyangman.pdf"
+    "image_path": "/MapImage/50000/6230 III_Kwangnyangman.png"
   },
   {
     "name": "Taeryong-Ni",
     "sheet": "L751 - 6230 IV",
     "year": 1947,
     "name_kor": "태령리",
-    "image_path": "/MapImage/50000/6230 IV_Taeryong-Ni.png",
-    "share_image_path": "/MapImage/50000forshare/6230 IV_Taeryong-Ni.pdf"
+    "image_path": "/MapImage/50000/6230 IV_Taeryong-Ni.png"
   },
   {
     "name": "Hanchon",
     "sheet": "L751 - 6231 I",
     "year": 1947,
     "name_kor": "한천",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6231 I_Hanchon.png"
   },
   {
     "name": "Chungsan",
     "sheet": "L751 - 6231 II",
     "year": 1946,
     "name_kor": "중산",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6231 II_Chungsan.png"
   },
   {
     "name": "Unjon-Dong",
     "sheet": "L751 - 6232 I",
     "year": 1947,
     "name_kor": "은전동",
-    "image_path": "/MapImage/50000/6232 I_Unjon-Dong.png",
-    "share_image_path": "/MapImage/50000forshare/6232 I_Unjon-Dong.pdf"
+    "image_path": "/MapImage/50000/6232 I_Unjon-Dong.png"
   },
   {
     "name": "Ipsong-Ni",
     "sheet": "L751 - 6232 II",
     "year": 1947,
     "name_kor": "입석리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6232 II_Ipsong-Ni.png"
   },
   {
     "name": "Chondae-Dong",
     "sheet": "L751 - 6232 IV",
     "year": 1947,
     "name_kor": "천대동",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6232 IV_Chondae-Dong.png"
   },
   {
     "name": "Kusong",
     "sheet": "L751 - 6233 I",
-    "year": 1947,
+    "year": "1947",
     "name_kor": "구성",
-    "image_path": "/MapImage/50000/6233 I_Kusong.png",
-    "share_image_path": "/MapImage/50000forshare/6233 I_Kusong.pdf"
+    "image_path": "/MapImage/50000/6233 I_Kusong.png"
   },
   {
     "name": "Napchongjong",
     "sheet": "L751 - 6233 II",
     "year": 1947,
     "name_kor": "납청정",
-    "image_path": "/MapImage/50000/6233 II_Napchongjong.png",
-    "share_image_path": "/MapImage/50000forshare/6233 II_Napchongjong.pdf"
+    "image_path": "/MapImage/50000/6233 II_Napchongjong.png"
   },
   {
     "name": "Kwaksan",
     "sheet": "L751 - 6233 III",
     "year": 1947,
     "name_kor": "곽산",
-    "image_path": "/MapImage/50000/6233 III_Kwaksan.png",
-    "share_image_path": "/MapImage/50000forshare/6233 III_Kwaksan.pdf"
+    "image_path": "/MapImage/50000/6233 III_Kwaksan.png"
   },
   {
     "name": "Namsi",
     "sheet": "L751 - 6233 IV",
     "year": 1947,
     "name_kor": "남시",
-    "image_path": "/MapImage/50000/6233 IV_Namsi.png",
-    "share_image_path": "/MapImage/50000forshare/6233 IV_Namsi.pdf"
+    "image_path": "/MapImage/50000/6233 IV_Namsi.png"
   },
   {
     "name": "Chongdan",
     "sheet": "L751 - 6327 I",
     "year": 1945,
     "name_kor": "청단",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6327 I_Chongdan.png"
   },
   {
     "name": "Kangnyong-Ni",
     "sheet": "L751 - 6327 IV",
     "year": 1945,
     "name_kor": "강령리",
-    "image_path": "/MapImage/50000/6327 IV_Kangnyong-Ni.png",
-    "share_image_path": "/MapImage/50000forshare/6327 IV_Kangnyong-Ni.pdf"
+    "image_path": "/MapImage/50000/6327 IV_Kangnyong-Ni.png"
   },
   {
     "name": "Chongsoktu-Ri",
     "sheet": "L751 - 6328 I",
     "year": 1945,
     "name_kor": "청석동리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6328 I_Chongsoktu-Ri.png"
   },
   {
     "name": "Sinjumak",
     "sheet": "L751 - 6328 II",
     "year": 1945,
     "name_kor": "신주막",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6328 II_Sinjumak.png"
   },
   {
     "name": "Sinwon-Ni",
     "sheet": "L751 - 6328 IV",
     "year": 1945,
     "name_kor": "신원리",
-    "image_path": "/MapImage/50000/6328 IV_Sinwon-Ni.png",
-    "share_image_path": "/MapImage/50000forshare/6328 IV_Sinwon-Ni.pdf"
+    "image_path": "/MapImage/50000/6328 IV_Sinwon-Ni.png"
   },
   {
     "name": "Hwangju",
     "sheet": "L751 - 6329 I",
     "year": 1947,
     "name_kor": "황주",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6329 I_Hwangju.png"
   },
   {
     "name": "Unpa-Ri",
     "sheet": "L751 - 6329 II",
     "year": 1947,
     "name_kor": "은파리",
-    "image_path": "/MapImage/50000/6329 II_Unpa-Ri.png",
-    "share_image_path": "/MapImage/50000forshare/6329 II_Unpa-Ri.pdf"
+    "image_path": "/MapImage/50000/6329 II_Unpa-Ri.png"
   },
   {
     "name": "Sariwon",
     "sheet": "L751 - 6329 IV",
     "year": 1947,
     "name_kor": "사리원",
-    "image_path": "/MapImage/50000/6329 IV_Sariwon.png",
-    "share_image_path": "/MapImage/50000forshare/6329 IV_Sariwon.pdf"
+    "image_path": "/MapImage/50000/6329 IV_Sariwon.png"
   },
   {
     "name": "Chunghwa",
     "sheet": "L751 - 6330 I",
     "year": 1947,
     "name_kor": "중화",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6330 I_Chunghwa.png"
   },
   {
     "name": "Hukkyo-Ri",
     "sheet": "L751 - 6330 II",
     "year": 1947,
     "name_kor": "흑교리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6330 II_Hukkyo-Ri.png"
   },
   {
     "name": "Kyomipo",
     "sheet": "L751 - 6330 III",
     "year": 1947,
     "name_kor": "겸이포",
-    "image_path": "/MapImage/50000/6330 III_Kyomipo.png",
-    "share_image_path": "/MapImage/50000forshare/6330 III_Kyomipo.pdf"
+    "image_path": "/MapImage/50000/6330 III_Kyomipo.png"
   },
   {
     "name": "Kiyang-Ni",
     "sheet": "L751 - 6330 IV",
     "year": 1947,
     "name_kor": "기양리",
-    "image_path": "/MapImage/50000/6330 IV_Kiyang-Ni.png",
-    "share_image_path": "/MapImage/50000forshare/6330 IV_Kiyang-Ni.pdf"
+    "image_path": "/MapImage/50000/6330 IV_Kiyang-Ni.png"
   },
   {
     "name": "Sainjang",
     "sheet": "L751 - 6331 I",
     "year": 1946,
     "name_kor": "사인장",
-    "image_path": "/MapImage/50000/6331 I_Sainjang.png",
-    "share_image_path": "/MapImage/50000forshare/6331 I_Sainjang.pdf"
+    "image_path": "/MapImage/50000/6331 I_Sainjang.png"
   },
   {
     "name": "Mirim-Ni",
     "sheet": "L751 - 6331 II",
     "year": 1947,
     "name_kor": "미림리",
-    "image_path": "/MapImage/50000/6331 II_Mirim-Ni.png",
-    "share_image_path": "/MapImage/50000forshare/6331 II_Mirim-Ni.pdf"
+    "image_path": "/MapImage/50000/6331 II_Mirim-Ni.png"
   },
   {
     "name": "Pyongyang",
     "sheet": "L751 - 6331 III",
     "year": 1947,
     "name_kor": "평양",
-    "image_path": "/MapImage/50000/6331 III_Pyongyang.png",
-    "share_image_path": "/MapImage/50000forshare/6331 III_Pyongyang.pdf"
+    "image_path": "/MapImage/50000/6331 III_Pyongyang.png"
   },
   {
     "name": "Sunan",
     "sheet": "L751 - 6331 IV",
     "year": 1947,
     "name_kor": "순안",
-    "image_path": "/MapImage/50000/6331 IV_Sunan.png",
-    "share_image_path": "/MapImage/50000forshare/6331 IV_Sunan.pdf"
+    "image_path": "/MapImage/50000/6331 IV_Sunan.png"
   },
   {
     "name": "Pyongwon-Ni",
     "sheet": "L751 - 6332 I",
     "year": 1947,
     "name_kor": "평원리",
-    "image_path": "/MapImage/50000/6332 I_Pyongwon-Ni.png",
-    "share_image_path": "/MapImage/50000forshare/6332 I_Pyongwon-Ni.pdf"
+    "image_path": "/MapImage/50000/6332 I_Pyongwon-Ni.png"
   },
   {
     "name": "Sukchon",
     "sheet": "L751 - 6332 III",
     "year": 1947,
     "name_kor": "숙천",
-    "image_path": "/MapImage/50000/6332 III_Sukchon.png",
-    "share_image_path": "/MapImage/50000forshare/6332 III_Sukchon.pdf"
+    "image_path": "/MapImage/50000/6332 III_Sukchon.png"
   },
   {
     "name": "Anju",
     "sheet": "L751 - 6332 IV",
     "year": 1947,
     "name_kor": "안주",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6332 IV_Anju.png"
   },
   {
     "name": "Unsan",
     "sheet": "L751 - 6333 I",
     "year": 1947,
     "name_kor": "운산",
-    "image_path": "/MapImage/50000/6333 I_Unsan.png",
-    "share_image_path": "/MapImage/50000forshare/6333 I_Unsan.pdf"
+    "image_path": "/MapImage/50000/6333 I_Unsan.png"
   },
   {
     "name": "Yongbyon",
     "sheet": "L751 - 6333 II",
     "year": 1947,
     "name_kor": "영변",
-    "image_path": "/MapImage/50000/6333 II_Yongbyon.png",
-    "share_image_path": "/MapImage/50000forshare/6333 II_Yongbyon.pdf"
+    "image_path": "/MapImage/50000/6333 II_Yongbyon.png"
   },
   {
     "name": "Pakchon",
     "sheet": "L751 - 6333 III",
     "year": 1947,
     "name_kor": "박천",
-    "image_path": "/MapImage/50000/6333 III_Pakchon.png",
-    "share_image_path": "/MapImage/50000forshare/6333 III_Pakchon.pdf"
+    "image_path": "/MapImage/50000/6333 III_Pakchon.png"
   },
   {
     "name": "Kosong-Dong",
     "sheet": "L751 - 6333 IV",
     "year": 1945,
     "name_kor": "고성동",
-    "image_path": "/MapImage/50000/6333 IV_Kosong-Dong.png",
-    "share_image_path": "/MapImage/50000forshare/6333 IV_Kosong-Dong.pdf"
+    "image_path": "/MapImage/50000/6333 IV_Kosong-Dong.png"
   },
   {
     "name": "Chindo",
     "sheet": "L751 - 6417 II",
     "year": 1945,
     "name_kor": "진도",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6417 II_Chindo.png"
   },
   {
     "name": "Inji-Ri",
     "sheet": "L751 - 6417 III",
     "year": 1945,
     "name_kor": "인지리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6417 III_Inji-Ri.png"
   },
   {
     "name": "Muan",
     "sheet": "L751 - 6418 I",
     "year": 1945,
     "name_kor": "무안",
-    "image_path": "/MapImage/50000/6418 I_Muan.png",
-    "share_image_path": "/MapImage/50000forshare/6418 I_Muan.pdf"
+    "image_path": "/MapImage/50000/6418 I_Muan.png"
   },
   {
     "name": "Mokpo",
     "sheet": "L751 - 6418 II",
     "year": 1945,
     "name_kor": "목포",
-    "image_path": "/MapImage/50000/6418 II_Mokpo.png",
-    "share_image_path": "/MapImage/50000forshare/6418 II_Mokpo.pdf"
+    "image_path": "/MapImage/50000/6418 II_Mokpo.png"
   },
   {
     "name": "Pochon-Ni",
     "sheet": "L751 - 6419 I",
     "year": 1945,
     "name_kor": "포천리",
-    "image_path": "/MapImage/50000/6419 I_Pochon-Ni.png",
-    "share_image_path": "/MapImage/50000forshare/6419 I_Pochon-Ni.pdf"
+    "image_path": "/MapImage/50000/6419 I_Pochon-Ni.png"
   },
   {
     "name": "Mangun",
     "sheet": "L751 - 6419 II",
     "year": 1945,
     "name_kor": "망운",
-    "image_path": "/MapImage/50000/6419 II_Mangun.png",
-    "share_image_path": "/MapImage/50000forshare/6419 II_Mangun.pdf"
+    "image_path": "/MapImage/50000/6419 II_Mangun.png"
   },
   {
     "name": "Popsongpo",
     "sheet": "L751 - 6420 II",
     "year": 1945,
     "name_kor": "법성포",
-    "image_path": "/MapImage/50000/6420 II_Popsongpo.png",
-    "share_image_path": "/MapImage/50000forshare/6420 II_Popsongpo.pdf"
+    "image_path": "/MapImage/50000/6420 II_Popsongpo.png"
   },
   {
     "name": "Anma-Do",
     "sheet": "L751 - 6420 III",
     "year": 1945,
     "name_kor": "안마도",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6420 III_Anma-Do.png"
   },
   {
     "name": "Mal-To",
     "sheet": "L751 - 6421 I",
     "year": 1945,
     "name_kor": "말도",
-    "image_path": "/MapImage/50000/6421 I_Mal-To.png",
-    "share_image_path": "/MapImage/50000forshare/6421 I_Mal-To.pdf"
+    "image_path": "/MapImage/50000/6421 I_Mal-To.png"
   },
   {
     "name": "Sosan",
     "sheet": "L751 - 6424 II",
     "year": 1945,
     "name_kor": "서산",
-    "image_path": "/MapImage/50000/6424 II_Sosan.png",
-    "share_image_path": "/MapImage/50000forshare/6424 II_Sosan.pdf"
+    "image_path": "/MapImage/50000/6424 II_Sosan.png"
   },
   {
     "name": "Mohang-Ni",
     "sheet": "L751 - 6424 III",
     "year": 1963,
     "name_kor": "모항리",
-    "image_path": "/MapImage/50000/6424 III_Mohang-Ni.png",
-    "share_image_path": "/MapImage/50000forshare/6424 III_Mohang-Ni.pdf"
+    "image_path": "/MapImage/50000/6424 III_Mohang-Ni.png"
   },
   {
     "name": "Onsu-Ri",
     "sheet": "L751 - 6426 I",
     "year": 1946,
     "name_kor": "온수리",
-    "image_path": "/MapImage/50000/6426 I_Onsu-Ri.png",
-    "share_image_path": "/MapImage/50000forshare/6426 I_Onsu-Ri.pdf"
+    "image_path": "/MapImage/50000/6426 I_Onsu-Ri.png"
   },
   {
     "name": "Paekchon",
     "sheet": "L751 - 6427 I",
     "year": 1946,
     "name_kor": "백천",
-    "image_path": "/MapImage/50000/6427 I_Paekchon.png",
-    "share_image_path": "/MapImage/50000forshare/6427 I_Paekchon.pdf"
+    "image_path": "/MapImage/50000/6427 I_Paekchon.png"
   },
   {
     "name": "Kanghwa",
     "sheet": "L751 - 6427 II",
     "year": 1946,
     "name_kor": "강화",
-    "image_path": "/MapImage/50000/6427 II_Kanghwa.png",
-    "share_image_path": "/MapImage/50000forshare/6427 II_Kanghwa.pdf"
+    "image_path": "/MapImage/50000/6427 II_Kanghwa.png"
   },
   {
     "name": "Yonan",
     "sheet": "L751 - 6427 IV",
     "year": 1945,
     "name_kor": "연안",
-    "image_path": "/MapImage/50000/6427 IV_Yonan.png",
-    "share_image_path": "/MapImage/50000forshare/6427 IV_Yonan.pdf"
+    "image_path": "/MapImage/50000/6427 IV_Yonan.png"
   },
   {
     "name": "Hanpo-Ri",
     "sheet": "L751 - 6428 I",
     "year": 1945,
     "name_kor": "한포리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6428 I_Hanpo-Ri.png"
   },
   {
     "name": "Kirin-Ni",
     "sheet": "L751 - 6428 IV",
-    "year": 1947,
+    "year": "1947",
     "name_kor": "기린리",
-    "image_path": "/MapImage/50000/6428 IV_Kirin-Ni.png",
-    "share_image_path": "/MapImage/50000forshare/6428 IV_Kirin-Ni.pdf"
+    "image_path": "/MapImage/50000/6428 IV_Kirin-Ni.png"
   },
   {
     "name": "Sinmak",
     "sheet": "L751 - 6429 III",
     "year": 1947,
     "name_kor": "신막",
-    "image_path": "/MapImage/50000/6429 III_Sinmak.png",
-    "share_image_path": "/MapImage/50000forshare/6429 III_Sinmak.pdf"
+    "image_path": "/MapImage/50000/6429 III_Sinmak.png"
   },
   {
     "name": "Kangdong",
     "sheet": "L751 - 6431 III",
     "year": 1947,
     "name_kor": "강동",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6431 III_Kangdong.png"
   },
   {
     "name": "Songchon",
     "sheet": "L751 - 6431 IV",
     "year": 1946,
     "name_kor": "성천",
-    "image_path": "/MapImage/50000/6431 IV_Songchon.png",
-    "share_image_path": "/MapImage/50000forshare/6431 IV_Songchon.pdf"
+    "image_path": "/MapImage/50000/6431 IV_Songchon.png"
   },
   {
     "name": "Tansok-San",
     "sheet": "L751 - 6433 III",
     "year": 1953,
     "name_kor": "단속산",
-    "image_path": "/MapImage/50000/6433 III_Tansok-San.png",
-    "share_image_path": "/MapImage/50000forshare/6433 III_Tansok-San.pdf"
+    "image_path": "/MapImage/50000/6433 III_Tansok-San.png"
   },
   {
     "name": "Kujang-Dong",
     "sheet": "L751 - 6433 IV",
     "year": 1954,
     "name_kor": "구장동",
-    "image_path": "/MapImage/50000/6433 IV_Kujang-Dong.png",
-    "share_image_path": "/MapImage/50000forshare/6433 IV_Kujang-Dong.pdf"
+    "image_path": "/MapImage/50000/6433 IV_Kujang-Dong.png"
   },
   {
     "name": "Huichon",
     "sheet": "L751 - 6434 I",
     "year": 1950,
     "name_kor": "희천",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6434 I_Huichon.png"
   },
   {
     "name": "Wando",
     "sheet": "L751 - 6516 I",
     "year": 1945,
     "name_kor": "완도",
-    "image_path": "/MapImage/50000/6516 I_Wando.png",
-    "share_image_path": "/MapImage/50000forshare/6516 I_Wando.pdf"
+    "image_path": "/MapImage/50000/6516 I_Wando.png"
   },
   {
     "name": "Kangjin",
     "sheet": "L751 - 6517 I",
     "year": 1945,
     "name_kor": "강진",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6517 I_Kangjin.png"
   },
   {
     "name": "Maryang-Ni",
     "sheet": "L751 - 6517 II",
     "year": 1945,
     "name_kor": "마량리",
-    "image_path": "/MapImage/50000/6517 II_Maryang-Ni.png",
-    "share_image_path": "/MapImage/50000forshare/6517 II_Maryang-Ni.pdf"
+    "image_path": "/MapImage/50000/6517 II_Maryang-Ni.png"
   },
   {
     "name": "Ijin-Ni",
     "sheet": "L751 - 6517 III",
     "year": 1945,
     "name_kor": "이진리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6517 III_Ijin-Ni.png"
   },
   {
     "name": "Haenam",
     "sheet": "L751 - 6517 IV",
     "year": 1945,
     "name_kor": "해남",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6517 IV_Haenam.png"
   },
   {
     "name": "Nungju",
     "sheet": "L751 - 6518 I",
     "year": 1945,
     "name_kor": "능주",
-    "image_path": "/MapImage/50000/6518 I_Nungju.png",
-    "share_image_path": "/MapImage/50000forshare/6518 I_Nungju.pdf"
+    "image_path": "/MapImage/50000/6518 I_Nungju.png"
   },
   {
     "name": "Changhung",
     "sheet": "L751 - 6518 II",
     "year": 1945,
     "name_kor": "장흥",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6518 II_Changhung.png"
   },
   {
     "name": "Yongam",
     "sheet": "L751 - 6518 III",
     "year": 1945,
     "name_kor": "용암",
-    "image_path": "/MapImage/50000/6518 III_Yongam.png",
-    "share_image_path": "/MapImage/50000forshare/6518 III_Yongam.pdf"
+    "image_path": "/MapImage/50000/6518 III_Yongam.png"
   },
   {
     "name": "Yongsanpo",
     "sheet": "L751 - 6518 IV",
     "year": 1945,
     "name_kor": "영산포",
-    "image_path": "/MapImage/50000/6518 IV_Yongsanpo.png",
-    "share_image_path": "/MapImage/50000forshare/6518 IV_Yongsanpo.pdf"
+    "image_path": "/MapImage/50000/6518 IV_Yongsanpo.png"
   },
   {
     "name": "Tamyang",
     "sheet": "L751 - 6519 I",
     "year": 1945,
     "name_kor": "담양",
-    "image_path": "/MapImage/50000/6519 I_Tamyang.png",
-    "share_image_path": "/MapImage/50000forshare/6519 I_Tamyang.pdf"
+    "image_path": "/MapImage/50000/6519 I_Tamyang.png"
   },
   {
     "name": "Kwangju",
     "sheet": "L751 - 6519 II",
     "year": 1945,
     "name_kor": "광주",
-    "image_path": "/MapImage/50000/6519 II_Kwangju.png",
-    "share_image_path": "/MapImage/50000forshare/6519 II_Kwangju.pdf"
+    "image_path": "/MapImage/50000/6519 II_Kwangju.png"
   },
   {
     "name": "Naju",
     "sheet": "L751 - 6519 III",
     "year": 1945,
     "name_kor": "나주",
-    "image_path": "/MapImage/50000/6519 III_Naju.png",
-    "share_image_path": "/MapImage/50000forshare/6519 III_Naju.pdf"
+    "image_path": "/MapImage/50000/6519 III_Naju.png"
   },
   {
     "name": "Yonggwang",
     "sheet": "L751 - 6519 IV",
     "year": 1945,
     "name_kor": "영광",
-    "image_path": "/MapImage/50000/6519 IV_Yonggwang.png",
-    "share_image_path": "/MapImage/50000forshare/6519 IV_Yonggwang.pdf"
+    "image_path": "/MapImage/50000/6519 IV_Yonggwang.png"
   },
   {
     "name": "Chongup",
     "sheet": "L751 - 6520 I",
     "year": 1946,
     "name_kor": "정읍",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6520 I_Chongup.png"
   },
   {
     "name": "Sinhung-Ni",
     "sheet": "L751 - 6520 II",
     "year": 1945,
     "name_kor": "신흥리",
-    "image_path": "/MapImage/50000/6520 II_Sinhung-Ni.png",
-    "share_image_path": "/MapImage/50000forshare/6520 II_Sinhung-Ni.pdf"
+    "image_path": "/MapImage/50000/6520 II_Sinhung-Ni.png"
   },
   {
     "name": "Kochang",
     "sheet": "L751 - 6520 III",
     "year": 1945,
     "name_kor": "고창",
-    "image_path": "/MapImage/50000/6520 III_Kochang.png",
-    "share_image_path": "/MapImage/50000forshare/6520 III_Kochang.pdf"
+    "image_path": "/MapImage/50000/6520 III_Kochang.png"
   },
   {
     "name": "Chulpo-Ri",
     "sheet": "L751 - 6520 IV",
     "year": 1946,
     "name_kor": "출포리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6520 IV_Chulpo-Ri.png"
   },
   {
     "name": "I-Ri",
     "sheet": "L751 - 6521 I",
     "year": 1945,
     "name_kor": "이리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6521 I_I-Ri.png"
   },
   {
     "name": "Kumje",
     "sheet": "L751 - 6521 II",
     "year": 1946,
     "name_kor": "금제",
-    "image_path": "/MapImage/50000/6521 II_Kumje.png",
-    "share_image_path": "/MapImage/50000forshare/6521 II_Kumje.pdf"
+    "image_path": "/MapImage/50000/6521 II_Kumje.png"
   },
   {
     "name": "Puan",
     "sheet": "L751 - 6521 III",
     "year": 1947,
     "name_kor": "부안",
-    "image_path": "/MapImage/50000/6521 III_Puan.png",
-    "share_image_path": "/MapImage/50000forshare/6521 III_Puan.pdf"
+    "image_path": "/MapImage/50000/6521 III_Puan.png"
   },
   {
     "name": "Kunsan",
     "sheet": "L751 - 6521 IV",
     "year": 1947,
     "name_kor": "군산",
-    "image_path": "/MapImage/50000/6521 IV_Kunsan.png",
-    "share_image_path": "/MapImage/50000forshare/6521 IV_Kunsan.pdf"
+    "image_path": "/MapImage/50000/6521 IV_Kunsan.png"
   },
   {
     "name": "Puyo",
     "sheet": "L751 - 6522 I",
     "year": 1946,
     "name_kor": "부여",
-    "image_path": "/MapImage/50000/6522 I_Puyo.png",
-    "share_image_path": "/MapImage/50000forshare/6522 I_Puyo.pdf"
+    "image_path": "/MapImage/50000/6522 I_Puyo.png"
   },
   {
     "name": "Hamnyol-Li",
     "sheet": "L751 - 6522 II",
     "year": 1947,
     "name_kor": "함열리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6522 II_Hamnyol-Li.png"
   },
   {
     "name": "Sochon",
     "sheet": "L751 - 6522 III",
     "year": 1947,
     "name_kor": "서천",
-    "image_path": "/MapImage/50000/6522 III_Sochon.png",
-    "share_image_path": "/MapImage/50000forshare/6522 III_Sochon.pdf"
+    "image_path": "/MapImage/50000/6522 III_Sochon.png"
   },
   {
     "name": "Nampo",
     "sheet": "L751 - 6522 IV",
     "year": 1947,
     "name_kor": "남포",
-    "image_path": "/MapImage/50000/6522 IV_Nampo.png",
-    "share_image_path": "/MapImage/50000forshare/6522 IV_Nampo.pdf"
+    "image_path": "/MapImage/50000/6522 IV_Nampo.png"
   },
   {
     "name": "Taechon-Ni",
     "sheet": "L751 - 6523 III",
     "year": 1945,
     "name_kor": "태천리",
-    "image_path": "/MapImage/50000/6523 III_Taechon-Ni.png",
-    "share_image_path": "/MapImage/50000forshare/6523 III_Taechon-Ni.pdf"
+    "image_path": "/MapImage/50000/6523 III_Taechon-Ni.png"
   },
   {
     "name": "Namyang",
     "sheet": "L751 - 6525 I",
     "year": 1946,
     "name_kor": "남양",
-    "image_path": "/MapImage/50000/6525 I_Namyang.png",
-    "share_image_path": "/MapImage/50000forshare/6525 I_Namyang.pdf"
+    "image_path": "/MapImage/50000/6525 I_Namyang.png"
   },
   {
     "name": "Paranjang",
     "sheet": "L751 - 6525 II",
     "year": 1950,
     "name_kor": "파란장",
-    "image_path": "/MapImage/50000/6525 II_Paranjang.png",
-    "share_image_path": "/MapImage/50000forshare/6525 II_Paranjang.pdf"
+    "image_path": "/MapImage/50000/6525 II_Paranjang.png"
   },
   {
     "name": "Kyongsong",
     "sheet": "L751 - 6526 I",
-    "year": 1950,
+    "year": "1950",
     "name_kor": "경성(서울)",
-    "image_path": "/MapImage/50000/6526 I_Kyongsong.png",
-    "share_image_path": "/MapImage/50000forshare/6526 I_Kyongsong.pdf"
+    "image_path": "/MapImage/50000/6526 I_Kyongsong.png"
   },
   {
     "name": "Kunpojang",
     "sheet": "L751 - 6526 II",
-    "year": 1947,
+    "year": "1947",
     "name_kor": "군포장(군포)",
-    "image_path": "/MapImage/50000/6526 II_Kunpojang.png",
-    "share_image_path": "/MapImage/50000forshare/6526 II_Kunpojang.pdf"
+    "image_path": "/MapImage/50000/6526 II_Kunpojang.png"
   },
   {
     "name": "Inchon",
     "sheet": "L751 - 6526 III",
     "year": 1945,
     "name_kor": "인천",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6526 III_Inchon.png"
   },
   {
     "name": "Kumpo",
     "sheet": "L751 - 6526 IV",
     "year": 1946,
     "name_kor": "금포(김포)",
-    "image_path": "/MapImage/50000/6526 IV_Kumpo.png",
-    "share_image_path": "/MapImage/50000forshare/6526 IV_Kumpo.pdf"
+    "image_path": "/MapImage/50000/6526 IV_Kumpo.png"
   },
   {
     "name": "Munsan",
     "sheet": "L751 - 6527 I",
-    "year": 1953,
+    "year": "1953",
     "name_kor": "문산",
-    "image_path": "/MapImage/50000/6527 I_Munsan.png",
-    "share_image_path": "/MapImage/50000forshare/6527 I_Munsan.pdf"
+    "image_path": "/MapImage/50000/6527 I_Munsan.png"
   },
   {
     "name": "Koyang",
     "sheet": "L751 - 6527 II",
     "year": 1946,
     "name_kor": "고양",
-    "image_path": "/MapImage/50000/6527 II_Koyang.png",
-    "share_image_path": "/MapImage/50000forshare/6527 II_Koyang.pdf"
+    "image_path": "/MapImage/50000/6527 II_Koyang.png"
   },
   {
     "name": "Tongjin",
     "sheet": "L751 - 6527 III",
     "year": 1946,
     "name_kor": "통진",
-    "image_path": "/MapImage/50000/6527 III_Tongjin.png",
-    "share_image_path": "/MapImage/50000forshare/6527 III_Tongjin.pdf"
+    "image_path": "/MapImage/50000/6527 III_Tongjin.png"
   },
   {
     "name": "Kaesong",
     "sheet": "L751 - 6527 IV",
     "year": "1953",
     "name_kor": "개성",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6527 IV_Kaesong.png"
   },
   {
     "name": "Munsan-Ni",
     "sheet": "L751 - 6528 I",
-    "year": 1951,
+    "year": "1951",
     "name_kor": "문산리",
-    "image_path": "/MapImage/50000/6528 I_Munsan-Ni.png",
-    "share_image_path": "/MapImage/50000forshare/6528 I_Munsan-Ni.pdf"
+    "image_path": "/MapImage/50000/6528 I_Munsan-Ni.png"
   },
   {
     "name": "Sangnyong",
     "sheet": "L751 - 6528 I",
-    "year": 1951,
+    "year": "1951",
     "name_kor": "삭녕",
-    "image_path": "/MapImage/50000/6528 I_Sangnyong.png",
-    "share_image_path": "/MapImage/50000forshare/6528 I_Sangnyong.pdf"
+    "image_path": "/MapImage/50000/6528 I_Sangnyong.png"
   },
   {
     "name": "Majon-Ni",
     "sheet": "L751 - 6528 II",
-    "year": 1951,
+    "year": "1951",
     "name_kor": "마전리",
-    "image_path": "/MapImage/50000/6528 II_Majon-Ni.png",
-    "share_image_path": "/MapImage/50000forshare/6528 II_Majon-Ni.pdf"
+    "image_path": "/MapImage/50000/6528 II_Majon-Ni.png"
   },
   {
     "name": "Yanghap-Tong",
     "sheet": "L751 - 6528 III",
     "year": 1951,
     "name_kor": "양합동",
-    "image_path": "/MapImage/50000/6528 III_Yanghap-Tong.png",
-    "share_image_path": "/MapImage/50000forshare/6528 III_Yanghap-Tong.pdf"
+    "image_path": "/MapImage/50000/6528 III_Yanghap-Tong.png"
   },
   {
     "name": "Sibyon-Ni",
     "sheet": "L751 - 6528 IV",
     "year": 1945,
     "name_kor": "시변리",
-    "image_path": "/MapImage/50000/6528 IV_Sibyon-Ni.png",
-    "share_image_path": "/MapImage/50000forshare/6528 IV_Sibyon-Ni.pdf"
+    "image_path": "/MapImage/50000/6528 IV_Sibyon-Ni.png"
   },
   {
     "name": "Anhyop",
     "sheet": "L751 - 6529 II",
     "year": "1953",
     "name_kor": "안협",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6529 II_Anhyop.png"
   },
   {
     "name": "Kohung",
     "sheet": "L751 - 6617 I",
     "year": 1945,
     "name_kor": "고흥",
-    "image_path": "/MapImage/50000/6617 I_Kohung.png",
-    "share_image_path": "/MapImage/50000forshare/6617 I_Kohung.pdf"
+    "image_path": "/MapImage/50000/6617 I_Kohung.png"
   },
   {
     "name": "Sunchon",
     "sheet": "L751 - 6618 I",
     "year": 1945,
     "name_kor": "순천",
-    "image_path": "/MapImage/50000/6618 I_Sunchon.png",
-    "share_image_path": "/MapImage/50000forshare/6618 I_Sunchon.pdf"
+    "image_path": "/MapImage/50000/6618 I_Sunchon.png"
   },
   {
     "name": "Yudun-Ni",
     "sheet": "L751 - 6618 II",
     "year": 1945,
     "name_kor": "유둔리",
-    "image_path": "/MapImage/50000/6618 II_Yudun-Ni.png",
-    "share_image_path": "/MapImage/50000forshare/6618 II_Yudun-Ni.pdf"
+    "image_path": "/MapImage/50000/6618 II_Yudun-Ni.png"
   },
   {
     "name": "Posong",
     "sheet": "L751 - 6618 III",
     "year": 1945,
     "name_kor": "보성",
-    "image_path": "/MapImage/50000/6618 III_Posong.png",
-    "share_image_path": "/MapImage/50000forshare/6618 III_Posong.pdf"
+    "image_path": "/MapImage/50000/6618 III_Posong.png"
   },
   {
     "name": "Pongnaejang",
     "sheet": "L751 - 6618 IV",
     "year": 1945,
     "name_kor": "복내장",
-    "image_path": "/MapImage/50000/6618 IV_Pongnaejang.png",
-    "share_image_path": "/MapImage/50000forshare/6618 IV_Pongnaejang.pdf"
+    "image_path": "/MapImage/50000/6618 IV_Pongnaejang.png"
   },
   {
     "name": "Hoemong-Ni",
     "sheet": "L751 - 6619 II",
     "year": 1945,
-    "name_kor": "괴목리",
-    "image_path": "",
-    "share_image_path": ""
+    "name_kor": "회목리",
+    "image_path": "/MapImage/50000/6619 II_Hoemong-Ni.png"
   },
   {
     "name": "Tongbok",
     "sheet": "L751 - 6619 III",
     "year": 1945,
     "name_kor": "동복",
-    "image_path": "/MapImage/50000/6619 III_Tongbok.png",
-    "share_image_path": "/MapImage/50000forshare/6619 III_Tongbok.pdf"
+    "image_path": "/MapImage/50000/6619 III_Tongbok.png"
   },
   {
     "name": "Changpyong",
     "sheet": "L751 - 6619 IV",
     "year": 1945,
     "name_kor": "장평",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6619 IV_Changpyong.png"
   },
   {
     "name": "Imsil",
     "sheet": "L751 - 6620 I",
     "year": 1945,
     "name_kor": "임실",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6620 I_Imsil.png"
   },
   {
     "name": "Namwon",
     "sheet": "L751 - 6620 II",
     "year": 1945,
     "name_kor": "남원",
-    "image_path": "/MapImage/50000/6620 II_Namwon.png",
-    "share_image_path": "/MapImage/50000forshare/6620 II_Namwon.pdf"
+    "image_path": "/MapImage/50000/6620 II_Namwon.png"
   },
   {
     "name": "Sunchang",
     "sheet": "L751 - 6620 III",
     "year": 1945,
     "name_kor": "순창",
-    "image_path": "/MapImage/50000/6620 III_Sunchang.png",
-    "share_image_path": "/MapImage/50000forshare/6620 III_Sunchang.pdf"
+    "image_path": "/MapImage/50000/6620 III_Sunchang.png"
   },
   {
     "name": "Kaltam-Ni",
     "sheet": "L751 - 6620 IV",
     "year": 1947,
     "name_kor": "갈담리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6620 IV_Kaltam-Ni.png"
   },
   {
     "name": "Yongdam",
     "sheet": "L751 - 6621 I",
     "year": 1945,
     "name_kor": "용담",
-    "image_path": "/MapImage/50000/6621 I_Yongdam.png",
-    "share_image_path": "/MapImage/50000forshare/6621 I_Yongdam.pdf"
+    "image_path": "/MapImage/50000/6621 I_Yongdam.png"
   },
   {
     "name": "Chinan",
     "sheet": "L751 - 6621 II",
     "year": 1945,
     "name_kor": "진안",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6621 II_Chinan.png"
   },
   {
     "name": "Chonju",
     "sheet": "L751 - 6621 III",
     "year": 1946,
     "name_kor": "전주",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6621 III_Chonju.png"
   },
   {
     "name": "Kosan",
     "sheet": "L751 - 6621 IV",
     "year": 1946,
     "name_kor": "고산",
-    "image_path": "/MapImage/50000/6621 IV_Kosan.png",
-    "share_image_path": "/MapImage/50000forshare/6621 IV_Kosan.pdf"
+    "image_path": "/MapImage/50000/6621 IV_Kosan.png"
   },
   {
     "name": "Taejon",
     "sheet": "L751 - 6622 I",
     "year": 1945,
     "name_kor": "대전",
-    "image_path": "/MapImage/50000/6622 I_Taejon.png",
-    "share_image_path": "/MapImage/50000forshare/6622 I_Taejon.pdf"
+    "image_path": "/MapImage/50000/6622 I_Taejon.png"
   },
   {
     "name": "Kumsan",
     "sheet": "L751 - 6622 II",
     "year": 1945,
     "name_kor": "금산",
-    "image_path": "/MapImage/50000/6622 II_Kumsan.png",
-    "share_image_path": "/MapImage/50000forshare/6622 II_Kumsan.pdf"
+    "image_path": "/MapImage/50000/6622 II_Kumsan.png"
   },
   {
     "name": "Kanggyong",
     "sheet": "L751 - 6622 III",
     "year": 1947,
     "name_kor": "강경",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6622 III_Kanggyong.png"
   },
   {
     "name": "Nonsan",
     "sheet": "L751 - 6622 IV",
-    "year": 1947,
+    "year": "1947",
     "name_kor": "논산",
-    "image_path": "/MapImage/50000/6622 IV_Nonsan.png",
-    "share_image_path": "/MapImage/50000forshare/6622 IV_Nonsan.pdf"
+    "image_path": "/MapImage/50000/6622 IV_Nonsan.png"
   },
   {
     "name": "Chongju",
     "sheet": "L751 - 6623 I",
     "year": 1963,
     "name_kor": "청주",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6623 I_Chongju.png"
   },
   {
     "name": "Yusong",
     "sheet": "L751 - 6623 II",
     "year": 1963,
     "name_kor": "유성",
-    "image_path": "/MapImage/50000/6623 II_Yusong.png",
-    "share_image_path": "/MapImage/50000forshare/6623 II_Yusong.pdf"
+    "image_path": "/MapImage/50000/6623 II_Yusong.png"
   },
   {
     "name": "Kongju",
     "sheet": "L751 - 6623 III",
-    "year": 1956,
+    "year": "1956",
     "name_kor": "공주",
-    "image_path": "/MapImage/50000/6623 III_Kongju.png",
-    "share_image_path": "/MapImage/50000forshare/6623 III_Kongju.pdf"
+    "image_path": "/MapImage/50000/6623 III_Kongju.png"
   },
   {
     "name": "Kwangjong",
     "sheet": "L751 - 6623 IV",
-    "year": 1956,
+    "year": "1956",
     "name_kor": "광정리",
-    "image_path": "/MapImage/50000/6623 IV_Kwangjong.png",
-    "share_image_path": "/MapImage/50000forshare/6623 IV_Kwangjong.pdf"
+    "image_path": "/MapImage/50000/6623 IV_Kwangjong.png"
   },
   {
     "name": "Chinchon",
     "sheet": "L751 - 6624 I",
     "year": 1945,
     "name_kor": "진천",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6624 I_Chinchon.png"
   },
   {
     "name": "Pyongchon-Ni",
     "sheet": "L751 - 6624 II",
     "year": 1962,
     "name_kor": "병천리",
-    "image_path": "/MapImage/50000/6624 II_Pyongchon-Ni.png",
-    "share_image_path": "/MapImage/50000forshare/6624 II_Pyongchon-Ni.pdf"
+    "image_path": "/MapImage/50000/6624 II_Pyongchon-Ni.png"
   },
   {
     "name": "Chonan",
     "sheet": "L751 - 6624 III",
     "year": 1963,
     "name_kor": "천안",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6624 III_Chonan.png"
   },
   {
     "name": "Pyongtaeng-Ni",
     "sheet": "L751 - 6624 IV",
-    "year": 1950,
+    "year": "1950",
     "name_kor": "평택리",
-    "image_path": "/MapImage/50000/6624 IV_Pyongtaeng-Ni.png",
-    "share_image_path": "/MapImage/50000forshare/6624 IV_Pyongtaeng-Ni.pdf"
+    "image_path": "/MapImage/50000/6624 IV_Pyongtaeng-Ni.png"
   },
   {
     "name": "Ansong",
     "sheet": "L751 - 6625 II",
     "year": 1946,
     "name_kor": "안성",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6625 II_Ansong.png"
   },
   {
     "name": "Osan-Ni",
     "sheet": "L751 - 6625 III",
-    "year": 1951,
+    "year": "1951",
     "name_kor": "오산리",
-    "image_path": "/MapImage/50000/6625 III_Osan-Ni.png",
-    "share_image_path": "/MapImage/50000forshare/6625 III_Osan-Ni.pdf"
+    "image_path": "/MapImage/50000/6625 III_Osan-Ni.png"
   },
   {
     "name": "Suwon",
     "sheet": "L751 - 6625 IV",
     "year": 1946,
     "name_kor": "수원",
-    "image_path": "/MapImage/50000/6625 IV_Suwon.png",
-    "share_image_path": "/MapImage/50000forshare/6625 IV_Suwon.pdf"
+    "image_path": "/MapImage/50000/6625 IV_Suwon.png"
   },
   {
     "name": "Masogu-Ri",
     "sheet": "L751 - 6626 I",
-    "year": 1947,
+    "year": "1947",
     "name_kor": "마석우리",
-    "image_path": "/MapImage/50000/6626 I_Masogu-Ri.png",
-    "share_image_path": "/MapImage/50000forshare/6626 I_Masogu-Ri.pdf"
+    "image_path": "/MapImage/50000/6626 I_Masogu-Ri.png"
   },
   {
     "name": "Tujon-Ni",
     "sheet": "L751 - 6626 III",
     "year": 1946,
     "name_kor": "둔전리",
-    "image_path": "/MapImage/50000/6626 III_Tujon-Ni.png",
-    "share_image_path": "/MapImage/50000forshare/6626 III_Tujon-Ni.pdf"
+    "image_path": "/MapImage/50000/6626 III_Tujon-Ni.png"
   },
   {
     "name": "Tukto",
     "sheet": "L751 - 6626 IV",
     "year": 1946,
     "name_kor": "뚝도(뚝섬)",
-    "image_path": "/MapImage/50000/6626 IV_Tukto.png",
-    "share_image_path": "/MapImage/50000forshare/6626 IV_Tukto.pdf"
+    "image_path": "/MapImage/50000/6626 IV_Tukto.png"
   },
   {
     "name": "Kisan-Ni",
     "sheet": "L751 - 6627 I",
     "year": 1961,
     "name_kor": "기산리",
-    "image_path": "/MapImage/50000/6627 I_Kisan-Ni.png",
-    "share_image_path": "/MapImage/50000forshare/6627 I_Kisan-Ni.pdf"
+    "image_path": "/MapImage/50000/6627 I_Kisan-Ni.png"
   },
   {
     "name": "Chongpyong",
     "sheet": "L751 - 6627 II",
     "year": 1961,
     "name_kor": "청평",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6627 II_Chongpyong.png"
   },
   {
     "name": "Uijongbu",
     "sheet": "L751 - 6627 III",
     "year": 1947,
     "name_kor": "의정부",
-    "image_path": "/MapImage/50000/6627 III_Uijongbu.png",
-    "share_image_path": "/MapImage/50000forshare/6627 III_Uijongbu.pdf"
+    "image_path": "/MapImage/50000/6627 III_Uijongbu.png"
   },
   {
     "name": "Pochon",
     "sheet": "L751 - 6627 IV",
     "year": 1946,
     "name_kor": "포천",
-    "image_path": "/MapImage/50000/6627 IV_Pochon.png",
-    "share_image_path": "/MapImage/50000forshare/6627 IV_Pochon.pdf"
+    "image_path": "/MapImage/50000/6627 IV_Pochon.png"
   },
   {
     "name": "Kumhwa",
     "sheet": "L751 - 6628 I",
     "year": 1953,
     "name_kor": "금화(김화)",
-    "image_path": "/MapImage/50000/6628 I_Kumhwa.png",
-    "share_image_path": "/MapImage/50000forshare/6628 I_Kumhwa.pdf"
+    "image_path": "/MapImage/50000/6628 I_Kumhwa.png"
   },
   {
     "name": "Chipo-Ri",
     "sheet": "L751 - 6628 II",
     "year": "1952",
     "name_kor": "지포리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6628 II_Chipo-Ri.png"
   },
   {
     "name": "Yonchon",
     "sheet": "L751 - 6628 III",
     "year": 1952,
     "name_kor": "연천",
-    "image_path": "/MapImage/50000/6628 III_Yonchon.png",
-    "share_image_path": "/MapImage/50000forshare/6628 III_Yonchon.pdf"
+    "image_path": "/MapImage/50000/6628 III_Yonchon.png"
   },
   {
     "name": "Chorwon",
     "sheet": "L751 - 6628 IV",
     "year": 1952,
     "name_kor": "철원",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6628 IV_Chorwon.png"
   },
   {
     "name": "Sepo-Ri",
     "sheet": "L751 - 6629 I",
     "year": 1947,
     "name_kor": "세포리",
-    "image_path": "/MapImage/50000/6629 I_Sepo-Ri.png",
-    "share_image_path": "/MapImage/50000forshare/6629 I_Sepo-Ri.pdf"
+    "image_path": "/MapImage/50000/6629 I_Sepo-Ri.png"
   },
   {
     "name": "Pyonggang",
     "sheet": "L751 - 6629 II",
     "year": 1947,
     "name_kor": "평강",
-    "image_path": "/MapImage/50000/6629 II_Pyonggang.png",
-    "share_image_path": "/MapImage/50000forshare/6629 II_Pyonggang.pdf"
+    "image_path": "/MapImage/50000/6629 II_Pyonggang.png"
   },
   {
     "name": "Oktong-Ni",
     "sheet": "L751 - 6629 III",
     "year": 1952,
     "name_kor": "옥동리",
-    "image_path": "/MapImage/50000/6629 III_Oktong-Ni.png",
-    "share_image_path": "/MapImage/50000forshare/6629 III_Oktong-Ni.pdf"
+    "image_path": "/MapImage/50000/6629 III_Oktong-Ni.png"
   },
   {
     "name": "Hupyong-Ni",
     "sheet": "L751 - 6629 IV",
     "year": 1947,
     "name_kor": "후평리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6629 IV_Hupyong-Ni.png"
   },
   {
     "name": "Sogwang-Sa",
     "sheet": "L751 - 6630 I",
     "year": 1953,
     "name_kor": "석왕사",
-    "image_path": "/MapImage/50000/6630 I_Sogwang-Sa.png",
-    "share_image_path": "/MapImage/50000forshare/6630 I_Sogwang-Sa.pdf"
+    "image_path": "/MapImage/50000/6630 I_Sogwang-Sa.png"
   },
   {
     "name": "Sambang-Ni",
     "sheet": "L751 - 6630 II",
     "year": 1947,
     "name_kor": "삼방리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6630 II_Sambang-Ni.png"
   },
   {
     "name": "Karyoju-Ri",
     "sheet": "L751 - 6630 III",
     "year": 1947,
     "name_kor": "가려주리",
-    "image_path": "/MapImage/50000/6630 III_Karyoju-Ri.png",
-    "share_image_path": "/MapImage/50000forshare/6630 III_Karyoju-Ri.pdf"
+    "image_path": "/MapImage/50000/6630 III_Karyoju-Ri.png"
   },
   {
     "name": "Poptong-Ni",
     "sheet": "L751 - 6630 IV",
     "year": 1946,
     "name_kor": "법동리",
-    "image_path": "/MapImage/50000/6630 IV_Poptong-Ni.png",
-    "share_image_path": "/MapImage/50000forshare/6630 IV_Poptong-Ni.pdf"
+    "image_path": "/MapImage/50000/6630 IV_Poptong-Ni.png"
   },
   {
     "name": "Wonsan",
     "sheet": "L751 - 6631 I",
     "year": 1968,
     "name_kor": "원산",
-    "image_path": "/MapImage/50000/6631 I_Wonsan.png",
-    "share_image_path": "/MapImage/50000forshare/6631 I_Wonsan.pdf"
+    "image_path": "/MapImage/50000/6631 I_Wonsan.png"
   },
   {
     "name": "Kochun-Bong",
     "sheet": "L751 - 6631 II",
     "year": 1953,
     "name_kor": "고춘봉",
-    "image_path": "/MapImage/50000/6631 II_Kochun-Bong.png",
-    "share_image_path": "/MapImage/50000forshare/6631 II_Kochun-Bong.pdf"
+    "image_path": "/MapImage/50000/6631 II_Kochun-Bong.png"
   },
   {
     "name": "Ko-Ri",
     "sheet": "L751 - 6631 III",
     "year": 1954,
     "name_kor": "거리",
-    "image_path": "/MapImage/50000/6631 III_Ko-Ri.png",
-    "share_image_path": "/MapImage/50000forshare/6631 III_Ko-Ri.pdf"
+    "image_path": "/MapImage/50000/6631 III_Ko-Ri.png"
   },
   {
     "name": "Pachunjang",
     "sheet": "L751 - 6632 I",
     "year": 1953,
     "name_kor": "파춘장",
-    "image_path": "/MapImage/50000/6632 I_Pachunjang.png",
-    "share_image_path": "/MapImage/50000forshare/6632 I_Pachunjang.pdf"
+    "image_path": "/MapImage/50000/6632 I_Pachunjang.png"
   },
   {
     "name": "Chigyong",
     "sheet": "L751 - 6633 I",
     "year": "1968",
     "name_kor": "지경",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6633 I_Chigyong.png"
   },
   {
     "name": "Kotosu",
     "sheet": "L751 - 6634 I",
-    "year": 1951,
+    "year": "1951",
     "name_kor": "고토수",
-    "image_path": "/MapImage/50000/6634 I_Kotosu.png",
-    "share_image_path": "/MapImage/50000forshare/6634 I_Kotosu.pdf"
+    "image_path": "/MapImage/50000/6634 I_Kotosu.png"
   },
   {
     "name": "Oro-Ri",
     "sheet": "L751 - 6634 II",
-    "year": 1951,
+    "year": "1951",
     "name_kor": "오로리",
-    "image_path": "/MapImage/50000/6634 II_Oro-Ri.png",
-    "share_image_path": "/MapImage/50000forshare/6634 II_Oro-Ri.pdf"
+    "image_path": "/MapImage/50000/6634 II_Oro-Ri.png"
   },
   {
     "name": "Tongbaek-San",
     "sheet": "L751 - 6634 IV",
-    "year": 1951,
+    "year": "1951",
     "name_kor": "동백산",
-    "image_path": "/MapImage/50000/6634 IV_Tongbaek-San.png",
-    "share_image_path": "/MapImage/50000forshare/6634 IV_Tongbaek-San.pdf"
+    "image_path": "/MapImage/50000/6634 IV_Tongbaek-San.png"
   },
   {
     "name": "Memul-Li",
     "sheet": "L751 - 6635 I",
-    "year": 1952,
+    "year": "1952",
     "name_kor": "매물리",
-    "image_path": "/MapImage/50000/6635 I_Memul-Li.png",
-    "share_image_path": "/MapImage/50000forshare/6635 I_Memul-Li.pdf"
+    "image_path": "/MapImage/50000/6635 I_Memul-Li.png"
   },
   {
     "name": "Hagaru-Ri",
     "sheet": "L751 - 6635 II",
     "year": "1952",
     "name_kor": "하갈우리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6635 II_Hagaru-Ri.png"
   },
   {
     "name": "Changjin",
     "sheet": "L751 - 6635 III",
     "year": "1952",
     "name_kor": "장진",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6635 III_Changjin.png"
   },
   {
     "name": "Kalchon-Ni",
     "sheet": "L751 - 6635 IV",
     "year": "1952",
     "name_kor": "갈전리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6635 IV_Kalchon-Ni.png"
   },
   {
     "name": "Namhae",
     "sheet": "L751 - 6718 I",
     "year": 1945,
     "name_kor": "남해",
-    "image_path": "/MapImage/50000/6718 I_Namhae.png",
-    "share_image_path": "/MapImage/50000forshare/6718 I_Namhae.pdf"
+    "image_path": "/MapImage/50000/6718 I_Namhae.png"
   },
   {
     "name": "Yosu",
     "sheet": "L751 - 6718 III",
     "year": 1945,
     "name_kor": "여수",
-    "image_path": "/MapImage/50000/6718 III_Yosu.png",
-    "share_image_path": "/MapImage/50000forshare/6718 III_Yosu.pdf"
+    "image_path": "/MapImage/50000/6718 III_Yosu.png"
   },
   {
     "name": "Kwangyang",
     "sheet": "L751 - 6718 IV",
     "year": 1945,
     "name_kor": "광양",
-    "image_path": "/MapImage/50000/6718 IV_Kwangyang.png",
-    "share_image_path": "/MapImage/50000forshare/6718 IV_Kwangyang.pdf"
+    "image_path": "/MapImage/50000/6718 IV_Kwangyang.png"
   },
   {
     "name": "Tansong",
     "sheet": "L751 - 6719 I",
     "year": 1945,
     "name_kor": "단성",
-    "image_path": "/MapImage/50000/6719 I_Tansong.png",
-    "share_image_path": "/MapImage/50000forshare/6719 I_Tansong.pdf"
+    "image_path": "/MapImage/50000/6719 I_Tansong.png"
   },
   {
     "name": "Chingyo-Ri",
     "sheet": "L751 - 6719 II",
     "year": 1945,
     "name_kor": "진교리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6719 II_Chingyo-Ri.png"
   },
   {
     "name": "Hadong",
     "sheet": "L751 - 6719 III",
     "year": 1945,
     "name_kor": "하동",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6719 III_Hadong.png"
   },
   {
     "name": "Hwagaejang",
     "sheet": "L751 - 6719 IV",
     "year": 1945,
     "name_kor": "화개장",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6719 IV_Hwagaejang.png"
   },
   {
     "name": "Anui",
     "sheet": "L751 - 6720 I",
     "year": "1968",
     "name_kor": "안의",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6720 I_Anui.png"
   },
   {
     "name": "Sanchong",
     "sheet": "L751 - 6720 II",
     "year": 1945,
     "name_kor": "산청",
-    "image_path": "/MapImage/50000/6720 II_Sanchong.png",
-    "share_image_path": "/MapImage/50000forshare/6720 II_Sanchong.pdf"
+    "image_path": "/MapImage/50000/6720 II_Sanchong.png"
   },
   {
     "name": "Unbong",
     "sheet": "L751 - 6720 III",
     "year": 1945,
     "name_kor": "운봉",
-    "image_path": "/MapImage/50000/6720 III_Unbong.png",
-    "share_image_path": "/MapImage/50000forshare/6720 III_Unbong.pdf"
+    "image_path": "/MapImage/50000/6720 III_Unbong.png"
   },
   {
     "name": "Hamyang",
     "sheet": "L751 - 6720 IV",
     "year": 1945,
     "name_kor": "함양",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6720 IV_Hamyang.png"
   },
   {
     "name": "Mupungjang",
     "sheet": "L751 - 6721 I",
-    "year": 1951,
+    "year": "1951",
     "name_kor": "무풍장",
-    "image_path": "/MapImage/50000/6721 I_Mupungjang.png",
-    "share_image_path": "/MapImage/50000forshare/6721 I_Mupungjang.pdf"
+    "image_path": "/MapImage/50000/6721 I_Mupungjang.png"
   },
   {
     "name": "Changgye-RI",
     "sheet": "L751 - 6721 III",
     "year": 1950,
     "name_kor": "장계리",
-    "image_path": "/MapImage/50000/6721 III_Changgye-RI.png",
-    "share_image_path": "/MapImage/50000forshare/6721 III_Changgye-RI.pdf"
+    "image_path": "/MapImage/50000/6721 III_Changgye-RI.png"
   },
   {
     "name": "Ansongjang",
     "sheet": "L751 - 6721 IV",
     "year": "1947",
     "name_kor": "안성장",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6721 IV_Ansongjang.png"
   },
   {
     "name": "Yongdong",
     "sheet": "L751 - 6722 I",
     "year": 1945,
     "name_kor": "영동",
-    "image_path": "/MapImage/50000/6722 I_Yongdong.png",
-    "share_image_path": "/MapImage/50000forshare/6722 I_Yongdong.pdf"
+    "image_path": "/MapImage/50000/6722 I_Yongdong.png"
   },
   {
     "name": "Solchon",
     "sheet": "L751 - 6722 II",
     "year": 1945,
     "name_kor": "설천",
-    "image_path": "/MapImage/50000/6722 II_Solchon.png",
-    "share_image_path": "/MapImage/50000forshare/6722 II_Solchon.pdf"
+    "image_path": "/MapImage/50000/6722 II_Solchon.png"
   },
   {
     "name": "Muju",
     "sheet": "L751 - 6722 III",
-    "year": 1947,
+    "year": "1947",
     "name_kor": "무주",
-    "image_path": "/MapImage/50000/6722 III_Muju.png",
-    "share_image_path": "/MapImage/50000forshare/6722 III_Muju.pdf"
+    "image_path": "/MapImage/50000/6722 III_Muju.png"
   },
   {
     "name": "Okchon",
     "sheet": "L751 - 6722 IV",
     "year": 1963,
     "name_kor": "옥천",
-    "image_path": "/MapImage/50000/6722 IV_Okchon.png",
-    "share_image_path": "/MapImage/50000forshare/6722 IV_Okchon.pdf"
+    "image_path": "/MapImage/50000/6722 IV_Okchon.png"
   },
   {
     "name": "Songni-San",
     "sheet": "L751 - 6723 I",
     "year": 1945,
     "name_kor": "속리산",
-    "image_path": "/MapImage/50000/6723 I_Songni-San.png",
-    "share_image_path": "/MapImage/50000forshare/6723 I_Songni-San.pdf"
+    "image_path": "/MapImage/50000/6723 I_Songni-San.png"
   },
   {
     "name": "Chongsan",
     "sheet": "L751 - 6723 II",
     "year": 1945,
     "name_kor": "청산",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6723 II_Chongsan.png"
   },
   {
     "name": "Poun",
     "sheet": "L751 - 6723 III",
     "year": 1963,
     "name_kor": "보은",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6723 III_Poun.png"
   },
   {
     "name": "Miwon-Ni",
     "sheet": "L751 - 6723 IV",
     "year": 1963,
     "name_kor": "미원리",
-    "image_path": "/MapImage/50000/6723 IV_Miwon-Ni.png",
-    "share_image_path": "/MapImage/50000forshare/6723 IV_Miwon-Ni.pdf"
+    "image_path": "/MapImage/50000/6723 IV_Miwon-Ni.png"
   },
   {
     "name": "Chungju",
     "sheet": "L751 - 6724 I",
     "year": 1945,
     "name_kor": "충주",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6724 I_Chungju.png"
   },
   {
     "name": "Koesan",
     "sheet": "L751 - 6724 II",
     "year": 1945,
     "name_kor": "괴산",
-    "image_path": "/MapImage/50000/6724 II_Koesan.png",
-    "share_image_path": "/MapImage/50000forshare/6724 II_Koesan.pdf"
+    "image_path": "/MapImage/50000/6724 II_Koesan.png"
   },
   {
     "name": "Chongan",
     "sheet": "L751 - 6724 III",
     "year": 1963,
     "name_kor": "청안",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6724 III_Chongan.png"
   },
   {
     "name": "Umsong",
     "sheet": "L751 - 6724 IV",
     "year": 1945,
     "name_kor": "음성",
-    "image_path": "/MapImage/50000/6724 IV_Umsong.png",
-    "share_image_path": "/MapImage/50000forshare/6724 IV_Umsong.pdf"
+    "image_path": "/MapImage/50000/6724 IV_Umsong.png"
   },
   {
     "name": "Munmang-Ni",
     "sheet": "L751 - 6725 I",
     "year": 1947,
     "name_kor": "문막리",
-    "image_path": "/MapImage/50000/6725 I_Munmang-Ni.png",
-    "share_image_path": "/MapImage/50000forshare/6725 I_Munmang-Ni.pdf"
+    "image_path": "/MapImage/50000/6725 I_Munmang-Ni.png"
   },
   {
     "name": "Mokkye-Dong",
     "sheet": "L751 - 6725 II",
     "year": 1947,
     "name_kor": "목계동",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6725 II_Mokkye-Dong.png"
   },
   {
     "name": "Changhowon",
     "sheet": "L751 - 6725 III",
     "year": 1962,
     "name_kor": "장호원",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6725 III_Changhowon.png"
   },
   {
     "name": "Yoju",
     "sheet": "L751 - 6725 IV",
     "year": 1945,
     "name_kor": "여주",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6725 IV_Yoju.png"
   },
   {
     "name": "Yangdogwon-Ni",
     "sheet": "L751 - 6726 I",
     "year": 1945,
     "name_kor": "양덕원리",
-    "image_path": "/MapImage/50000/6726 I_Yangdogwon-Ni.png",
-    "share_image_path": "/MapImage/50000forshare/6726 I_Yangdogwon-Ni.pdf"
+    "image_path": "/MapImage/50000/6726 I_Yangdogwon-Ni.png"
   },
   {
     "name": "Wonju",
     "sheet": "L751 - 6726 II",
     "year": 1945,
     "name_kor": "원주",
-    "image_path": "/MapImage/50000/6726 II_Wonju.png",
-    "share_image_path": "/MapImage/50000forshare/6726 II_Wonju.pdf"
+    "image_path": "/MapImage/50000/6726 II_Wonju.png"
   },
   {
     "name": "Ipo-Ri",
     "sheet": "L751 - 6726 III",
     "year": "1950",
     "name_kor": "이포리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6726 III_Ipo-Ri.png"
   },
   {
     "name": "Yongdu-Ri",
     "sheet": "L751 - 6726 IV",
     "year": 1949,
     "name_kor": "용두리",
-    "image_path": "/MapImage/50000/6726 IV_Yongdu-Ri.png",
-    "share_image_path": "/MapImage/50000forshare/6726 IV_Yongdu-Ri.pdf"
+    "image_path": "/MapImage/50000/6726 IV_Yongdu-Ri.png"
   },
   {
     "name": "Naepyong-Ni",
     "sheet": "L751 - 6727 I",
     "year": 1945,
     "name_kor": "내평리",
-    "image_path": "/MapImage/50000/6727 I_Naepyong-Ni.png",
-    "share_image_path": "/MapImage/50000forshare/6727 I_Naepyong-Ni.pdf"
+    "image_path": "/MapImage/50000/6727 I_Naepyong-Ni.png"
   },
   {
     "name": "Hongchon",
     "sheet": "L751 - 6727 II",
     "year": "1950",
     "name_kor": "홍천",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6727 II_Hongchon.png"
   },
   {
     "name": "Kapyong",
     "sheet": "L751 - 6727 III",
     "year": 1950,
     "name_kor": "가평",
-    "image_path": "/MapImage/50000/6727 III_Kapyong.png",
-    "share_image_path": "/MapImage/50000forshare/6727 III_Kapyong.pdf"
+    "image_path": "/MapImage/50000/6727 III_Kapyong.png"
   },
   {
     "name": "Chunchon",
     "sheet": "L751 - 6727 IV",
     "year": 1961,
     "name_kor": "춘천",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6727 IV_Chunchon.png"
   },
   {
     "name": "Mundung-Ni",
     "sheet": "L751 - 6728 I",
     "year": 1953,
     "name_kor": "문등리",
-    "image_path": "/MapImage/50000/6728 I_Mundung-Ni.png",
-    "share_image_path": "/MapImage/50000forshare/6728 I_Mundung-Ni.pdf"
+    "image_path": "/MapImage/50000/6728 I_Mundung-Ni.png"
   },
   {
     "name": "Yanggu",
     "sheet": "L751 - 6728 II",
     "year": 1945,
     "name_kor": "양구",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6728 II_Yanggu.png"
   },
   {
     "name": "Yangpyong",
     "sheet": "L751 - 6728 II",
     "year": 1947,
     "name_kor": "양평",
-    "image_path": "/MapImage/50000/6728 II_Yangpyong.png",
-    "share_image_path": "/MapImage/50000forshare/6728 II_Yangpyong.pdf"
+    "image_path": "/MapImage/50000/6728 II_Yangpyong.png"
   },
   {
     "name": "Hwachon",
     "sheet": "L751 - 6728 III",
     "year": 1945,
     "name_kor": "화천",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6728 III_Hwachon.png"
   },
   {
     "name": "Sanyang-Ni",
     "sheet": "L751 - 6728 IV",
     "year": 1953,
     "name_kor": "산양리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6728 IV_Sanyang-Ni.png"
   },
   {
     "name": "Marhwi-Ri",
     "sheet": "L751 - 6729 I",
     "year": 1947,
     "name_kor": "말휘리",
-    "image_path": "/MapImage/50000/6729 I_Marhwi-Ri.png",
-    "share_image_path": "/MapImage/50000forshare/6729 I_Marhwi-Ri.pdf"
+    "image_path": "/MapImage/50000/6729 I_Marhwi-Ri.png"
   },
   {
     "name": "Taejong-Ni",
     "sheet": "L751 - 6729 II",
     "year": 1950,
     "name_kor": "대정리",
-    "image_path": "/MapImage/50000/6729 II_Taejong-Ni.png",
-    "share_image_path": "/MapImage/50000forshare/6729 II_Taejong-Ni.pdf"
+    "image_path": "/MapImage/50000/6729 II_Taejong-Ni.png"
   },
   {
     "name": "Kumsong",
     "sheet": "L751 - 6729 III",
     "year": 1951,
     "name_kor": "금성",
-    "image_path": "/MapImage/50000/6729 III_Kumsong.png",
-    "share_image_path": "/MapImage/50000forshare/6729 III_Kumsong.pdf"
+    "image_path": "/MapImage/50000/6729 III_Kumsong.png"
   },
   {
     "name": "Changhyon-Ri",
     "sheet": "L751 - 6729 IV",
     "year": 1947,
     "name_kor": "장현리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6729 IV_Changhyon-Ri.png"
   },
   {
     "name": "Tongchon",
     "sheet": "L751 - 6730 I",
     "year": 1947,
     "name_kor": "통천",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6730 I_Tongchon.png"
   },
   {
     "name": "Hwachon-Ni",
     "sheet": "L751 - 6730 II",
     "year": 1947,
     "name_kor": "화천리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6730 II_Hwachon-Ni.png"
   },
   {
     "name": "Hoeyang",
     "sheet": "L751 - 6730 III",
     "year": 1947,
     "name_kor": "회양",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6730 III_Hoeyang.png"
   },
   {
     "name": "Tonam-Ni",
     "sheet": "L751 - 6730 IV",
     "year": 1947,
     "name_kor": "도남리",
-    "image_path": "/MapImage/50000/6730 IV_Tonam-Ni.png",
-    "share_image_path": "/MapImage/50000forshare/6730 IV_Tonam-Ni.pdf"
+    "image_path": "/MapImage/50000/6730 IV_Tonam-Ni.png"
   },
   {
     "name": "Toejo",
     "sheet": "L751 - 6733 I",
-    "year": 1953,
+    "year": "1953",
     "name_kor": "퇴조",
-    "image_path": "/MapImage/50000/6733 I_Toejo.png",
-    "share_image_path": "/MapImage/50000forshare/6733 I_Toejo.pdf"
+    "image_path": "/MapImage/50000/6733 I_Toejo.png"
   },
   {
     "name": "Hamhung",
     "sheet": "L751 - 6733 IV",
     "year": "1969",
     "name_kor": "함흥",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6733 IV_Hamhung.png"
   },
   {
     "name": "Sinpung-Ni",
     "sheet": "L751 - 6734 I",
     "year": 1947,
     "name_kor": "신풍리",
-    "image_path": "/MapImage/50000/6734 I_Sinpung-Ni.png",
-    "share_image_path": "/MapImage/50000forshare/6734 I_Sinpung-Ni.pdf"
+    "image_path": "/MapImage/50000/6734 I_Sinpung-Ni.png"
   },
   {
     "name": "Wonp Yongjang",
     "sheet": "L751 - 6734 III",
     "year": 1959,
     "name_kor": "원평장",
-    "image_path": "/MapImage/50000/6734 III_Wonp Yongjang.png",
-    "share_image_path": "/MapImage/50000forshare/6734 III_Wonp Yongjang.pdf"
+    "image_path": "/MapImage/50000/6734 III_Wonp Yongjang.png"
   },
   {
     "name": "Sinhung",
     "sheet": "L751 - 6734 IV",
-    "year": 1950,
+    "year": "1950",
     "name_kor": "신흥",
-    "image_path": "/MapImage/50000/6734 IV_Sinhung.png",
-    "share_image_path": "/MapImage/50000forshare/6734 IV_Sinhung.pdf"
+    "image_path": "/MapImage/50000/6734 IV_Sinhung.png"
   },
   {
     "name": "Tonghang-Ni",
     "sheet": "L751 - 6817 I",
     "year": 1945,
     "name_kor": "동항리",
-    "image_path": "/MapImage/50000/6817 I_Tonghang-Ni.png",
-    "share_image_path": "/MapImage/50000forshare/6817 I_Tonghang-Ni.pdf"
+    "image_path": "/MapImage/50000/6817 I_Tonghang-Ni.png"
   },
   {
     "name": "Tongyong",
     "sheet": "L751 - 6818 I",
     "year": 1945,
     "name_kor": "통영",
-    "image_path": "/MapImage/50000/6818 I_Tongyong.png",
-    "share_image_path": "/MapImage/50000forshare/6818 I_Tongyong.pdf"
+    "image_path": "/MapImage/50000/6818 I_Tongyong.png"
   },
   {
     "name": "Samchonpo",
     "sheet": "L751 - 6818 IV",
     "year": 1945,
     "name_kor": "삼천포",
-    "image_path": "/MapImage/50000/6818 IV_Samchonpo.png",
-    "share_image_path": "/MapImage/50000forshare/6818 IV_Samchonpo.pdf"
+    "image_path": "/MapImage/50000/6818 IV_Samchonpo.png"
   },
   {
     "name": "Uiryong",
     "sheet": "L751 - 6819 I",
     "year": 1957,
     "name_kor": "의령",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6819 I_Uiryong.png"
   },
   {
     "name": "Chindong-Ni",
     "sheet": "L751 - 6819 II",
     "year": 1945,
     "name_kor": "진동리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6819 II_Chindong-Ni.png"
   },
   {
     "name": "Sachon",
     "sheet": "L751 - 6819 III",
     "year": 1945,
     "name_kor": "사천",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6819 III_Sachon.png"
   },
   {
     "name": "Chinju",
     "sheet": "L751 - 6819 IV",
     "year": "1947",
     "name_kor": "진주",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6819 IV_Chinju.png"
   },
   {
     "name": "Changnyong",
     "sheet": "L751 - 6820 I",
     "year": 1947,
     "name_kor": "창녕",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6820 I_Changnyong.png"
   },
   {
     "name": "Namji-Ri",
     "sheet": "L751 - 6820 II",
     "year": 1945,
     "name_kor": "남지리",
-    "image_path": "/MapImage/50000/6820 II_Namji-Ri.png",
-    "share_image_path": "/MapImage/50000forshare/6820 II_Namji-Ri.pdf"
+    "image_path": "/MapImage/50000/6820 II_Namji-Ri.png"
   },
   {
     "name": "Samga",
     "sheet": "L751 - 6820 III",
     "year": 1945,
     "name_kor": "삼가",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6820 III_Samga.png"
   },
   {
     "name": "Hyopchon",
     "sheet": "L751 - 6820 IV",
     "year": 1945,
     "name_kor": "합천",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6820 IV_Hyopchon.png"
   },
   {
     "name": "Waegwan",
     "sheet": "L751 - 6821 I",
     "year": 1950,
     "name_kor": "왜관",
-    "image_path": "/MapImage/50000/6821 I_Waegwan.png",
-    "share_image_path": "/MapImage/50000forshare/6821 I_Waegwan.pdf"
+    "image_path": "/MapImage/50000/6821 I_Waegwan.png"
   },
   {
     "name": "Hyonpung",
     "sheet": "L751 - 6821 II",
     "year": 1958,
     "name_kor": "현풍",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6821 II_Hyonpung.png"
   },
   {
     "name": "Kaya-San",
     "sheet": "L751 - 6821 III",
-    "year": 1947,
+    "year": "1947",
     "name_kor": "가야산",
-    "image_path": "/MapImage/50000/6821 III_Kaya-San.png",
-    "share_image_path": "/MapImage/50000forshare/6821 III_Kaya-San.pdf"
+    "image_path": "/MapImage/50000/6821 III_Kaya-San.png"
   },
   {
     "name": "Chirye",
     "sheet": "L751 - 6821 IV",
     "year": "1947",
     "name_kor": "지례",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6821 IV_Chirye.png"
   },
   {
     "name": "Sonsan",
     "sheet": "L751 - 6822 I",
     "year": 1957,
     "name_kor": "선산",
-    "image_path": "/MapImage/50000/6822 I_Sonsan.png",
-    "share_image_path": "/MapImage/50000forshare/6822 I_Sonsan.pdf"
+    "image_path": "/MapImage/50000/6822 I_Sonsan.png"
   },
   {
     "name": "Kumi",
     "sheet": "L751 - 6822 II",
-    "year": 1959,
+    "year": "1959",
     "name_kor": "구미",
-    "image_path": "/MapImage/50000/6822 II_Kumi.png",
-    "share_image_path": "/MapImage/50000forshare/6822 II_Kumi.pdf"
+    "image_path": "/MapImage/50000/6822 II_Kumi.png"
   },
   {
     "name": "Kumchon",
     "sheet": "L751 - 6822 III",
-    "year": 1945,
+    "year": "1945",
     "name_kor": "금천(김천)",
-    "image_path": "/MapImage/50000/6822 III_Kumchon.png",
-    "share_image_path": "/MapImage/50000forshare/6822 III_Kumchon.pdf"
+    "image_path": "/MapImage/50000/6822 III_Kumchon.png"
   },
   {
     "name": "Oksan-Dong",
     "sheet": "L751 - 6822 IV",
-    "year": 1947,
+    "year": "1947",
     "name_kor": "옥산동",
-    "image_path": "/MapImage/50000/6822 IV_Oksan-Dong.png",
-    "share_image_path": "/MapImage/50000forshare/6822 IV_Oksan-Dong.pdf"
+    "image_path": "/MapImage/50000/6822 IV_Oksan-Dong.png"
   },
   {
     "name": "Yechon",
     "sheet": "L751 - 6823 I",
     "year": 1945,
     "name_kor": "예천",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6823 I_Yechon.png"
   },
   {
     "name": "Naktong-Ni",
     "sheet": "L751 - 6823 II",
     "year": 1947,
     "name_kor": "낙동리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6823 II_Naktong-Ni.png"
   },
   {
     "name": "Sangju",
     "sheet": "L751 - 6823 III",
     "year": 1945,
     "name_kor": "상주",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6823 III_Sangju.png"
   },
   {
     "name": "Hamchang",
     "sheet": "L751 - 6823 IV",
     "year": 1945,
     "name_kor": "함창",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6823 IV_Hamchang.png"
   },
   {
     "name": "Tanyang",
     "sheet": "L751 - 6824 I",
     "year": 1945,
     "name_kor": "단양",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6824 I_Tanyang.png"
   },
   {
     "name": "Choksong-Ni",
     "sheet": "L751 - 6824 II",
     "year": "1947",
     "name_kor": "적성리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6824 II_Choksong-Ni.png"
   },
   {
     "name": "Mungyong",
     "sheet": "L751 - 6824 III",
     "year": 1947,
     "name_kor": "문경",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6824 III_Mungyong.png"
   },
   {
     "name": "Hwanggang-Ni",
     "sheet": "L751 - 6824 IV",
     "year": 1945,
     "name_kor": "황강리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6824 IV_Hwanggang-Ni.png"
   },
   {
     "name": "Yongwol",
     "sheet": "L751 - 6825 I",
     "year": 1945,
     "name_kor": "영월",
-    "image_path": "/MapImage/50000/6825 I_Yongwol.png",
-    "share_image_path": "/MapImage/50000forshare/6825 I_Yongwol.pdf"
+    "image_path": "/MapImage/50000/6825 I_Yongwol.png"
   },
   {
     "name": "Yongchun",
     "sheet": "L751 - 6825 II",
     "year": 1945,
     "name_kor": "영천",
-    "image_path": "/MapImage/50000/6825 II_Yongchun.png",
-    "share_image_path": "/MapImage/50000forshare/6825 II_Yongchun.pdf"
+    "image_path": "/MapImage/50000/6825 II_Yongchun.png"
   },
   {
     "name": "Chechon",
     "sheet": "L751 - 6825 III",
     "year": 1945,
     "name_kor": "제천",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6825 III_Chechon.png"
   },
   {
     "name": "Sinnim-Ni",
     "sheet": "L751 - 6825 IV",
     "year": 1945,
     "name_kor": "신림리",
-    "image_path": "/MapImage/50000/6825 IV_Sinnim-Ni.png",
-    "share_image_path": "/MapImage/50000forshare/6825 IV_Sinnim-Ni.pdf"
+    "image_path": "/MapImage/50000/6825 IV_Sinnim-Ni.png"
   },
   {
     "name": "Changdong-Ni",
     "sheet": "L751 - 6826 I",
     "year": 1945,
     "name_kor": "창동리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6826 I_Changdong-Ni.png"
   },
   {
     "name": "Pyongchang",
     "sheet": "L751 - 6826 II",
     "year": 1945,
     "name_kor": "평창",
-    "image_path": "/MapImage/50000/6826 II_Pyongchang.png",
-    "share_image_path": "/MapImage/50000forshare/6826 II_Pyongchang.pdf"
+    "image_path": "/MapImage/50000/6826 II_Pyongchang.png"
   },
   {
     "name": "Haanhung-Ni",
     "sheet": "L751 - 6826 III",
     "year": 1945,
     "name_kor": "하안흥리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6826 III_Haanhung-Ni.png"
   },
   {
     "name": "Kapchon-Ni",
     "sheet": "L751 - 6826 IV",
     "year": 1945,
     "name_kor": "갑천리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6826 IV_Kapchon-Ni.png"
   },
   {
     "name": "Hyon-Ni",
     "sheet": "L751 - 6827 I",
     "year": 1945,
     "name_kor": "현리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6827 I_Hyon-Ni.png"
   },
   {
     "name": "Changchon",
     "sheet": "L751 - 6827 II",
     "year": 1963,
     "name_kor": "창촌",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6827 II_Changchon.png"
   },
   {
     "name": "Pungam Ni",
     "sheet": "L751 - 6827 III",
     "year": 1945,
     "name_kor": "풍남리",
-    "image_path": "/MapImage/50000/6827 III_Pungam Ni.png",
-    "share_image_path": "/MapImage/50000forshare/6827 III_Pungam Ni.pdf"
+    "image_path": "/MapImage/50000/6827 III_Pungam Ni.png"
   },
   {
     "name": "Chaun-Ni",
     "sheet": "L751 - 6827 IV",
     "year": 1945,
     "name_kor": "자운리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6827 IV_Chaun-Ni.png"
   },
   {
     "name": "Changamjom",
     "sheet": "L751 - 6828 I",
     "year": 1945,
     "name_kor": "창암점",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6828 I_Changamjom.png"
   },
   {
     "name": "Sorak-San",
     "sheet": "L751 - 6828 II",
     "year": 1945,
     "name_kor": "설악산",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6828 II_Sorak-San.png"
   },
   {
     "name": "Inje",
     "sheet": "L751 - 6828 III",
     "year": 1945,
     "name_kor": "인제",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6828 III_Inje.png"
   },
   {
     "name": "Mandae-Ri",
     "sheet": "L751 - 6828 IV",
     "year": 1945,
     "name_kor": "만대리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6828 IV_Mandae-Ri.png"
   },
   {
     "name": "Kosong",
     "sheet": "L751 - 6829 I",
     "year": 1945,
     "name_kor": "고성",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6829 I_Kosong.png"
   },
   {
     "name": "Kansong",
     "sheet": "L751 - 6829 II",
     "year": "1947",
     "name_kor": "간성",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6829 II_Kansong.png"
   },
   {
     "name": "Sintan-Ni",
     "sheet": "L751 - 6829 III",
     "year": 1947,
     "name_kor": "신탄리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6829 III_Sintan-Ni.png"
   },
   {
     "name": "Naegumgang",
     "sheet": "L751 - 6829 IV",
     "year": 1947,
     "name_kor": "내금강",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6829 IV_Naegumgang.png"
   },
   {
     "name": "Oegumgang",
     "sheet": "L751 - 6830 III",
     "year": "1947",
     "name_kor": "외금강",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6830 III_Oegumgang.png"
   },
   {
     "name": "Tubaeng-Ni",
     "sheet": "L751 - 6830 IV",
     "year": 1947,
     "name_kor": "두백리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6830 IV_Tubaeng-Ni.png"
   },
   {
     "name": "Sinmusong",
     "sheet": "L751 - 6839 I",
     "year": 1946,
     "name_kor": "신무성",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6839 I_Sinmusong.png"
   },
   {
     "name": "Kanbaek-San",
     "sheet": "L751 - 6839 IV",
     "year": 1946,
     "name_kor": "간백산",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6839 IV_Kanbaek-San.png"
   },
   {
     "name": "Maemul-To",
     "sheet": "L751 - 6917 IV",
     "year": 1945,
     "name_kor": "매물도",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6917 IV_Maemul-To.png"
   },
   {
     "name": "Yulpo-Ri",
     "sheet": "L751 - 6918 III",
     "year": 1945,
     "name_kor": "율포리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6918 III_Yulpo-Ri.png"
   },
   {
     "name": "Kumhae",
     "sheet": "L751 - 6919 I",
     "year": "1947",
     "name_kor": "김해",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6919 I_Kumhae.png"
   },
   {
     "name": "Masan",
     "sheet": "L751 - 6919 IV",
     "year": "1958",
     "name_kor": "마산",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6919 IV_Masan.png"
   },
   {
     "name": "Yuchon",
     "sheet": "L751 - 6920 I",
     "year": 1945,
     "name_kor": "유천",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6920 I_Yuchon.png"
   },
   {
     "name": "Miryang",
     "sheet": "L751 - 6920 II",
     "year": "1947",
     "name_kor": "밀양",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6920 II_Miryang.png"
   },
   {
     "name": "Yongsan",
     "sheet": "L751 - 6920 III",
     "year": 1945,
     "name_kor": "영산",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6920 III_Yongsan.png"
   },
   {
     "name": "Chongdo",
     "sheet": "L751 - 6920 IV",
     "year": 1945,
     "name_kor": "청도",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6920 IV_Chongdo.png"
   },
   {
     "name": "Yongchon",
     "sheet": "L751 - 6921 I",
     "year": 1945,
     "name_kor": "영천",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6921 I_Yongchon.png"
   },
   {
     "name": "Chain",
     "sheet": "L751 - 6921 II",
     "year": "1947",
     "name_kor": "자인",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6921 II_Chain.png"
   },
   {
     "name": "Kyongsan",
     "sheet": "L751 - 6921 III",
     "year": "1947",
     "name_kor": "경산",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6921 III_Kyongsan.png"
   },
   {
     "name": "Taegu",
     "sheet": "L751 - 6921 IV",
     "year": 1958,
     "name_kor": "대구",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6921 IV_Taegu.png"
   },
   {
     "name": "Kusan-Dong",
     "sheet": "L751 - 6922 I",
     "year": "1947",
     "name_kor": "구산동",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6922 I_Kusan-Dong.png"
   },
   {
     "name": "Sillyong",
     "sheet": "L751 - 6922 II",
     "year": 1958,
     "name_kor": "신녕",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6922 II_Sillyong.png"
   },
   {
     "name": "Taeryul-Tong",
     "sheet": "L751 - 6922 III",
     "year": 1958,
     "name_kor": "대율동",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6922 III_Taeryul-Tong.png"
   },
   {
     "name": "Kunwi",
     "sheet": "L751 - 6922 IV",
     "year": 1945,
     "name_kor": "군위",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6922 IV_Kunwi.png"
   },
   {
     "name": "Pyonhang-Ni",
     "sheet": "L751 - 6923 I",
     "year": 1945,
     "name_kor": "편항리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6923 I_Pyonhang-Ni.png"
   },
   {
     "name": "Choji-Dong",
     "sheet": "L751 - 6923 II",
     "year": 1945,
     "name_kor": "초지동",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6923 II_Choji-Dong.png"
   },
   {
     "name": "Uisong",
     "sheet": "L751 - 6923 III",
     "year": 1945,
     "name_kor": "의성",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6923 III_Uisong.png"
   },
   {
     "name": "Andong",
     "sheet": "L751 - 6923 IV",
     "year": 1945,
     "name_kor": "안동",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6923 IV_Andong.png"
   },
   {
     "name": "Chunyang",
     "sheet": "L751 - 6924 I",
     "year": 1945,
     "name_kor": "춘양",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6924 I_Chunyang.png"
   },
   {
     "name": "Yean",
     "sheet": "L751 - 6924 II",
     "year": 1945,
     "name_kor": "예안",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6924 II_Yean.png"
   },
   {
     "name": "Pyongun-Ni",
     "sheet": "L751 - 6924 III",
     "year": 1945,
     "name_kor": "평은리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6924 III_Pyongun-Ni.png"
   },
   {
     "name": "Naesong",
     "sheet": "L751 - 6924 IV",
     "year": 1945,
     "name_kor": "내성",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6924 IV_Naesong.png"
   },
   {
     "name": "Homyong",
     "sheet": "L751 - 6925 I",
     "year": 1945,
     "name_kor": "호명",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6925 I_Homyong.png"
   },
   {
     "name": "Sobyong-Ni",
     "sheet": "L751 - 6925 II",
     "year": 1945,
     "name_kor": "서벽리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6925 II_Sobyong-Ni.png"
   },
   {
     "name": "Nokchon-Ni",
     "sheet": "L751 - 6925 III",
     "year": 1945,
     "name_kor": "녹전리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6925 III_Nokchon-Ni.png"
   },
   {
     "name": "Uirimgil",
     "sheet": "L751 - 6925 IV",
     "year": 1945,
     "name_kor": "의림길",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6925 IV_Uirimgil.png"
   },
   {
     "name": "Sokpyong-San",
     "sheet": "L751 - 6926 I",
     "year": 1945,
     "name_kor": "석병산",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6926 I_Sokpyong-San.png"
   },
   {
     "name": "Harimgye",
     "sheet": "L751 - 6926 II",
     "year": 1945,
     "name_kor": "하림계 (하임계)",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6926 II_Harimgye.png"
   },
   {
     "name": "Chongson",
     "sheet": "L751 - 6926 III",
     "year": 1945,
     "name_kor": "정선",
-    "image_path": "",
-    "share_image_path": ""
-  },
-  {
-    "name": "Hajinbu",
-    "sheet": "L751 - 6926 IV",
-    "year": 1962,
-    "name_kor": "하진부",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6926 III_Chongson.png"
   },
   {
     "name": "Hajinbu-Ri",
     "sheet": "L751 - 6926 IV",
     "year": 1945,
     "name_kor": "하진부리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6926 IV_Hajinbu-Ri.png"
   },
   {
     "name": "Chumunjin",
     "sheet": "L751 - 6927 I",
     "year": 1950,
     "name_kor": "주문진",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6927 I_Chumunjin.png"
   },
   {
     "name": "Kangnung",
     "sheet": "L751 - 6927 II",
     "year": 1947,
     "name_kor": "강릉",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6927 II_Kangnung.png"
   },
   {
     "name": "Odae-San",
     "sheet": "L751 - 6927 III",
     "year": 1945,
     "name_kor": "오대산",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6927 III_Odae-San.png"
   },
   {
     "name": "Pukpun Ni",
     "sheet": "L751 - 6927 IV",
     "year": 1945,
     "name_kor": "북분리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6927 IV_Pukpun Ni.png"
   },
   {
     "name": "Yangyang",
     "sheet": "L751 - 6928 III",
     "year": 1945,
     "name_kor": "양양",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6928 III_Yangyang.png"
   },
   {
     "name": "Ongjin",
     "sheet": "L751 - 6928 IV",
     "year": 1945,
     "name_kor": "옹진항",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/6928 IV_Ongjin.png"
   },
   {
     "name": "Wollae-Ri",
     "sheet": "L751 - 7019 I",
     "year": 1946,
     "name_kor": "월래리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/7019 I_Wollae-Ri.png"
   },
   {
     "name": "Pusan",
     "sheet": "L751 - 7019 III",
     "year": "1947",
     "name_kor": "부산",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/7019 III_Pusan.png"
   },
   {
     "name": "Cholma-San",
     "sheet": "L751 - 7019 IV",
     "year": "1947",
     "name_kor": "철마산",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/7019 IV_Cholma-San.png"
   },
   {
     "name": "Tongnae",
     "sheet": "L751 - 7019 IV",
     "year": 1946,
     "name_kor": "동래",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/7019 IV_Tongnae.png"
   },
   {
     "name": "Ulsan",
     "sheet": "L751 - 7020 I",
     "year": 1945,
     "name_kor": "울산",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/7020 I_Ulsan.png"
   },
   {
     "name": "Changsaengpo-Dong",
     "sheet": "L751 - 7020 II",
     "year": 1950,
     "name_kor": "장생포동",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/7020 II_Changsaengpo-Dong.png"
   },
   {
     "name": "Yangsan",
     "sheet": "L751 - 7020 III",
     "year": 1945,
     "name_kor": "양산",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/7020 III_Yangsan.png"
   },
   {
     "name": "Onyang",
     "sheet": "L751 - 7020 IV",
     "year": 1945,
     "name_kor": "온양",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/7020 IV_Onyang.png"
   },
   {
     "name": "Yonil",
     "sheet": "L751 - 7021 I",
     "year": 1945,
     "name_kor": "연일",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/7021 I_Yonil.png"
   },
   {
     "name": "Choyang-Ni",
     "sheet": "L751 - 7021 II",
     "year": 1945,
     "name_kor": "초량리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/7021 II_Choyang-Ni.png"
   },
   {
     "name": "Moryang-Ni",
     "sheet": "L751 - 7021 III",
     "year": 1945,
     "name_kor": "모량리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/7021 III_Moryang-Ni.png"
   },
   {
     "name": "Kyongju",
     "sheet": "L751 - 7021 IV",
     "year": "1947",
     "name_kor": "경주",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/7021 IV_Kyongju.png"
   },
   {
     "name": "Chonghae",
     "sheet": "L751 - 7022 I",
     "year": 1945,
     "name_kor": "청하",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/7022 I_Chonghae.png"
   },
   {
     "name": "Pohang-Dong",
     "sheet": "L751 - 7022 II",
     "year": "1947",
     "name_kor": "포항동",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/7022 II_Pohang-Dong.png"
   },
   {
     "name": "Kigye",
     "sheet": "L751 - 7022 III",
     "year": "1947",
     "name_kor": "기계",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/7022 III_Kigye.png"
   },
   {
     "name": "Topyong-Dong",
     "sheet": "L751 - 7022 IV",
     "year": 1945,
     "name_kor": "토평동",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/7022 IV_Topyong-Dong.png"
   },
   {
     "name": "Yonghae",
     "sheet": "L751 - 7023 I",
     "year": 1945,
     "name_kor": "영해",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/7023 I_Yonghae.png"
   },
   {
     "name": "Yongdok",
     "sheet": "L751 - 7023 II",
     "year": 1945,
-    "name_kor": "영덩",
-    "image_path": "",
-    "share_image_path": ""
+    "name_kor": "영덕",
+    "image_path": "/MapImage/50000/7023 II_Yongdok.png"
   },
   {
     "name": "Chongsong",
     "sheet": "L751 - 7023 III",
     "year": 1945,
     "name_kor": "청송",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/7023 III_Chongsong.png"
   },
   {
     "name": "Yongyang",
     "sheet": "L751 - 7023 IV",
     "year": 1945,
     "name_kor": "영양",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/7023 IV_Yongyang.png"
   },
   {
     "name": "Ulchin",
     "sheet": "L751 - 7024 I",
     "year": 1945,
     "name_kor": "울진",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/7024 I_Ulchin.png"
   },
   {
     "name": "Pyonghae-Ri",
     "sheet": "L751 - 7024 II",
     "year": 1945,
     "name_kor": "평해리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/7024 II_Pyonghae-Ri.png"
   },
   {
     "name": "Irwol-San",
     "sheet": "L751 - 7024 III",
     "year": 1947,
     "name_kor": "일월산",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/7024 III_Irwol-San.png"
   },
   {
     "name": "Samgun-Ni",
     "sheet": "L751 - 7024 IV",
     "year": 1945,
     "name_kor": "삼근리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/7024 IV_Samgun-Ni.png"
   },
   {
     "name": "Imwonjin",
     "sheet": "L751 - 7025 I",
     "year": 1945,
     "name_kor": "임원진",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/7025 I_Imwonjin.png"
   },
   {
     "name": "Hungbu-Dong",
     "sheet": "L751 - 7025 II",
     "year": 1945,
     "name_kor": "흥부동",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/7025 II_Hungbu-Dong.png"
   },
   {
     "name": "Sokpo-Ri",
     "sheet": "L751 - 7025 III",
     "year": 1945,
     "name_kor": "속포리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/7025 III_Sokpo-Ri.png"
   },
   {
     "name": "Kosa-Ri",
     "sheet": "L751 - 7025 IV",
     "year": 1945,
     "name_kor": "고사리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/7025 IV_Kosa-Ri.png"
   },
   {
     "name": "Samchok",
     "sheet": "L751 - 7026 III",
     "year": 1945,
     "name_kor": "삼척",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/7026 III_Samchok.png"
   },
   {
     "name": "Okkye",
     "sheet": "L751 - 7026 IV",
     "year": 1945,
     "name_kor": "옥계",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/7026 IV_Okkye.png"
   },
   {
     "name": "Sansongu-Ri",
     "sheet": "L751 - 7027 III",
     "year": 1945,
     "name_kor": "산성우리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/7027 III_Sansongu-Ri.png"
   },
   {
     "name": "Saji-Dong",
     "sheet": "L751 - 7039 IV",
     "year": 1947,
     "name_kor": "사지동",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/7039 IV_Saji-Dong.png"
   },
   {
     "name": "Kuryongpo-Ri",
     "sheet": "L751 - 7121 IV",
     "year": 1945,
     "name_kor": "구룡포리",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/7121 IV_Kuryongpo-Ri.png"
   },
   {
     "name": "Chuuronjang",
     "sheet": "L751 - 7138 IV",
     "year": 1947,
     "name_kor": "주을온장",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/7138 IV_Chuuronjang.png"
   },
   {
     "name": "Chongjin",
     "sheet": "L751 - 7139 II",
     "year": 1947,
     "name_kor": "청진",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/7139 II_Chongjin.png"
   },
   {
     "name": "Nanam",
     "sheet": "L751 - 7139 III",
     "year": 1950,
     "name_kor": "나남",
-    "image_path": "",
-    "share_image_path": ""
+    "image_path": "/MapImage/50000/7139 III_Nanam.png"
   }
 ]

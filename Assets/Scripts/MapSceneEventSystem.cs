@@ -37,7 +37,7 @@ public class MapSceneEventSystem : MonoBehaviour
 
     public ProjectManager projectManager;
     private string basePath = Application.streamingAssetsPath;
-    private int timer = 180;
+    private int timer = 600;
 
     private SearchScript searchScript;
     private Vector3 viewPos = new Vector3(0,0,0);
@@ -218,11 +218,7 @@ public class MapSceneEventSystem : MonoBehaviour
         else
         {
             GameObject newPref = Instantiate(noMapPanel, canvas.transform);
-
         }
-
-
-
     }
 
     public void UpdateMap(String path)

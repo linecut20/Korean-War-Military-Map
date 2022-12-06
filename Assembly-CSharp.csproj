@@ -51,6 +51,7 @@
      <Compile Include="Assets/Scripts/TutorialScript.cs" />
      <Compile Include="Assets/Scripts/ShareDomainChange.cs" />
      <Compile Include="Assets/Scripts/CloseNoMapPanel.cs" />
+     <Compile Include="Assets/Scripts/F51DScaleScript.cs" />
      <Compile Include="Assets/Scripts/ScaleButtonScript.cs" />
      <Compile Include="Assets/Scripts/CloseFunc.cs" />
      <Compile Include="Assets/Scripts/MapCameraForIndexPageScript.cs" />
@@ -62,7 +63,6 @@
      <Compile Include="Assets/Scripts/ScaleSceneEventSystem.cs" />
      <Compile Include="Assets/Scripts/ProjectManager.cs" />
      <Compile Include="Assets/Scripts/SearchScript.cs" />
-     <Compile Include="Assets/Scripts/F51DScaleScript.cs" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />

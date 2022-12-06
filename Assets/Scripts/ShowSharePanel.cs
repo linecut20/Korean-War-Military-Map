@@ -28,27 +28,21 @@ public class ShowSharePanel : MonoBehaviour
 
     public void ShareButtonTouchedFunc()
     {
-        Debug.Log(index50000.activeSelf);
-        Debug.Log(index250000.activeSelf);
-        Debug.Log(index500000.activeSelf);
-        Debug.Log(index1000000.activeSelf);
-        Debug.Log(pm.mapData["share_image_path"].ToString());
-        //공유용 이미지 존재 확인 및 인터넷 확인
-        if (pm.mapData["share_image_path"].Length > 0 && !index50000.activeSelf && !index250000.activeSelf && !index500000.activeSelf && !index1000000.activeSelf && Application.internetReachability != NetworkReachability.NotReachable)
+        //인터넷 확인
+        if (Application.internetReachability != NetworkReachability.NotReachable)
         {
             mainCam.transform.position = new Vector3(0, 0, 0);
-            //pm.mapData["share_image_path"]의 파일 크기가 25Mb 이상이면...
-            if (pm.mapData["share_image_path"].Length < 25000000)
+
+
+            naviCanvas = GameObject.Find("NaviCanvas");
+
+            if (naviCanvas != null)
             {
-                naviCanvas = GameObject.Find("NaviCanvas");
-
-                if (naviCanvas != null) {
-                    naviCanvas.GetComponent<Canvas>().sortingOrder = 1;
-                }
-
-                GameObject newPref = Instantiate(sharePanel, canvas.transform);
-                newPref.transform.SetAsLastSibling();
+                naviCanvas.GetComponent<Canvas>().sortingOrder = 1;
             }
+
+            GameObject newPref = Instantiate(sharePanel, canvas.transform);
+            newPref.transform.SetAsLastSibling();
         }
 
 
