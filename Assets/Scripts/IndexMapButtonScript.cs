@@ -16,6 +16,7 @@ public class IndexMapButtonScript : MonoBehaviour
     public GameObject imageArea;
     public GameObject topButton;
     public GameObject naviCanvas;
+    public GameObject sharePanel;
     public ProjectManager pm;
 
     private MapSceneEventSystem eventSystem;
@@ -67,8 +68,9 @@ public class IndexMapButtonScript : MonoBehaviour
         GameObject grid250000Pref = GameObject.Find("GridPanel250000(Clone)");
         GameObject grid500000Pref = GameObject.Find("GridPanel500000(Clone)");
         GameObject grid1000000Pref = GameObject.Find("GridPanel1000000(Clone)");
+        sharePanel = GameObject.Find("Share Panel(Clone)");
 
-        if (noPanelPref == null && grid50000Pref == null && grid250000Pref == null && grid500000Pref == null && grid1000000Pref == null)
+        if (sharePanel == null && noPanelPref == null && grid50000Pref == null && grid250000Pref == null && grid500000Pref == null && grid1000000Pref == null)
         {
             if (!pm.touched)
             {
