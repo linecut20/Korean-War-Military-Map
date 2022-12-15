@@ -110,6 +110,9 @@ ScriptsOnlyBuild:
     fullTypeName: SceneController
     methodName: moveToFirst
   - assembly: Assembly-CSharp
+    fullTypeName: CloseNoMapPanel
+    methodName: CloseButtonTouchedFunc
+  - assembly: Assembly-CSharp
     fullTypeName: SearchClear
     methodName: SearchClearBtnFunc
   - assembly: Assembly-CSharp
@@ -118,9 +121,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: TutorialButtonScript
     methodName: BtnBackFunc
-  - assembly: Assembly-CSharp
-    fullTypeName: CloseNoMapPanel
-    methodName: CloseButtonTouchedFunc
   - assembly: Assembly-CSharp
     fullTypeName: CloseGridPanel
     methodName: CloseButtonTouchedFunc
@@ -1374,6 +1374,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
     - Class: 65
@@ -1383,8 +1385,6 @@ ScriptsOnlyBuild:
     - Class: 81
       Script: {instanceID: 0}
     - Class: 84
-      Script: {instanceID: 0}
-    - Class: 89
       Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
@@ -1421,67 +1421,69 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3206}
     - Class: 114
-      Script: {instanceID: 3392}
+      Script: {instanceID: 3380}
     - Class: 114
-      Script: {instanceID: 3538}
+      Script: {instanceID: 3394}
     - Class: 114
-      Script: {instanceID: 3616}
+      Script: {instanceID: 3540}
     - Class: 114
-      Script: {instanceID: 3974}
+      Script: {instanceID: 3618}
     - Class: 114
-      Script: {instanceID: 4036}
+      Script: {instanceID: 3976}
     - Class: 114
-      Script: {instanceID: 4210}
+      Script: {instanceID: 4038}
     - Class: 114
-      Script: {instanceID: 4224}
+      Script: {instanceID: 4212}
     - Class: 114
-      Script: {instanceID: 4274}
+      Script: {instanceID: 4226}
     - Class: 114
-      Script: {instanceID: 4838}
+      Script: {instanceID: 4276}
     - Class: 114
-      Script: {instanceID: 4930}
+      Script: {instanceID: 4840}
     - Class: 114
-      Script: {instanceID: 4966}
+      Script: {instanceID: 4932}
     - Class: 114
-      Script: {instanceID: 5124}
+      Script: {instanceID: 4968}
     - Class: 114
-      Script: {instanceID: 5264}
+      Script: {instanceID: 5126}
     - Class: 114
-      Script: {instanceID: 5342}
+      Script: {instanceID: 5266}
     - Class: 114
-      Script: {instanceID: 5444}
+      Script: {instanceID: 5344}
     - Class: 114
-      Script: {instanceID: 5624}
+      Script: {instanceID: 5446}
     - Class: 114
-      Script: {instanceID: 5964}
+      Script: {instanceID: 5626}
     - Class: 114
-      Script: {instanceID: 6120}
+      Script: {instanceID: 5966}
     - Class: 114
-      Script: {instanceID: 6126}
+      Script: {instanceID: 6122}
     - Class: 114
-      Script: {instanceID: 6214}
+      Script: {instanceID: 6128}
     - Class: 114
-      Script: {instanceID: 6478}
+      Script: {instanceID: 6216}
     - Class: 114
-      Script: {instanceID: 6486}
+      Script: {instanceID: 6480}
     - Class: 114
-      Script: {instanceID: 6492}
+      Script: {instanceID: 6488}
     - Class: 114
-      Script: {instanceID: 6668}
+      Script: {instanceID: 6494}
     - Class: 114
-      Script: {instanceID: 6782}
+      Script: {instanceID: 6670}
     - Class: 114
-      Script: {instanceID: 6786}
+      Script: {instanceID: 6784}
     - Class: 114
-      Script: {instanceID: 6790}
+      Script: {instanceID: 6788}
     - Class: 114
-      Script: {instanceID: 6848}
+      Script: {instanceID: 6792}
     - Class: 114
-      Script: {instanceID: 6932}
+      Script: {instanceID: 6850}
     - Class: 114
-      Script: {instanceID: 7112}
+      Script: {instanceID: 6934}
     - Class: 114
-      Script: {instanceID: 8096}
+      Script: {instanceID: 7114}
+    - Class: 114
+      Script: {instanceID: 8098}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1536,23 +1538,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3206}
     - Class: 114
-      Script: {instanceID: 4288}
+      Script: {instanceID: 4290}
     - Class: 114
-      Script: {instanceID: 4560}
+      Script: {instanceID: 4562}
     - Class: 114
-      Script: {instanceID: 5342}
+      Script: {instanceID: 5344}
     - Class: 114
-      Script: {instanceID: 5712}
+      Script: {instanceID: 5714}
     - Class: 114
-      Script: {instanceID: 5964}
+      Script: {instanceID: 5966}
     - Class: 114
-      Script: {instanceID: 6120}
+      Script: {instanceID: 6122}
     - Class: 114
-      Script: {instanceID: 6486}
+      Script: {instanceID: 6488}
     - Class: 114
-      Script: {instanceID: 7118}
+      Script: {instanceID: 7120}
     - Class: 114
-      Script: {instanceID: 7412}
+      Script: {instanceID: 7414}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2418,7 +2420,7 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
-      Hash: c866a0a6026fd9db1265541cf81ae67d
+      Hash: ef1783db435921a0f4440c2822e86740
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ProjectManager

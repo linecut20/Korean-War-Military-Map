@@ -21,6 +21,8 @@ public class ProjectManager : MonoBehaviour
     public Dictionary<string, dynamic> mapData = new Dictionary<string, dynamic>();
     public static Process osk;
 
+    public int pinchAnimTimer = 0;
+
     // Start is called before the first frame update
     void Start()
     {

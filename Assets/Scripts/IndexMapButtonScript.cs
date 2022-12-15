@@ -70,6 +70,7 @@ public class IndexMapButtonScript : MonoBehaviour
         GameObject grid1000000Pref = GameObject.Find("GridPanel1000000(Clone)");
         sharePanel = GameObject.Find("Share Panel(Clone)");
 
+        
         if (sharePanel == null && noPanelPref == null && grid50000Pref == null && grid250000Pref == null && grid500000Pref == null && grid1000000Pref == null)
         {
             if (!pm.touched)

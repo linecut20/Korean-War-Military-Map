@@ -40,13 +40,15 @@ public class MapSceneEventSystem : MonoBehaviour
     public ProjectManager projectManager;
     private string basePath = Application.streamingAssetsPath;
     private int timer = 600;
-    private int pinchAnimTimer = 120;
 
     private SearchScript searchScript;
     private Vector3 viewPos = new Vector3(0, 0, 0);
 
     void Start()
     {
+        projectManager = GameObject.Find("ProjectManager").GetComponent<ProjectManager>();
+
+        projectManager.pinchAnimTimer = 1;
         StartCoroutine("Timer");
         StartCoroutine("PinchAnimTimer");
         //인덱스 이미지 패널을 활성화하기 위해 imageArea를 비활성화
@@ -59,7 +61,7 @@ public class MapSceneEventSystem : MonoBehaviour
             btnShare.SetActive(false);
         }
 
-        projectManager = GameObject.Find("ProjectManager").GetComponent<ProjectManager>();
+        
         GetMapDataList(projectManager.scale);
         MapDataItemInit();
 
@@ -147,7 +149,8 @@ public class MapSceneEventSystem : MonoBehaviour
         if (Input.anyKey)
         {
             timer = 600;
-            pinchAnimTimer = 120;
+            projectManager.pinchAnimTimer = 30;
+            pinchAnim.SetActive(false);
         }
 
         //mainCamera의 z값이 50 이상인 경우에만 네비게이션 활성화
@@ -265,12 +268,17 @@ public class MapSceneEventSystem : MonoBehaviour
         while (true)
         {
             yield return new WaitForSeconds(1f);
-            pinchAnimTimer--;
-            if (pinchAnimTimer == 0)
+            projectManager.pinchAnimTimer--;
+            if (projectManager.pinchAnimTimer == 0 && projectManager.scale == 0)
             {
                 pinchAnim.SetActive(true);
-                yield return new WaitForSeconds(4f);
+                yield return new WaitForSeconds(14f);
                 pinchAnim.SetActive(false);
+                
+            }
+
+            if (projectManager.pinchAnimTimer == 0) {
+                projectManager.pinchAnimTimer = 30;
             }
         }
     }
