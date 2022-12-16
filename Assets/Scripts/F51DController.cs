@@ -37,28 +37,28 @@ public class F51DController : MonoBehaviour, IDragHandler
         {
             projectManager.scale = 0;
             selected = true;
-            
+
             StartCoroutine("WaitAndGoNext");
         }
         if (Input.GetMouseButtonUp(0) && Vector3.Distance(f51d.transform.position, scaleButton2.transform.position) < distance)
         {
             projectManager.scale = 1;
             selected = true;
-            
+
             StartCoroutine("WaitAndGoNext");
         }
         if (Input.GetMouseButtonUp(0) && Vector3.Distance(f51d.transform.position, scaleButton3.transform.position) < distance)
         {
             projectManager.scale = 2;
             selected = true;
-            
+
             StartCoroutine("WaitAndGoNext");
         }
         if (Input.GetMouseButtonUp(0) && Vector3.Distance(f51d.transform.position, scaleButton4.transform.position) < distance)
         {
             projectManager.scale = 3;
             selected = true;
-            
+
             StartCoroutine("WaitAndGoNext");
         }
 
@@ -71,23 +71,43 @@ public class F51DController : MonoBehaviour, IDragHandler
                 StartCoroutine("BackgroundCircleLightFunc");
             }
 
-            if (!selected) {
+            if (!selected)
+            {
                 f51d.transform.position = Vector3.Lerp(f51d.transform.position, f51dDefaultPos, Time.deltaTime * 2f);
-            } else {
-                f51d.transform.localScale = Vector3.Lerp(f51d.transform.localScale, new Vector3(0.35f, 0.35f, 0.35f), 2f * Time.deltaTime);
+            }
+            else
+            {
+                f51d.transform.localScale = Vector3.Lerp(f51d.transform.localScale, new Vector3(0.00f, 0.00f, 0.00f), 3f * Time.deltaTime);
+                if (projectManager.scale == 0)
+                {
+                    f51d.transform.position = Vector3.Lerp(f51d.transform.position, scaleButton1.transform.position + new Vector3(-25,40,0), Time.deltaTime * 4f);
+                }
+                else if (projectManager.scale == 1)
+                {
+                    f51d.transform.position = Vector3.Lerp(f51d.transform.position, scaleButton2.transform.position + new Vector3(-25,40,0), Time.deltaTime * 4f);
+                }
+                else if (projectManager.scale == 2)
+                {
+                    f51d.transform.position = Vector3.Lerp(f51d.transform.position, scaleButton3.transform.position + new Vector3(-20,40,0), Time.deltaTime * 4f);
+                }
+                else if (projectManager.scale == 3)
+                {
+                    f51d.transform.position = Vector3.Lerp(f51d.transform.position, scaleButton4.transform.position + new Vector3(-20,50,0), Time.deltaTime * 4f);
+                }
             }
         }
         else
         {
             //backgroundCircle 색상 및 bool 초기화
-            backgroundCircle.GetComponent<Image>().color = new Color(1,1,1,1);
+            backgroundCircle.GetComponent<Image>().color = new Color(1, 1, 1, 1);
             coroutineFlag = false;
             StopCoroutine("BackgroundCircleLightFunc");
         }
     }
-    
-    private IEnumerator WaitAndGoNext() {
-        yield return new WaitForSeconds(0.5f);
+
+    private IEnumerator WaitAndGoNext()
+    {
+        yield return new WaitForSeconds(1f);
         SceneManager.LoadScene(1);
     }
 

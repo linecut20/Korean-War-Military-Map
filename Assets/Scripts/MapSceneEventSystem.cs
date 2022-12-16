@@ -54,7 +54,7 @@ public class MapSceneEventSystem : MonoBehaviour
         //인덱스 이미지 패널을 활성화하기 위해 imageArea를 비활성화
         imageArea.SetActive(false);
         topButton.SetActive(false);
-        pinchAnim.SetActive(false);
+        pinchAnim.SetActive(true);
 
         if (Application.internetReachability == NetworkReachability.NotReachable)
         {
@@ -141,6 +141,10 @@ public class MapSceneEventSystem : MonoBehaviour
                 OnItemTouched(idx);
             });
         }
+    }
+    public void SetPinchAni()
+    {
+        pinchAnim.SetActive(true);
     }
 
     // Update is called once per frame

@@ -40,6 +40,8 @@ public class IndexMapButtonScript : MonoBehaviour
             bool hit = Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hitInfo);
             if (hit)
             {
+                print("pre hitInfo.transform.gameObject: " + hitInfo.transform.gameObject.name);
+
                 if (hitInfo.transform.gameObject == indexButton)
                 {
                     preSelected = hitInfo.transform.gameObject;
@@ -53,12 +55,15 @@ public class IndexMapButtonScript : MonoBehaviour
             bool hit = Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hitInfo);
             if (hit)
             {
+                print("hitInfo.transform.gameObject: " + hitInfo.transform.gameObject.name);
                 if (hitInfo.transform.gameObject == indexButton && preSelected == indexButton)
                 {
                     OnIndexButtonFunc();
+                    eventSystem.SetPinchAni();
+                    print("preSelected: " + preSelected);
                 }
             }
-        }        
+        }
     }
 
     public void OnIndexButtonFunc()
@@ -70,7 +75,7 @@ public class IndexMapButtonScript : MonoBehaviour
         GameObject grid1000000Pref = GameObject.Find("GridPanel1000000(Clone)");
         sharePanel = GameObject.Find("Share Panel(Clone)");
 
-        
+
         if (sharePanel == null && noPanelPref == null && grid50000Pref == null && grid250000Pref == null && grid500000Pref == null && grid1000000Pref == null)
         {
             if (!pm.touched)

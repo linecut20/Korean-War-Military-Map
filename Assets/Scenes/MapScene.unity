@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.43707642, g: 0.4847821, b: 0.5650468, a: 1}
+  m_IndirectSpecularColor: {r: 0.4370769, g: 0.4847831, b: 0.565048, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -13581,6 +13581,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3110813022518749942, guid: 3359c0967ba214456a9d5222dced2254, type: 3}
   m_PrefabInstance: {fileID: 509947019}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &512353343 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2109314214020839937, guid: 0fd946cd607554c61956bddaf4429a0c, type: 3}
+  m_PrefabInstance: {fileID: 1613297747}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &514490571 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5429619690574431628, guid: df6953a15f1844127b78dd7235aa76b3, type: 3}
@@ -19819,7 +19824,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canvas: {fileID: 696115330}
   content: {fileID: 1142814148}
-  resultItem: {fileID: 2109314214020839937, guid: 0fd946cd607554c61956bddaf4429a0c, type: 3}
+  resultItem: {fileID: 512353343}
   time: {fileID: 1413158533}
   source: {fileID: 514490571}
   present: {fileID: 1274265880}
@@ -44077,6 +44082,131 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3110813022518749942, guid: 3359c0967ba214456a9d5222dced2254, type: 3}
   m_PrefabInstance: {fileID: 1612302114}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1613297747
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1242891487322773306, guid: 0fd946cd607554c61956bddaf4429a0c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1242891487322773306, guid: 0fd946cd607554c61956bddaf4429a0c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1242891487322773306, guid: 0fd946cd607554c61956bddaf4429a0c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 736912273}
+    - target: {fileID: 1242891487322773306, guid: 0fd946cd607554c61956bddaf4429a0c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1242891487322773306, guid: 0fd946cd607554c61956bddaf4429a0c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetPinchAni
+      objectReference: {fileID: 0}
+    - target: {fileID: 1242891487322773306, guid: 0fd946cd607554c61956bddaf4429a0c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MapSceneEventSystem, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1242891487322773306, guid: 0fd946cd607554c61956bddaf4429a0c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2109314214020839936, guid: 0fd946cd607554c61956bddaf4429a0c, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2109314214020839936, guid: 0fd946cd607554c61956bddaf4429a0c, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2109314214020839936, guid: 0fd946cd607554c61956bddaf4429a0c, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 2109314214020839936, guid: 0fd946cd607554c61956bddaf4429a0c, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2109314214020839936, guid: 0fd946cd607554c61956bddaf4429a0c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2109314214020839936, guid: 0fd946cd607554c61956bddaf4429a0c, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2109314214020839936, guid: 0fd946cd607554c61956bddaf4429a0c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2109314214020839936, guid: 0fd946cd607554c61956bddaf4429a0c, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 280
+      objectReference: {fileID: 0}
+    - target: {fileID: 2109314214020839936, guid: 0fd946cd607554c61956bddaf4429a0c, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 2109314214020839936, guid: 0fd946cd607554c61956bddaf4429a0c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2109314214020839936, guid: 0fd946cd607554c61956bddaf4429a0c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2109314214020839936, guid: 0fd946cd607554c61956bddaf4429a0c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2109314214020839936, guid: 0fd946cd607554c61956bddaf4429a0c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2109314214020839936, guid: 0fd946cd607554c61956bddaf4429a0c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2109314214020839936, guid: 0fd946cd607554c61956bddaf4429a0c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2109314214020839936, guid: 0fd946cd607554c61956bddaf4429a0c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2109314214020839936, guid: 0fd946cd607554c61956bddaf4429a0c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2109314214020839936, guid: 0fd946cd607554c61956bddaf4429a0c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2109314214020839936, guid: 0fd946cd607554c61956bddaf4429a0c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2109314214020839936, guid: 0fd946cd607554c61956bddaf4429a0c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2109314214020839936, guid: 0fd946cd607554c61956bddaf4429a0c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2109314214020839937, guid: 0fd946cd607554c61956bddaf4429a0c, type: 3}
+      propertyPath: m_Name
+      value: Result Item
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0fd946cd607554c61956bddaf4429a0c, type: 3}
 --- !u!1001 &1613419079
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56693,6 +56823,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 736912273}
+        m_TargetAssemblyTypeName: MapSceneEventSystem, Assembly-CSharp
+        m_MethodName: SetPinchAni
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!224 &3308107073169556315
 RectTransform:
   m_ObjectHideFlags: 0
@@ -56846,6 +56988,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 736912273}
+        m_TargetAssemblyTypeName: MapSceneEventSystem, Assembly-CSharp
+        m_MethodName: SetPinchAni
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -57429,6 +57583,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 736912273}
+        m_TargetAssemblyTypeName: MapSceneEventSystem, Assembly-CSharp
+        m_MethodName: SetPinchAni
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!224 &3308107074487818720
 RectTransform:
   m_ObjectHideFlags: 0
@@ -57531,7 +57697,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 613, y: -507.00003}
+  m_AnchoredPosition: {x: 613, y: -507}
   m_SizeDelta: {x: -300, y: -980}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3308107074600141530
@@ -57659,6 +57825,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: ScaleButtonScript, Assembly-CSharp
         m_MethodName: ScaleButtonTouchedFunc
         m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 736912273}
+        m_TargetAssemblyTypeName: MapSceneEventSystem, Assembly-CSharp
+        m_MethodName: SetPinchAni
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -57927,7 +58105,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PinchAnim
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6332042665273165976, guid: a03e41d1b971043a9ba3fac716a81911, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a03e41d1b971043a9ba3fac716a81911, type: 3}
 --- !u!1 &6346502749387359762
 GameObject:

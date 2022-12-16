@@ -27,22 +27,22 @@ public class ScaleSceneEventSystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (endPos != backgroundCircle.transform.position)
-        {
-            hand.transform.position = Vector3.Lerp(hand.transform.position, endPos, Time.deltaTime * 1.5f);
-        }
-        else
-        {   
-            backgroundHandDefault.SetActive(true); 
-            Destroy(hand);
-        }
+        // if (endPos != backgroundCircle.transform.position)
+        // {
+        //     hand.transform.position = Vector3.Lerp(hand.transform.position, endPos, Time.deltaTime * 1.5f);
+        // }
+        // else
+        // {   
+        //     backgroundHandDefault.SetActive(true); 
+        //     Destroy(hand);
+        // }
     }
 
     private void MapSceneAnimFunc()
     {
-        backgroundHandDefault.SetActive(false);
-        hand = Instantiate(backgroundHand, panel.transform);
-        hand.transform.position = backgroundCircle.transform.position;
+        // backgroundHandDefault.SetActive(false);
+        // hand = Instantiate(backgroundHand, panel.transform);
+        // hand.transform.position = backgroundCircle.transform.position;
 
         randomCount = Random.Range(0, 4);
 

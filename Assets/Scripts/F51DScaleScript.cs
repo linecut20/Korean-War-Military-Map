@@ -24,10 +24,29 @@ public class F51DScaleScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonUp(0) && Vector3.Distance(f51d.transform.position, scaleButton1.transform.position) < distance || Input.GetMouseButtonUp(0) && Vector3.Distance(f51d.transform.position, scaleButton2.transform.position) < distance || Input.GetMouseButtonUp(0) && Vector3.Distance(f51d.transform.position, scaleButton3.transform.position) < distance || Input.GetMouseButtonUp(0) && Vector3.Distance(f51d.transform.position, scaleButton4.transform.position) < distance)
+        if (Input.GetMouseButtonUp(0) && Vector3.Distance(f51d.transform.position, scaleButton1.transform.position) < distance)
+        {
+
+            selected = true;
+            f51d.transform.localScale = Vector3.Lerp(f51d.transform.localScale, new Vector3(0.001f, 0.001f, 0.001f), 0.1f * Time.deltaTime);
+
+        }
+        if (Input.GetMouseButtonUp(0) && Vector3.Distance(f51d.transform.position, scaleButton2.transform.position) < distance)
         {
             selected = true;
-            f51d.transform.localScale = Vector3.Lerp(f51d.transform.localScale, new Vector3(0.1f, 0.1f, 0.1f), 0.1f * Time.deltaTime);
+            f51d.transform.localScale = Vector3.Lerp(f51d.transform.localScale, new Vector3(0.001f, 0.001f, 0.001f), 0.1f * Time.deltaTime);
+
+        }
+        if (Input.GetMouseButtonUp(0) && Vector3.Distance(f51d.transform.position, scaleButton3.transform.position) < distance)
+        {
+            selected = true;
+            f51d.transform.localScale = Vector3.Lerp(f51d.transform.localScale, new Vector3(0.001f, 0.001f, 0.001f), 0.1f * Time.deltaTime);
+
+        }
+        if (Input.GetMouseButtonUp(0) && Vector3.Distance(f51d.transform.position, scaleButton4.transform.position) < distance)
+        {
+            selected = true;
+            f51d.transform.localScale = Vector3.Lerp(f51d.transform.localScale, new Vector3(0.001f, 0.001f, 0.001f), 0.1f * Time.deltaTime);
         }
 
         //  if (Input.GetMouseButton(0) == false) {
